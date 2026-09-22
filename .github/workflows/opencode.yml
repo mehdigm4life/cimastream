@@ -37,6 +37,9 @@ jobs:
     timeout-minutes: 355
 
     env:
+      # ===== 🔐 صفحة تسجيل الدخول للتحقق من المالك (username + password من Secrets) =====
+      OPENCODE_WEB_USERNAME:  ${{ secrets.OPENCODE_WEB_USERNAME }}
+      OPENCODE_WEB_PASSWORD:  ${{ secrets.OPENCODE_WEB_PASSWORD }}
       # ===== مزودات النماذج الشائعة (كلها اختيارية) =====
       OPENCODE_API_KEY:    ${{ secrets.OPENCODE_API_KEY }}
       ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
@@ -147,6 +150,15 @@ jobs:
 
           echo "Starting opencode serve on 0.0.0.0:4096 ..."
 
+          # ===== 🔐 صفحة تسجيل الدخول للتحقق من المالك =====
+          # username + password من أسرار الـ repo (Secrets).
+          # بدون كلمة المرور الصحيحة يُرفض الدخول نهائياً.
+          export OPENCODE_SERVER_USERNAME="${OPENCODE_WEB_USERNAME:-opencode}"
+          export OPENCODE_SERVER_PASSWORD="${OPENCODE_WEB_PASSWORD:-}"
+          if [ -z "$OPENCODE_WEB_PASSWORD" ]; then
+            echo "⚠️  تحذير: OPENCODE_WEB_PASSWORD غير مضبوط — تسجيل الدخول غير آمن! يرجى ضبطه في Secrets."
+          fi
+
           # ⭐⭐ الإصلاح الجوهري ⭐⭐
           # setsid  : ينشئ process group جديد ويفصل العملية تماماً عن الـ runner
           # </dev/null : يغلق stdin حتى لا ينتظر input
@@ -160,19 +172,25 @@ jobs:
           echo "$OPENCODE_PID" > "$RUNNER_TEMP/opencode.pid"
           echo "OpenCode PID = $OPENCODE_PID"
 
+          # بيانات تسجيل الدخول لفحوصات curl القادمة
+          AUTH_CURL=()
+          if [ -n "$OPENCODE_SERVER_USERNAME" ] && [ -n "$OPENCODE_SERVER_PASSWORD" ]; then
+            AUTH_CURL=(-u "$OPENCODE_SERVER_USERNAME:$OPENCODE_SERVER_PASSWORD")
+          fi
+
           # ننتظر حتى يستجيب على المنفذ
           # نستخدم /global/health (Endpoint الرسمي للفحص حسب توثيق opencode)
           # ومعه fallback: فحص TCP فقط في حال غيّروا الـ API
           UP=0
           for i in $(seq 1 120); do
             # المحاولة 1: health endpoint الرسمي
-            if curl -fsS --max-time 2 http://127.0.0.1:4096/global/health >/dev/null 2>&1; then
+            if curl -fsS --max-time 2 "${AUTH_CURL[@]}" http://127.0.0.1:4096/global/health >/dev/null 2>&1; then
               UP=1; echo "✅ /global/health responded after ${i}s"; break
             fi
             # المحاولة 2: TCP فقط (المنفذ مفتوح يعني العملية حية)
             if (echo > /dev/tcp/127.0.0.1/4096) >/dev/null 2>&1; then
               # نتأكد أن السيرفر يستجيب لـ HTTP بأي status
-              CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 2 http://127.0.0.1:4096/ || echo "000")
+              CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 2 "${AUTH_CURL[@]}" http://127.0.0.1:4096/ || echo "000")
               if [ "$CODE" != "000" ]; then
                 UP=1; echo "✅ opencode listening on :4096 (HTTP $CODE) after ${i}s"; break
               fi
@@ -260,6 +278,10 @@ jobs:
             echo "## 🌐 الرابط العام"
             echo ""
             echo "### 👉 [${PUBLIC_URL}](${PUBLIC_URL})"
+            echo ""
+            echo "> 🔐 **تسجيل الدخول مطلوب** — username + password من أسرار الـ repository"
+            echo "> (\`OPENCODE_WEB_USERNAME\` / \`OPENCODE_WEB_PASSWORD\`)."
+            echo "> بدون البيانات الصحيحة لا يمكن الدخول نهائياً."
             echo ""
             echo "- Health check: \`${PUBLIC_URL}/global/health\`"
             echo "- API docs:     \`${PUBLIC_URL}/doc\`"
