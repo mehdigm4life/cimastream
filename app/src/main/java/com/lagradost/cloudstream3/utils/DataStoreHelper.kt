@@ -26,7 +26,6 @@ import com.lagradost.cloudstream3.syncproviders.SyncAPI
 import com.lagradost.cloudstream3.ui.WatchType
 import com.lagradost.cloudstream3.ui.library.ListSorting
 import com.lagradost.cloudstream3.ui.player.ExtractorUri
-import com.lagradost.cloudstream3.ui.player.NEXT_WATCH_EPISODE_PERCENTAGE
 import com.lagradost.cloudstream3.ui.result.EpisodeSortType
 import com.lagradost.cloudstream3.ui.result.ResultEpisode
 import com.lagradost.cloudstream3.ui.result.VideoWatchState
@@ -702,10 +701,18 @@ object DataStoreHelper {
     }
 
     /**
-     * Sets the position, duration, and resume data of an episode/movie,
-     * If nextEpisode is not specified it will not be able to set the next episode as resumable if progress > NEXT_WATCH_EPISODE_PERCENTAGE
+     * Sets the position, duration, and resume data of an episode/movie.
+     * The next episode only becomes the resume target once the current one has
+     * actually been finished, so leaving early keeps the current episode in continue watching.
      */
-    fun setViewPosAndResume(id: Int?, position: Long, duration: Long, currentEpisode: Any?, nextEpisode: Any?) {
+    fun setViewPosAndResume(
+        id: Int?,
+        position: Long,
+        duration: Long,
+        currentEpisode: Any?,
+        nextEpisode: Any?,
+        completed: Boolean = false,
+    ) {
         setViewPos(id, position, duration)
         if (id != null) {
             when (val meta = currentEpisode) {
@@ -717,11 +724,9 @@ object DataStoreHelper {
             }
         }
 
-        val percentage = position * 100L / duration
-        val nextEp = percentage >= NEXT_WATCH_EPISODE_PERCENTAGE
-        val resumeMeta = if (nextEp) nextEpisode else currentEpisode
-        if (resumeMeta == null && nextEp) {
-            // remove last watched as it is the last episode and you have watched too much
+        val resumeMeta = if (completed) nextEpisode else currentEpisode
+        if (resumeMeta == null && completed) {
+            // last episode has been fully watched, remove it from continue watching
             when (val newMeta = currentEpisode) {
                 is ResultEpisode -> {
                     removeLastWatched(newMeta.parentId)
