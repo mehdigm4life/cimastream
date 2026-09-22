@@ -24,7 +24,6 @@ const val SKIP_OP_VIDEO_PERCENTAGE = 50
 // when the player should preload the next episode for faster loading
 const val PRELOAD_NEXT_EPISODE_PERCENTAGE = 80
 
-// when an episode is watched enough to count as done when picking where to continue
 const val NEXT_WATCH_EPISODE_PERCENTAGE = 90
 
 // when the player should sync the progress of "watched", TODO MAKE SETTING

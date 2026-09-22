@@ -700,11 +700,6 @@ object DataStoreHelper {
         setKey("$currentAccount/$VIDEO_POS_DUR", id.toString(), PosDur(pos, dur))
     }
 
-    /**
-     * Sets the position, duration, and resume data of an episode/movie.
-     * The next episode only becomes the resume target once the current one has
-     * actually been finished, so leaving early keeps the current episode in continue watching.
-     */
     fun setViewPosAndResume(
         id: Int?,
         position: Long,
@@ -726,7 +721,6 @@ object DataStoreHelper {
 
         val resumeMeta = if (completed) nextEpisode else currentEpisode
         if (resumeMeta == null && completed) {
-            // last episode has been fully watched, remove it from continue watching
             when (val newMeta = currentEpisode) {
                 is ResultEpisode -> {
                     removeLastWatched(newMeta.parentId)

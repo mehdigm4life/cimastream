@@ -1696,8 +1696,6 @@ class GeneratorPlayer : FullScreenPlayer() {
     }
 
     override fun onVideoEnded() {
-        // If autoplay is on the completion is saved in nextEpisode() before advancing,
-        // so only handle the finished episode here when the player stays on the end screen.
         context?.let { ctx ->
             val autoplayNext = PreferenceManager.getDefaultSharedPreferences(ctx)
                 ?.getBoolean(ctx.getString(R.string.autoplay_next_key), true) == true
