@@ -307,9 +307,15 @@ jobs:
 
           echo "📦 Extracting..."
 
+          # The backup archive is created with `tar -cf .` inside a
+          # directory tree rooted at `home/`, so member names look
+          # like `./home/.config/opencode/...`. GNU tar counts the
+          # leading `./` as a component, so TWO components must be
+          # stripped to restore `~/.config` and `~/.local/share`
+          # (a single strip would leave a stray `home/` directory).
           tar \
             --zstd \
-            --strip-components=1 \
+            --strip-components=2 \
             -xf "$RUNNER_TEMP/opencode-state.tar.zst" \
             -C "$HOME"
 
