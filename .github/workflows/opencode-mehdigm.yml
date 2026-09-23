@@ -35,6 +35,44 @@ concurrency:
   group: opencode-${{ github.repository }}
   cancel-in-progress: false
 
+env:
+  # ============================================================
+  # OpenCode Web authentication
+  # ============================================================
+
+  OPENCODE_WEB_USERNAME: ${{ secrets.OPENCODE_WEB_USERNAME }}
+  OPENCODE_WEB_PASSWORD: ${{ secrets.OPENCODE_WEB_PASSWORD }}
+
+  # ============================================================
+  # AI providers
+  # ============================================================
+
+  OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+  GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+  OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+  GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+  DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+  MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+
+  XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+
+  COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+
+  TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+
+  PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+
 jobs:
   opencode-web:
 
@@ -43,44 +81,6 @@ jobs:
     runs-on: ubuntu-latest
 
     timeout-minutes: 355
-
-    env:
-      # ============================================================
-      # OpenCode Web authentication
-      # ============================================================
-
-      OPENCODE_WEB_USERNAME: ${{ secrets.OPENCODE_WEB_USERNAME }}
-      OPENCODE_WEB_PASSWORD: ${{ secrets.OPENCODE_WEB_PASSWORD }}
-
-      # ============================================================
-      # AI providers
-      # ============================================================
-
-      OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
-
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-      GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-
-      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-
-      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-
-      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-
-      XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-
-      COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
-
-      TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
-
-      PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
 
     steps:
 
@@ -154,26 +154,54 @@ jobs:
 
       # ============================================================
       # 6. Discover OpenCode paths
+      #
+      # FIX: newer OpenCode releases removed / renamed the
+      # `opencode debug paths` subcommand, which made this step
+      # fail with `set -e` and killed the whole run.
+      # The step is now fully tolerant: it uses CLI-reported paths
+      # when available and otherwise falls back to the standard
+      # XDG locations, and exports the result via $GITHUB_ENV so
+      # every later step uses ONE consistent DB path.
       # ============================================================
 
       - name: 🔎 Discover OpenCode paths
         run: |
-          set -euo pipefail
+          set -uo pipefail
 
           export PATH="$HOME/.opencode/bin:$PATH"
 
+          CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/opencode"
+          DATA_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/opencode"
+          DB_PATH="$DATA_DIR/opencode.db"
+
           echo "===== OpenCode paths ====="
 
-          opencode debug paths
+          if opencode debug paths > "$RUNNER_TEMP/oc-paths.txt" 2>&1; then
+
+            cat "$RUNNER_TEMP/oc-paths.txt"
+
+            CLI_DB="$(opencode debug paths db 2>/dev/null | tail -n1 || true)"
+
+            if [ -n "${CLI_DB:-}" ] && [ "$CLI_DB" != ":memory:" ]; then
+              DB_PATH="$CLI_DB"
+            fi
+
+          else
+
+            echo "ℹ️ 'opencode debug paths' is not available in this OpenCode version."
+            echo "ℹ️ Falling back to standard XDG paths."
+
+          fi
 
           echo ""
-          echo "===== Database path ====="
+          echo "===== Resolved paths ====="
+          echo "Config: $CONFIG_DIR"
+          echo "Data:   $DATA_DIR"
+          echo "DB:     $DB_PATH"
 
-          DB_PATH="$(opencode debug paths db)"
-
-          echo "$DB_PATH"
-
-          echo "$DB_PATH" > "$RUNNER_TEMP/opencode-db-path"
+          echo "OPENCODE_CONFIG_DIR=$CONFIG_DIR" >> "$GITHUB_ENV"
+          echo "OPENCODE_DATA_DIR=$DATA_DIR"     >> "$GITHUB_ENV"
+          echo "OPENCODE_DB_PATH=$DB_PATH"       >> "$GITHUB_ENV"
 
       # ============================================================
       # 7. Restore persistent state
@@ -187,8 +215,8 @@ jobs:
           set -euo pipefail
 
           if [ -z "${STATE_KEY:-}" ]; then
-            echo "❌ OPENCODE_STATE_KEY is missing."
-            exit 1
+            echo "⚠️ OPENCODE_STATE_KEY is not configured — skipping state restore."
+            exit 0
           fi
 
           RELEASE_TAG="opencode-state"
@@ -251,25 +279,31 @@ jobs:
           )"
 
           if [ -z "$PARTS" ]; then
-            echo "❌ No state parts found."
-            exit 1
+            echo "⚠️ No state parts found for generation $GENERATION — starting fresh."
+            exit 0
           fi
 
           echo "🔗 Reassembling encrypted state..."
 
+          # shellcheck disable=SC2086
           cat $PARTS \
             > "$RUNNER_TEMP/opencode-state.enc"
 
           echo "🔐 Decrypting..."
 
-          openssl enc \
+          if ! openssl enc \
             -d \
             -aes-256-cbc \
             -pbkdf2 \
             -iter 200000 \
             -pass env:STATE_KEY \
             -in "$RUNNER_TEMP/opencode-state.enc" \
-            -out "$RUNNER_TEMP/opencode-state.tar.zst"
+            -out "$RUNNER_TEMP/opencode-state.tar.zst"; then
+
+            echo "⚠️ Decryption failed (wrong OPENCODE_STATE_KEY?) — starting fresh."
+            exit 0
+
+          fi
 
           echo "📦 Extracting..."
 
@@ -320,7 +354,7 @@ jobs:
 
           export PATH="$HOME/.opencode/bin:$PATH"
 
-          DB_PATH="$(opencode debug paths db)"
+          DB_PATH="${OPENCODE_DB_PATH:-$HOME/.local/share/opencode/opencode.db}"
 
           echo "Database:"
           echo "$DB_PATH"
@@ -342,7 +376,7 @@ jobs:
 
           opencode session list \
             --max-count 20 \
-            --format json || true
+            --format json 2>/dev/null || true
 
       # ============================================================
       # 10. Cloudflare
@@ -353,6 +387,11 @@ jobs:
 
       # ============================================================
       # 11. Start OpenCode Web
+      #
+      # FIX: detects whether this OpenCode build exposes the web
+      # server as `opencode web` or `opencode serve`, and the
+      # readiness probe accepts any live HTTP response instead of
+      # depending on a single health endpoint path.
       # ============================================================
 
       - name: 🚀 Start OpenCode Web
@@ -376,13 +415,28 @@ jobs:
             echo "⚠️ OPENCODE_WEB_PASSWORD is not configured."
           fi
 
-          echo "🚀 Starting OpenCode..."
+          # --------------------------------------------------------
+          # Detect the correct server subcommand for this version.
+          # --------------------------------------------------------
+
+          SERVE_CMD=""
+
+          if opencode web --help >/dev/null 2>&1; then
+            SERVE_CMD="opencode web"
+          elif opencode serve --help >/dev/null 2>&1; then
+            SERVE_CMD="opencode serve"
+          else
+            echo "❌ Neither 'opencode web' nor 'opencode serve' is available."
+            opencode --help || true
+            exit 1
+          fi
+
+          echo "🚀 Starting OpenCode with: $SERVE_CMD"
 
           setsid bash -c \
-            "opencode web \
+            "$SERVE_CMD \
               --hostname 0.0.0.0 \
               --port 4096 \
-              --cors '*' \
               </dev/null \
               >>'$LOG_FILE' 2>&1" &
 
@@ -398,15 +452,35 @@ jobs:
 
           for i in $(seq 1 120); do
 
-            if curl \
-              -fsS \
-              --max-time 2 \
-              http://127.0.0.1:4096/global/health \
-              >/dev/null 2>&1; then
+            HTTP_CODE="$(
+              curl \
+                -s \
+                -o /dev/null \
+                --max-time 2 \
+                -w '%{http_code}' \
+                http://127.0.0.1:4096/global/health \
+                2>/dev/null || echo '000'
+            )"
+
+            if [ "$HTTP_CODE" = "000" ]; then
+
+              HTTP_CODE="$(
+                curl \
+                  -s \
+                  -o /dev/null \
+                  --max-time 2 \
+                  -w '%{http_code}' \
+                  http://127.0.0.1:4096/ \
+                  2>/dev/null || echo '000'
+              )"
+
+            fi
+
+            if [ "$HTTP_CODE" != "000" ]; then
 
               UP=1
 
-              echo "✅ OpenCode is ready."
+              echo "✅ OpenCode is ready (HTTP $HTTP_CODE)."
 
               break
 
@@ -610,7 +684,11 @@ jobs:
           echo "✅ Auto-commit started."
 
       # ============================================================
-      # 15. Persistent OpenCode backup function
+      # 15. Persistent OpenCode backup service
+      #
+      # FIX: uses the resolved OPENCODE_DB_PATH / OPENCODE_*_DIR
+      # exported by the discovery step instead of calling the
+      # removed `opencode debug paths db` command.
       # ============================================================
 
       - name: 💾 Prepare persistent backup service
@@ -621,8 +699,8 @@ jobs:
           set -euo pipefail
 
           if [ -z "${STATE_KEY:-}" ]; then
-            echo "❌ OPENCODE_STATE_KEY is missing."
-            exit 1
+            echo "⚠️ OPENCODE_STATE_KEY is not configured — persistent backup disabled."
+            exit 0
           fi
 
           BACKUP_INTERVAL="${{ github.event.inputs.backup_interval_minutes }}"
@@ -638,14 +716,16 @@ jobs:
 
           RELEASE_TAG="opencode-state"
 
+          CONFIG_DIR="${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}"
+          DATA_SRC="${OPENCODE_DATA_DIR:-$HOME/.local/share/opencode}"
+          DB_PATH="${OPENCODE_DB_PATH:-$DATA_SRC/opencode.db}"
+
           create_backup() {
 
             echo ""
             echo "=============================================="
             echo "💾 Creating OpenCode persistent backup"
             echo "=============================================="
-
-            DB_PATH="$(opencode debug paths db)"
 
             if [ "$DB_PATH" = ":memory:" ]; then
               echo "❌ OpenCode is using an in-memory database."
@@ -664,10 +744,10 @@ jobs:
             # Copy OpenCode configuration.
             # ----------------------------------------------------
 
-            if [ -d "$HOME/.config/opencode" ]; then
+            if [ -d "$CONFIG_DIR" ]; then
 
               cp -a \
-                "$HOME/.config/opencode" \
+                "$CONFIG_DIR" \
                 "$WORK/home/.config/"
 
             fi
@@ -676,10 +756,10 @@ jobs:
             # Copy OpenCode data.
             # ----------------------------------------------------
 
-            if [ -d "$HOME/.local/share/opencode" ]; then
+            if [ -d "$DATA_SRC" ]; then
 
               cp -a \
-                "$HOME/.local/share/opencode" \
+                "$DATA_SRC" \
                 "$WORK/home/.local/share/"
 
             fi
@@ -1007,8 +1087,9 @@ jobs:
       # ============================================================
       # 18. Final state backup
       #
-      # Runs on normal completion. During Cancel, the periodic
-      # backup service is the important protection.
+      # FIX: uses OPENCODE_DB_PATH / OPENCODE_*_DIR from the
+      # discovery step, and skips gracefully (instead of failing
+      # the whole run) when there is nothing to back up.
       # ============================================================
 
       - name: 💾 Final OpenCode state backup
@@ -1019,13 +1100,23 @@ jobs:
         run: |
           set -euo pipefail
 
-          export PATH="$HOME/.opencode/bin:$PATH"
+          if [ -z "${STATE_KEY:-}" ]; then
+            echo "⚠️ OPENCODE_STATE_KEY is not configured — skipping final backup."
+            exit 0
+          fi
 
-          DB_PATH="$(opencode debug paths db)"
+          CONFIG_DIR="${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}"
+          DATA_SRC="${OPENCODE_DATA_DIR:-$HOME/.local/share/opencode}"
+          DB_PATH="${OPENCODE_DB_PATH:-$DATA_SRC/opencode.db}"
 
           if [ "$DB_PATH" = ":memory:" ]; then
-            echo "❌ OpenCode is using an in-memory database."
-            exit 1
+            echo "⚠️ OpenCode is using an in-memory database — nothing to persist."
+            exit 0
+          fi
+
+          if [ ! -d "$DATA_SRC" ] && [ ! -d "$CONFIG_DIR" ]; then
+            echo "ℹ️ No OpenCode state exists — skipping final backup."
+            exit 0
           fi
 
           WORK="$RUNNER_TEMP/final-opencode-state"
@@ -1038,25 +1129,27 @@ jobs:
 
           # Configuration
 
-          if [ -d "$HOME/.config/opencode" ]; then
+          if [ -d "$CONFIG_DIR" ]; then
 
             cp -a \
-              "$HOME/.config/opencode" \
+              "$CONFIG_DIR" \
               "$WORK/home/.config/"
 
           fi
 
           # Data
 
-          if [ -d "$HOME/.local/share/opencode" ]; then
+          if [ -d "$DATA_SRC" ]; then
 
             cp -a \
-              "$HOME/.local/share/opencode" \
+              "$DATA_SRC" \
               "$WORK/home/.local/share/"
 
           fi
 
           DATA_DIR="$WORK/home/.local/share/opencode"
+
+          mkdir -p "$DATA_DIR"
 
           # Never persist credentials.
 
@@ -1244,8 +1337,12 @@ jobs:
 
       # ============================================================
       # 20. Cloudflare cleanup
+      #
+      # FIX: continue-on-error so the cleanup never marks the run
+      # as failed when cloudflared was never started.
       # ============================================================
 
       - name: 🧹 Shutdown cloudflared
         if: always()
+        continue-on-error: true
         uses: AnimMouse/setup-cloudflared/shutdown@v2
