@@ -309,6 +309,7 @@ jobs:
 
           tar \
             --zstd \
+            --strip-components=1 \
             -xf "$RUNNER_TEMP/opencode-state.tar.zst" \
             -C "$HOME"
 
@@ -919,11 +920,21 @@ jobs:
 
             # ----------------------------------------------------
             # Delete old state assets.
+            #
+            # Note: GitHub has no `/releases/tags/{tag}/assets`
+            # endpoint (it returns 404). Resolve the release ID
+            # first, then list the assets of that release.
             # ----------------------------------------------------
+
+            RELEASE_ID="$(
+              gh api \
+                "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" \
+                --jq '.id'
+            )"
 
             ASSETS_JSON="$(
               gh api \
-                "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}/assets" \
+                "repos/${GITHUB_REPOSITORY}/releases/${RELEASE_ID}/assets" \
                 --paginate
             )"
 
@@ -1093,7 +1104,7 @@ jobs:
       # ============================================================
 
       - name: 💾 Final OpenCode state backup
-        if: ${{ !cancelled() }}
+        if: ${{ always() }}
         env:
           STATE_KEY: ${{ secrets.OPENCODE_STATE_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -1262,10 +1273,20 @@ jobs:
             --notes "CURRENT_GENERATION=${GENERATION}"
 
           # Remove previous generations.
+          #
+          # Note: GitHub has no `/releases/tags/{tag}/assets`
+          # endpoint (it returns 404). Resolve the release ID
+          # first, then list the assets of that release.
+
+          RELEASE_ID="$(
+            gh api \
+              "repos/${GITHUB_REPOSITORY}/releases/tags/opencode-state" \
+              --jq '.id'
+          )"
 
           ASSETS_JSON="$(
             gh api \
-              "repos/${GITHUB_REPOSITORY}/releases/tags/opencode-state/assets" \
+              "repos/${GITHUB_REPOSITORY}/releases/${RELEASE_ID}/assets" \
               --paginate
           )"
 
