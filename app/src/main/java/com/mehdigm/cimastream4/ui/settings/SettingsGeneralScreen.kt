@@ -53,7 +53,7 @@ object SettingsGeneralScreen : SearchableSettings {
     override fun getPreferences(): List<Preference> {
         val settings = rememberAppSettings()
 
-        // TODO Refactor entirely to use a different file path selector ect like QuickNovel
+        // TODO Refactor entirely to use a better file path selector system
         val selectFileSelector =
             rememberLauncherForActivityResult(ActivityResultContracts.OpenDocumentTree()) { uri ->
                 // It lies, it can be null if file manager quits.
@@ -164,7 +164,7 @@ object SettingsGeneralScreen : SearchableSettings {
                         title = stringResource(R.string.download_path_pref),
                         onClick = {
                             // This is not a ListPreference because the old selection system is
-                            // broken af. This needs to be refactored to QuickNovels download path
+                            // broken af. This needs a better file path selection
                             // system.
                             selectFileSelector.launch(Uri.EMPTY)
                         },
@@ -249,14 +249,6 @@ object SettingsGeneralScreen : SearchableSettings {
                         icon = painterResource(R.drawable.ic_github_logo),
                         onClick = {
                             CimaStreamApp.openBrowser("https://github.com/mehdigm4life/cimastream")
-                        }
-                    ),
-                    Preference.PreferenceItem.TextPreference(
-                        title = stringResource(R.string.lightnovel),
-                        subtitle = "https://github.com/LagradOst/QuickNovel",
-                        icon = painterResource(R.drawable.quick_novel_icon),
-                        onClick = {
-                            CimaStreamApp.openBrowser("https://github.com/LagradOst/QuickNovel")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(

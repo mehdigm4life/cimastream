@@ -44,7 +44,7 @@ object SettingsUpdatesScreen : SearchableSettings {
     override fun getPreferences(): List<Preference> {
         val settings = rememberAppSettings()
 
-        // TODO Refactor entirely to use a different file path selector ect like QuickNovel
+        // TODO Refactor entirely to use a better file path selector system
         val selectFileSelector =
             rememberLauncherForActivityResult(ActivityResultContracts.OpenDocumentTree()) { uri ->
                 // It lies, it can be null if file manager quits.
@@ -153,7 +153,7 @@ object SettingsUpdatesScreen : SearchableSettings {
                         subtitle = visualBackupPath,
                         onClick = {
                             // This is not a ListPreference because the old selection system is
-                            // broken af. This needs to be refactored to QuickNovels download path
+                            // broken af. This needs a better file path selection
                             // system.
                             selectFileSelector.launch(Uri.EMPTY)
                         }

@@ -154,7 +154,6 @@
     <string name="automatic_plugin_updates">Si iskii ah u cusbooneysii sidkanaha</string>
     <string name="automatic_plugin_download_summary">Si iskii ah usoo deji dhamaan sidkanayaasha aan weli lasoo dejin ee ku jira kaydka aad keentay.</string>
     <string name="updates_settings_des">Si toos ah u raadi update cusub markii aad furto appka.</string>
-    <string name="lightnovel">Light novel app, isla dhiseyaasha appkan baa leh</string>
     <string name="updates_settings">Tus wixii appka ku cusub</string>
     <string name="redo_setup_process">Dib uso bilow fadhiisinta appka</string>
     <string name="episode_format" formatted="true">%1$d %2$s</string>

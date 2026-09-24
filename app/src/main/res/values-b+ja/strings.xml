@@ -411,7 +411,6 @@
     <string name="action_subscribe">購読</string>
     <string name="subtitles_from_embedded">埋め込み</string>
     <string name="subtitles_from_online">オンライン</string>
-    <string name="lightnovel">同じ開発者によるライトノベルアプリ</string>
     <string name="add_site_pref">サイトをクローン</string>
     <string name="actor_main">メイン</string>
     <string name="subtitles_remove_bloat">字幕から不要なものを削除</string>

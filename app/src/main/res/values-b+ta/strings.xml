@@ -383,7 +383,6 @@
     <string name="updates_settings">பயன்பாட்டு புதுப்பிப்புகளைக் காட்டு</string>
     <string name="updates_settings_des">பயன்பாட்டைத் தொடங்கிய பின் புதிய புதுப்பிப்புகளைத் தானாகவே தேடுங்கள்.</string>
     <string name="redo_setup_process">அமைவு செயல்முறை மீண்டும்</string>
-    <string name="lightnovel">அதே தேவ்சின் ஒளி நாவல் பயன்பாடு</string>
     <string name="benene">தேவ்சுக்கு ஒரு பெனீன் கொடுங்கள்</string>
     <string name="episode_format" formatted="true">%1$d %2$s</string>
     <string name="no_episodes_found">அத்தியாயங்கள் எதுவும் கிடைக்கவில்லை</string>

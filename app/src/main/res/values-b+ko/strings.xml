@@ -142,7 +142,6 @@
     <string name="updates_settings">앱 업데이트 표시</string>
     <string name="updates_settings_des">앱을 시작한 후 새 업데이트를 자동으로 검색합니다.</string>
     <string name="apk_installer_settings_des">일부 기기에서는 최신 방식의 설치 프로그램이 작동하지 않을 수 있습니다. 업데이트가 안 된다면 \'기본 방식\' 설정을 사용해 보세요.</string>
-    <string name="lightnovel">같은 개발자가 만든 라이트 노벨 앱</string>
     <string name="anim">같은 개발자가 만든 애니메이션 앱</string>
     <string name="discord">Discord에 참여하기</string>
     <string name="benene">개발자에게 바나나 주기</string>

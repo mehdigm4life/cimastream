@@ -311,7 +311,6 @@
     <string name="video_buffer_clear_settings">Отчистить кеш видео и изображений</string>
     <string name="video_ram_description">Вызывает сбои, если установлено слишком высокое значение на устройствах с небольшим объемом памяти, таких как Android TV.</string>
     <string name="video_disk_description">Вызывает проблемы, если установлено слишком высокое значение на устройствах с небольшим объёмом памяти, таких как Android TV.</string>
-    <string name="lightnovel">Лёгкое приложение для новелл от тех же разработчиков</string>
     <string name="extension_language">Язык</string>
     <string name="hls_playlist">Плейлист HLS</string>
     <string name="extension_install_first">Сначала установить дополнение</string>

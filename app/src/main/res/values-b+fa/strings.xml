@@ -305,7 +305,6 @@
     <string name="updates_settings">نشان دادن آپدیت های برنامه</string>
     <string name="redo_setup_process">دوباره پروسه راه اندازی را انجام بده</string>
     <string name="apk_installer_settings">نصب کننده APK</string>
-    <string name="lightnovel">برنامه سبک رمان از توسعه دهندگان یکسان</string>
     <string name="anim">برنامه انیمه از توسعه دهندگان یکسان</string>
     <string name="no_chromecast_support_toast">این ارائه دهنده هیچ پشتیبانی از کروم کست ندارد</string>
     <string name="test_failed">با شکست مواجه شد</string>

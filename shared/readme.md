@@ -5,8 +5,8 @@ for Cima Stream will be designed going forward.
 
 ## Design decisions
 
-The following design decisions has been tried in the sister project QuickNovel with great success, and a 
-seamless porting process. For inspiration and code in a similar codebase, take a look at QuickNovel.  
+The following design decisions have been trialed in earlier iterations of this codebase with great
+success, and a seamless porting process.  
 
 ### File structure
 

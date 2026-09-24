@@ -162,7 +162,6 @@
     <string name="updates_settings_des">Automātiski pārbauda atjauninājumus, kad atver lietotni.</string>
     <string name="redo_setup_process">Atsākt uzstādīšanas procesu</string>
     <string name="apk_installer_settings_des">Dažas ierīces neatbalsta jauno pakotnes uzstādītāju. Izmantojiet legacy (veco) uzstādītāju, ja atjauninājumus nevar uzstādīt.</string>
-    <string name="lightnovel">Viegla romānu lietotne no šiem pašiem izstrādātājiem</string>
     <string name="anim">Anime lietotne no šiem pašiem izstrādātājiem</string>
     <string name="discord">Ienāc discordā</string>
     <string name="benene">Iedot banānu izstrādātājiem</string>
