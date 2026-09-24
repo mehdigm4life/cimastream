@@ -68,12 +68,21 @@ fun LogcatDialog(dismiss: () -> Unit) {
             isLoading = true
 
             // https://developer.android.com/studio/command-line/logcat
-            val process = Runtime.getRuntime().exec("logcat --binary -d")
-            val items = arrayListOf<LogcatItem>()
-            LogcatBinaryParser(process.inputStream).use { parser ->
-                while (true) {
-                    val item = parser.parseItem() ?: break
-                    items.add(item)
+            // Dumping the full logcat buffer is slow and must not block the main thread
+            // (as it caused Choreographer "Skipped X frames!" warnings in the app logs)
+            val items: List<LogcatItem> = withContext(Dispatchers.IO) {
+                val process = Runtime.getRuntime().exec("logcat --binary -d")
+                try {
+                    val parsed = arrayListOf<LogcatItem>()
+                    LogcatBinaryParser(process.inputStream).use { parser ->
+                        while (true) {
+                            val item = parser.parseItem() ?: break
+                            parsed.add(item)
+                        }
+                    }
+                    parsed
+                } finally {
+                    process.destroy()
                 }
             }
 

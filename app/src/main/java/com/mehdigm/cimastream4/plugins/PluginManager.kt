@@ -183,10 +183,13 @@ object PluginManager {
         return getKey<Array<PluginData>>(PLUGINS_KEY_LOCAL) ?: emptyArray()
     }
 
-    private val CLOUD_STREAM_FOLDER =
+    private val CIMA_STREAM_FOLDER =
         Environment.getExternalStorageDirectory().absolutePath + "/Cimastream4/"
 
-    private val LOCAL_PLUGINS_PATH = CLOUD_STREAM_FOLDER + "plugins"
+    private val LOCAL_PLUGINS_PATH = CIMA_STREAM_FOLDER + "plugins"
+
+    // Used as a writable fallback for local plugins when shared storage access is unavailable
+    private const val LOCAL_PLUGINS_FALLBACK_FOLDER = "local_plugins"
 
     var currentlyLoading: String? = null
 
@@ -508,21 +511,21 @@ object PluginManager {
 
         val dir = File(LOCAL_PLUGINS_PATH)
 
-        if (!dir.exists()) {
-            val res = dir.mkdirs()
-            if (!res) {
-                Log.w(TAG, "Failed to create local directories")
-                // We have tried to load local plugins, but exit early.
-                // This needs to be true to prevent the downloader waiting for plugins.
-                loadedLocalPlugins = true
-                return
-            }
+        // On devices where "All files access" is not granted, the shared storage path is not
+        // writable and mkdirs() fails (showing "Failed to create local directories" in logcat).
+        // Fall back to the app-specific directory so that local plugins still load instead of
+        // being silently skipped.
+        val localPluginsDir = if (dir.exists() || dir.mkdirs()) {
+            dir
+        } else {
+            Log.w(TAG, "Failed to create local directories, falling back to app storage")
+            File(context.filesDir, LOCAL_PLUGINS_FALLBACK_FOLDER).apply { mkdirs() }
         }
 
-        val sortedPlugins = dir.listFiles()
+        val sortedPlugins = localPluginsDir.listFiles()
         // Always sort plugins alphabetically for reproducible results
 
-        Log.d(TAG, "Files in '${LOCAL_PLUGINS_PATH}' folder: ${sortedPlugins?.size}")
+        Log.d(TAG, "Files in '$localPluginsDir' folder: ${sortedPlugins?.size}")
 
         // Use app-specific external files directory and copy the file there.
         // We have to do this because on Android 14+, it otherwise gives SecurityException
@@ -578,7 +581,7 @@ object PluginManager {
      **/
     fun checkSafeModeFile(): Boolean {
         return safe {
-            val folder = File(CLOUD_STREAM_FOLDER)
+            val folder = File(CIMA_STREAM_FOLDER)
             if (!folder.exists()) return@safe false
             val files = folder.listFiles { _, name ->
                 name.equals("safe", ignoreCase = true)

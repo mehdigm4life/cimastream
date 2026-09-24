@@ -13,7 +13,6 @@ import android.os.Handler
 import android.os.Looper
 import android.util.DisplayMetrics
 import android.util.Log
-import android.view.Gravity
 import android.view.KeyEvent
 import android.view.View
 import android.view.View.NO_ID
@@ -55,7 +54,6 @@ import com.mehdigm.cimastream4.utils.AppContextUtils.isRtl
 import com.mehdigm.cimastream4.utils.Coroutines.ioSafe
 import com.mehdigm.cimastream4.utils.Event
 import com.mehdigm.cimastream4.utils.UIHelper.showInputMethod
-import com.mehdigm.cimastream4.utils.UIHelper.toPx
 import com.mehdigm.cimastream4.utils.UiText
 import java.lang.ref.WeakReference
 import java.util.Locale
@@ -184,7 +182,9 @@ object CommonActivity {
             // custom toasts are deprecated and won't appear when cima4 sets minSDK to api30 (A11)
             val toast = Toast(act)
             toast.duration = duration ?: Toast.LENGTH_SHORT
-            toast.setGravity(Gravity.CENTER_HORIZONTAL or Gravity.BOTTOM, 0, 5.toPx)
+            // Do not call setGravity() here: on modern Android this logs
+            // "setGravity() shouldn't be called on text toasts" as an error, and the default
+            // position (bottom/center) already matches what we want.
             @Suppress("DEPRECATION")
             toast.view =
                 binding.root // FIXME Find an alternative using default Toasts since custom toasts are deprecated and won't appear with api30 set as minSDK version.
