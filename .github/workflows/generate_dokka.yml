@@ -17,14 +17,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate access token
-        id: generate_token
-        uses: tibdex/github-app-token@v2
-        with:
-          app_id: ${{ secrets.GH_APP_ID }}
-          private_key: ${{ secrets.GH_APP_KEY }}
-          repository: "mehdigm4life/dokka"
-
       - name: Checkout
         uses: actions/checkout@v6
         with:
@@ -35,7 +27,7 @@ jobs:
         with:
           repository: "mehdigm4life/dokka"
           path: "dokka"
-          token: ${{ steps.generate_token.outputs.token }}
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Clean old builds
         run: |
