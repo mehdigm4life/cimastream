@@ -1,0 +1,282 @@
+2026-09-24 19:04:47 15420-15420 libc I SetHeapTaggingLevel: tag level set to 0
+
+2026-09-24 19:04:47 15420-15420 eam4.prerelease I Using CollectorTypeCC GC.
+
+2026-09-24 19:04:48 15420-15420 NavComponent I Navigating to Activity: MainActivity
+
+2026-09-24 19:04:48 15420-15420 MediaRouter I Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+
+2026-09-24 19:04:48 15420-15420 AxMediaRouter I Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=12, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-09-24 19:04:48 15420-15420 AxMediaRouter I Unselecting the current route because it is no longer selectable: null
+
+2026-09-24 19:04:48 15420-15420 eam4.prerelease W ClassLoaderContext classpath size mismatch. expected=16, found=0 (DLC[];PCL[base.apk*2196618404:base.apk!classes2.dex*1176881433:base.apk!classes3.dex*1879734201:base.apk!classes4.dex*2346711448:base.apk!classes5.dex*2077948684:base.apk!classes6.dex*1816645997:base.apk!classes7.dex*3484347691:base.apk!classes8.dex*3154542700:base.apk!classes9.dex*68302243:base.apk!classes10.dex*1482453168:base.apk!classes11.dex*3553146178:base.apk!classes12.dex*967629863:base.apk!classes13.dex*2262326076:base.apk!classes14.dex*2075873027:base.apk!classes15.dex*2167554252:base.apk!classes16.dex*320382344]{PCL[/system/framework/org.apache.http.legacy.jar*2889266191]#PCL[/system/framework/com.android.location.provider.jar*1026842956]#PCL[/system/framework/com.android.media.remotedisplay.jar*319870998]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*623104440]} | DLC[];PCL[])
+
+2026-09-24 19:04:48 15420-15420 DynamiteModule I Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:263332001
+
+2026-09-24 19:04:48 15420-15420 DynamiteModule I Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 263332001
+
+2026-09-24 19:04:48 15420-15420 System W ClassLoader referenced unknown path:
+
+2026-09-24 19:04:48 15420-15420 eam4.prerelease W ClassLoaderContext classpath size mismatch. expected=16, found=8 (DLC[];PCL[base.apk*2196618404:base.apk!classes2.dex*1176881433:base.apk!classes3.dex*1879734201:base.apk!classes4.dex*2346711448:base.apk!classes5.dex*2077948684:base.apk!classes6.dex*1816645997:base.apk!classes7.dex*3484347691:base.apk!classes8.dex*3154542700:base.apk!classes9.dex*68302243:base.apk!classes10.dex*1482453168:base.apk!classes11.dex*3553146178:base.apk!classes12.dex*967629863:base.apk!classes13.dex*2262326076:base.apk!classes14.dex*2075873027:base.apk!classes15.dex*2167554252:base.apk!classes16.dex*320382344]{PCL[/system/framework/org.apache.http.legacy.jar*2889266191]#PCL[/system/framework/com.android.location.provider.jar*1026842956]#PCL[/system/framework/com.android.media.remotedisplay.jar*319870998]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*623104440]} | DLC[];PCL[/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk*1237040219:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes2.dex*1444163449:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes3.dex*1150342614:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes4.dex*659922424:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes5.dex*2555658894:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes6.dex*3862517056:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes7.dex*2227894478:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes8.dex*976123604])
+
+2026-09-24 19:04:48 15420-15420 CastDynamiteModuleImpl I st created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~Sr1sipz_FDxiWJ1LtasxJQ==/com.google.android.gms-zthfKzPOeFE5gxrnOT6W0w==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~Sr1sipz_FDxiWJ1LtasxJQ==/com.google.android.gms-zthfKzPOeFE5gxrnOT6W0w==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /product/lib64]]].
+
+2026-09-24 19:04:49 15420-15467 PluginManager I Plugin update done!
+
+2026-09-24 19:04:49 15420-15468 PluginManager W Failed to create local directories
+
+2026-09-24 19:04:49 15420-15420 ImeTracker I com.mehdigm.cimastream4.prerelease:677daf18: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-09-24 19:04:49 15420-15420 System.out I Loaded everything
+
+2026-09-24 19:04:49 15420-15420 ImeTracker I com.mehdigm.cimastream4.prerelease:42b488c7: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-09-24 19:04:49 15420-15420 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:04:49 15420-15420 AxMediaRouter W Ignoring attempt to select selected route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=12, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-09-24 19:04:49 15420-15420 SYNC_API I Local, local
+
+2026-09-24 19:04:49 15420-15447 libc W Access denied finding property "ro.debuggable"
+
+2026-09-24 19:04:49 15420-15420 RenderThread W type=1400 audit(0.0:21349): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=9627 scontext=u:r:untrusted_app:s0:c183,c256,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0 app=com.mehdigm.cimastream4.prerelease
+
+2026-09-24 19:04:49 15420-15447 libMEOW_gift I ctx:0x7055143180, ARC not Enabled.
+
+2026-09-24 19:04:49 15420-15482 ion E ioctl c0044901 failed with code -1: Invalid argument
+
+2026-09-24 19:04:50 15420-15420 MediaRouterProxy I media transfer = false, session transfer = true, transfer to local = false, in-app output switcher = false
+
+2026-09-24 19:04:53 15420-15420 RecyclerView W No adapter attached; skipping layout
+
+2026-09-24 19:04:57 15420-15431 eam4.prerelease W Cleared Reference was only reachable from finalizer (only reported once)
+
+2026-09-24 19:04:57 15420-15431 eam4.prerelease I Background concurrent copying GC freed 578840(16MB) AllocSpace objects, 91(5968KB) LOS objects, 24% free, 12MB/16MB, paused 718us,52us total 207.855ms
+
+2026-09-24 19:05:00 15420-15511 libMEOW_gift I ctx:0x703e8e2d00, ARC not Enabled.
+
+2026-09-24 19:05:00 15420-15420 Choreographer I Skipped 36 frames!  The application may be doing too much work on its main thread.
+
+2026-09-24 19:05:03 15420-15420 NavComponent I Navigating to fragment: 2131361881
+
+2026-09-24 19:05:03 15420-15420 PLG I updatePluginList = []
+
+2026-09-24 19:05:07 15420-15420 NavComponent I Navigating to fragment: 2131361886
+
+2026-09-24 19:05:07 15420-15431 eam4.prerelease I Background concurrent copying GC freed 45592(2065KB) AllocSpace objects, 8(320KB) LOS objects, 24% free, 14MB/19MB, paused 268us,114us total 172.737ms
+
+2026-09-24 19:05:08 15420-15420 Choreographer I Skipped 41 frames!  The application may be doing too much work on its main thread.
+
+2026-09-24 19:05:10 15420-15420 COMPACT I showToast = No Update Found
+
+2026-09-24 19:05:10 15420-15420 Toast E setGravity() shouldn't be called on text toasts, the values won't be used
+
+2026-09-24 19:05:12 15420-15420 WindowOnBackDispatcher W sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@fb16bfa
+
+2026-09-24 19:05:13 15420-15420 COMPACT I showToast = No Update Found
+
+2026-09-24 19:05:13 15420-15420 Toast E setGravity() shouldn't be called on text toasts, the values won't be used
+
+2026-09-24 19:05:15 15420-15420 WindowOnBackDispatcher W sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@3a02b11
+
+2026-09-24 19:05:33 15420-15431 eam4.prerelease I Background concurrent copying GC freed 98598(3597KB) AllocSpace objects, 1(24KB) LOS objects, 24% free, 15MB/21MB, paused 121us,58us total 188.835ms
+
+2026-09-24 19:05:59 15420-15420 WindowOnBackDispatcher W sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@20c4566
+
+2026-09-24 19:06:01 15420-15420 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:06:01 15420-15420 AxMediaRouter W Ignoring null provider descriptor from ComponentInfo{com.google.android.gms/com.google.android.gms.cast.media.CastMediaRoute2ProviderService_Persistent}
+
+2026-09-24 19:06:14 15589-15589 libc I SetHeapTaggingLevel: tag level set to 0
+
+2026-09-24 19:06:14 15589-15589 eam4.prerelease I Using CollectorTypeCC GC.
+
+2026-09-24 19:06:14 15589-15589 NavComponent I Navigating to Activity: MainActivity
+
+2026-09-24 19:06:15 15589-15589 MediaRouter I Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+
+2026-09-24 19:06:15 15589-15589 AxMediaRouter I Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=12, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-09-24 19:06:15 15589-15589 AxMediaRouter I Unselecting the current route because it is no longer selectable: null
+
+2026-09-24 19:06:15 15589-15589 eam4.prerelease W ClassLoaderContext classpath size mismatch. expected=16, found=0 (DLC[];PCL[base.apk*2196618404:base.apk!classes2.dex*1176881433:base.apk!classes3.dex*1879734201:base.apk!classes4.dex*2346711448:base.apk!classes5.dex*2077948684:base.apk!classes6.dex*1816645997:base.apk!classes7.dex*3484347691:base.apk!classes8.dex*3154542700:base.apk!classes9.dex*68302243:base.apk!classes10.dex*1482453168:base.apk!classes11.dex*3553146178:base.apk!classes12.dex*967629863:base.apk!classes13.dex*2262326076:base.apk!classes14.dex*2075873027:base.apk!classes15.dex*2167554252:base.apk!classes16.dex*320382344]{PCL[/system/framework/org.apache.http.legacy.jar*2889266191]#PCL[/system/framework/com.android.location.provider.jar*1026842956]#PCL[/system/framework/com.android.media.remotedisplay.jar*319870998]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*623104440]} | DLC[];PCL[])
+
+2026-09-24 19:06:15 15589-15589 DynamiteModule I Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:263332001
+
+2026-09-24 19:06:15 15589-15589 DynamiteModule I Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 263332001
+
+2026-09-24 19:06:15 15589-15589 System W ClassLoader referenced unknown path:
+
+2026-09-24 19:06:15 15589-15589 eam4.prerelease W ClassLoaderContext classpath size mismatch. expected=16, found=8 (DLC[];PCL[base.apk*2196618404:base.apk!classes2.dex*1176881433:base.apk!classes3.dex*1879734201:base.apk!classes4.dex*2346711448:base.apk!classes5.dex*2077948684:base.apk!classes6.dex*1816645997:base.apk!classes7.dex*3484347691:base.apk!classes8.dex*3154542700:base.apk!classes9.dex*68302243:base.apk!classes10.dex*1482453168:base.apk!classes11.dex*3553146178:base.apk!classes12.dex*967629863:base.apk!classes13.dex*2262326076:base.apk!classes14.dex*2075873027:base.apk!classes15.dex*2167554252:base.apk!classes16.dex*320382344]{PCL[/system/framework/org.apache.http.legacy.jar*2889266191]#PCL[/system/framework/com.android.location.provider.jar*1026842956]#PCL[/system/framework/com.android.media.remotedisplay.jar*319870998]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*623104440]} | DLC[];PCL[/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk*1237040219:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes2.dex*1444163449:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes3.dex*1150342614:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes4.dex*659922424:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes5.dex*2555658894:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes6.dex*3862517056:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes7.dex*2227894478:/data/app/~~cSvKUIQxYfi1kMhRTAD-_A==/com.mehdigm.cimastream4.prerelease-BgXO0G0xlXXNv1FFuKw1Yw==/base.apk!classes8.dex*976123604])
+
+2026-09-24 19:06:15 15589-15589 CastDynamiteModuleImpl I st created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~Sr1sipz_FDxiWJ1LtasxJQ==/com.google.android.gms-zthfKzPOeFE5gxrnOT6W0w==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~Sr1sipz_FDxiWJ1LtasxJQ==/com.google.android.gms-zthfKzPOeFE5gxrnOT6W0w==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64, /product/lib64]]].
+
+2026-09-24 19:06:15 15589-15624 PluginManager I Plugin update done!
+
+2026-09-24 19:06:15 15589-15589 ImeTracker I com.mehdigm.cimastream4.prerelease:e154593b: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-09-24 19:06:15 15589-15623 PluginManager W Failed to create local directories
+
+2026-09-24 19:06:15 15589-15589 System.out I Loaded everything
+
+2026-09-24 19:06:15 15589-15589 ImeTracker I com.mehdigm.cimastream4.prerelease:bd2da20c: onFailed at PHASE_CLIENT_VIEW_SERVED
+
+2026-09-24 19:06:15 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:06:15 15589-15589 AxMediaRouter W Ignoring attempt to select selected route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, isSystemRoute=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=12, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+
+2026-09-24 19:06:15 15589-15589 SYNC_API I Local, local
+
+2026-09-24 19:06:15 15589-15613 libc W Access denied finding property "ro.debuggable"
+
+2026-09-24 19:06:15 15589-15589 RenderThread W type=1400 audit(0.0:21350): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=9627 scontext=u:r:untrusted_app:s0:c183,c256,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0 app=com.mehdigm.cimastream4.prerelease
+
+2026-09-24 19:06:15 15589-15613 libMEOW_gift I ctx:0x705e6abd00, ARC not Enabled.
+
+2026-09-24 19:06:15 15589-15642 ion E ioctl c0044901 failed with code -1: Invalid argument
+
+2026-09-24 19:06:15 15589-15589 MediaRouterProxy I media transfer = false, session transfer = true, transfer to local = false, in-app output switcher = false
+
+2026-09-24 19:06:18 15589-15737 libMEOW_gift I ctx:0x7034bf8c80, ARC not Enabled.
+
+2026-09-24 19:06:19 15589-15589 Choreographer I Skipped 38 frames!  The application may be doing too much work on its main thread.
+
+2026-09-24 19:06:20 15589-15589 NavComponent I Navigating to fragment: 2131361886
+
+2026-09-24 19:06:21 15589-15589 Choreographer I Skipped 48 frames!  The application may be doing too much work on its main thread.
+
+2026-09-24 19:06:26 15589-15600 eam4.prerelease W Cleared Reference was only reachable from finalizer (only reported once)
+
+2026-09-24 19:06:26 15589-15600 eam4.prerelease I Background concurrent copying GC freed 261182(12MB) AllocSpace objects, 42(3268KB) LOS objects, 24% free, 13MB/18MB, paused 192us,80us total 302.824ms
+
+2026-09-24 19:06:41 15589-15600 eam4.prerelease I Background concurrent copying GC freed 114192(4643KB) AllocSpace objects, 8(308KB) LOS objects, 24% free, 13MB/17MB, paused 161us,62us total 182.312ms
+
+2026-09-24 19:06:53 15589-15600 eam4.prerelease I Background young concurrent copying GC freed 41341(4085KB) AllocSpace objects, 29(528KB) LOS objects, 24% free, 13MB/17MB, paused 6.581ms,56us total 55.934ms
+
+2026-09-24 19:06:56 15589-15600 eam4.prerelease I Background concurrent copying GC freed 45069(4184KB) AllocSpace objects, 35(624KB) LOS objects, 25% free, 13MB/17MB, paused 297us,57us total 171.799ms
+
+2026-09-24 19:06:58 15589-15589 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:06:58 15589-15589 AxMediaRouter W Ignoring null provider descriptor from ComponentInfo{com.google.android.gms/com.google.android.gms.cast.media.CastMediaRoute2ProviderService_Persistent}
+
+2026-09-24 19:08:41 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:08:41 15589-15600 eam4.prerelease I CollectorTransition concurrent copying GC freed 10173(727KB) AllocSpace objects, 4(72KB) LOS objects, 25% free, 13MB/17MB, paused 183us,65us total 316.856ms
+
+2026-09-24 19:08:43 15589-15589 WindowOnBackDispatcher W sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@4c62f1e
+
+2026-09-24 19:08:46 15589-15589 Choreographer I Skipped 38 frames!  The application may be doing too much work on its main thread.
+
+2026-09-24 19:08:47 15589-15600 eam4.prerelease I Background concurrent copying GC freed 70568(2722KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 14MB/19MB, paused 257us,106us total 197.479ms
+
+2026-09-24 19:08:55 15589-15589 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:08:55 15589-15589 VRI[MainActivity] W Cancelling event (window is stopped):MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=575.0, y[0]=778.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x20, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=237474277, downTime=237474043, deviceId=4, source=0x1002, displayId=0, eventId=2137765997 }
+
+2026-09-24 19:08:55 15589-15589 VRI[MainActivity] W Cancelling event (window is stopped):MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=575.0, y[0]=778.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x20, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=237474277, downTime=237474043, deviceId=4, source=0x1002, displayId=0, eventId=2137765997 }
+
+2026-09-24 19:08:55 15589-15589 VRI[MainActivity] W Cancelling event (window is stopped):MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=575.0, y[0]=778.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x20, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=237474277, downTime=237474043, deviceId=4, source=0x1002, displayId=0, eventId=2137765997 }
+
+2026-09-24 19:08:55 15589-15589 VRI[MainActivity] W Cancelling event (window is stopped):MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=575.0, y[0]=778.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x20, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=237474277, downTime=237474043, deviceId=4, source=0x1002, displayId=0, eventId=2137765997 }
+
+2026-09-24 19:09:45 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:09:45 15589-15606 FrameEvents E addRelease: Did not find frame.
+
+2026-09-24 19:09:46 15589-15589 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:09:51 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:09:52 15589-15613 FrameEvents E applyFenceDelta: Unexpected fence.
+
+2026-09-24 19:11:14 15589-15600 eam4.prerelease I Background concurrent copying GC freed 128784(4816KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 13MB/17MB, paused 143us,75us total 166.797ms
+
+2026-09-24 19:11:36 15589-15600 eam4.prerelease I Background concurrent copying GC freed 112121(4182KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 13MB/18MB, paused 246us,99us total 170.421ms
+
+2026-09-24 19:11:38 15589-15589 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:12:53 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:12:54 15589-15604 FrameEvents E addRelease: Did not find frame.
+
+2026-09-24 19:12:59 15589-15589 AppVisibilityProxy I onAppEnteredBackground
+
+2026-09-24 19:13:07 15589-15589 AppVisibilityProxy I onAppEnteredForeground
+
+2026-09-24 19:13:10 15589-15631 System.err W java.io.FileNotFoundException: No file found
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile.findFileOrThrow(MediaFile.kt:422)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.SafeFile$findFile$1.invoke(SafeFile.kt:197)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.SafeFile$findFile$1.invoke(SafeFile.kt:197)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.UniFileWrapperKt.safe(UniFileWrapper.kt:19)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.SafeFile$DefaultImpls.findFile(SafeFile.kt:197)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile.findFile(MediaFile.kt:89)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.SafeFile$DefaultImpls.findFile$default(SafeFile.kt:196)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.setupStream(DownloadManager.kt:515)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.setupStream(DownloadManager.kt:489)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.ui.settings.logcat.LogcatDialogKt$LogcatDialog$3$1$1$1$1.invokeSuspend(LogcatDialog.kt:131)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:798)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+
+2026-09-24 19:13:10 15589-15631 System.err W java.io.IOException: ContentResolver Query not found
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile.query(MediaFile.kt:280)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile.access$query(MediaFile.kt:89)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile$createFileOrThrow$3.invoke(MediaFile.kt:229)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile$createFileOrThrow$3.invoke(MediaFile.kt:229)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.UniFileWrapperKt.safe(UniFileWrapper.kt:19)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.safefile.MediaFile.createFileOrThrow(MediaFile.kt:229)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.setupStream(DownloadManager.kt:518)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.setupStream(DownloadManager.kt:489)
+
+2026-09-24 19:13:10 15589-15631 System.err W at com.mehdigm.cimastream4.ui.settings.logcat.LogcatDialogKt$LogcatDialog$3$1$1$1$1.invokeSuspend(LogcatDialog.kt:131)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:798)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+
+2026-09-24 19:13:10 15589-15631 System.err W at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+
+2026-09-24 19:13:11 15589-15589 WindowOnBackDispatcher W sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@a1ee498
+
