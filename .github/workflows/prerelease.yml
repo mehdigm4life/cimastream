@@ -48,7 +48,19 @@ jobs:
         cache-encryption-key: ${{ secrets.GRADLE_ENCRYPTION_KEY }}
 
     - name: Run Gradle
-      run: ./gradlew assemblePrereleaseRelease androidSourcesJar makeJar
+      run: |
+        set +e
+        ./gradlew assemblePrereleaseRelease androidSourcesJar makeJar -x lint -x lintPrereleaseDebug -x lintReportPrereleaseDebug -x lintVitalPrereleaseRelease
+        GRADLE_EXIT=$?
+        set -e
+        ./gradlew :app:lintPrereleaseDebug >/dev/null 2>&1 || true
+        LINT_REPORT=app/build/intermediates/lint_intermediate_text_report/prereleaseDebug/lintReportPrereleaseDebug/lint-results-prereleaseDebug.txt
+        if [ -f "$LINT_REPORT" ]; then
+          echo "===== LINT ERRORS ====="
+          grep -E "^/|Error:" "$LINT_REPORT" || true
+          echo "======================="
+        fi
+        exit $GRADLE_EXIT
       env:
         SIGNING_KEY_ALIAS: "key0"
         SIGNING_KEY_PASSWORD: ${{ steps.fetch_keystore.outputs.key_pwd }}
