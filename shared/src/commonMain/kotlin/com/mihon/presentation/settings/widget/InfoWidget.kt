@@ -10,11 +10,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.PreviewLightDark
-import com.lagradost.cloudstream4.generated.resources.Res
-import com.lagradost.cloudstream4.generated.resources.info
-import com.lagradost.cloudstream4.generated.resources.lorem_content
-import com.lagradost.cloudstream4.generated.resources.lorem_title
-import com.lagradost.cloudstream4.theme.CloudStreamPreviewTheme
+import com.mehdigm.cimastream4.generated.resources.Res
+import com.mehdigm.cimastream4.generated.resources.info
+import com.mehdigm.cimastream4.generated.resources.lorem_content
+import com.mehdigm.cimastream4.generated.resources.lorem_title
+import com.mehdigm.cimastream4.theme.CimaStreamPreviewTheme
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import com.mihon.presentation.secondaryItemAlpha
@@ -45,7 +45,7 @@ internal fun InfoWidget(text: String) {
 @PreviewLightDark
 @Composable
 private fun InfoWidgetPreview() {
-    CloudStreamPreviewTheme {
+    CimaStreamPreviewTheme {
         Surface {
             InfoWidget(text = stringResource(Res.string.lorem_content))
         }

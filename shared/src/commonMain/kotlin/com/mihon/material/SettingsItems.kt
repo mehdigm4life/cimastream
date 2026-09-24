@@ -44,12 +44,12 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
-import com.lagradost.cloudstream4.compose.whiteOutline
-import com.lagradost.cloudstream4.generated.resources.Res
-import com.lagradost.cloudstream4.generated.resources.arrow_downward
-import com.lagradost.cloudstream4.generated.resources.arrow_upward
-import com.lagradost.cloudstream4.generated.resources.preview
-import com.lagradost.cloudstream4.theme.CloudStreamPreviewTheme
+import com.mehdigm.cimastream4.compose.whiteOutline
+import com.mehdigm.cimastream4.generated.resources.Res
+import com.mehdigm.cimastream4.generated.resources.arrow_downward
+import com.mehdigm.cimastream4.generated.resources.arrow_upward
+import com.mehdigm.cimastream4.generated.resources.preview
+import com.mehdigm.cimastream4.theme.CimaStreamPreviewTheme
 import com.mihon.common.preference.PreferenceData
 import com.mihon.common.preference.toggle
 import com.mihon.presentation.secondaryItemAlpha
@@ -273,7 +273,7 @@ fun BaseSliderItem(
 @Composable
 @PreviewLightDark
 fun SliderItemPreview() {
-    CloudStreamPreviewTheme {
+    CimaStreamPreviewTheme {
         var value by remember { mutableIntStateOf(0) }
         Surface {
             BaseSliderItem(

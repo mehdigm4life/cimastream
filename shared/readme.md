@@ -1,7 +1,7 @@
 ## Motivation
 
 This readme is documentation for humans to understand ***why***, and ***not how*** the core architecture
-for CloudStream will be designed going forward. 
+for Cima Stream will be designed going forward. 
 
 ## Design decisions
 
@@ -54,7 +54,7 @@ processing easier. ImageVector is undesirable because file must be reviewed to n
 code, and does not have a built-in preview. SVG files on the other hand are currently not natively 
 supported on Android. 
 
-**Translation**: CloudStream already has a huge translation, however to make the porting process easier,
+**Translation**: Cima Stream already has a huge translation, however to make the porting process easier,
 we should limit any copy-paste from the android project until everything is converted to compose.
 This is in part because weblate is not set up target the cross-platform compose yet. 
 
@@ -62,7 +62,7 @@ This is in part because weblate is not set up target the cross-platform compose 
 styling is done entierly in code, but should use the exact same colors to avoid a styling mismatch 
 when porting.
 
-**UI/UX**: The intended experience when using CloudStream should be the same, but the UI should be
+**UI/UX**: The intended experience when using Cima Stream should be the same, but the UI should be
 refreshed to a more Material 3 style, such as rounded corners and a greater focus on light theme 
 support. However, no glassmorphic, blurred or gradient UI is accepted.  
 
@@ -75,32 +75,32 @@ library and is therefore instead forked by importing the exact files used.
 
 ### Why compose?
 
-During the lifetime of CloudStream, the app has been redesigned and rewritten several times. 
+During the lifetime of Cima Stream, the app has been redesigned and rewritten several times. 
 
 **C# Downloader → Xamarin Native → Xamarin Cross platform → Android Native XML → ViewBinding → Compose Multiplatform**
 
 We have experimented with different UI technologies such as **Blazor**, **Electron**, **PWA**, 
-**WPF**, **UWP**, **Windows Forms**, and **CLI/Console** for CloudStream. 
+**WPF**, **UWP**, **Windows Forms**, and **CLI/Console** for Cima Stream. 
 We have also investigated projectes written in **Flutter** and **React Native**. 
 
 However, none of these frameworks provided a good developer experience, that was also performant and
 cross-platform. Compose was the only real option, but did not exist until after we started on 
-CloudStream 3. Android Native XML was simply the least bad option when building an Android app.
+Cima Stream 4. Android Native XML was simply the least bad option when building an Android app.
 
-### CloudStream 4?
+### Cima Stream 4?
 
-The current android app is named CloudStream 3, and this Compose rewrite will be named 
-CloudStream 4. However, the android app will be upgraded, not replaced with Compose. It aims to be a 
-seamless and gradual rollout of updates for everyone using the Android app. Therefore, CloudStream 4 
+The current android app is named Cima Stream 4, and this Compose rewrite will be named 
+Cima Stream 4. However, the android app will be upgraded, not replaced with Compose. It aims to be a 
+seamless and gradual rollout of updates for everyone using the Android app. Therefore, Cima Stream 4 
 is used to refer to the new compose UI, features, and cross-platform support.
 
 ## AI Usage
 
-Due to the prevalence and popularity of LLMs, CloudStream 3 has been rewritten entirely 4+ times by 
+Due to the prevalence and popularity of LLMs, Cima Stream 4 has been rewritten entirely 4+ times by 
 independent actors using Compose to target desktop with different LLM models. These have not been merged, due to the 
 absolute mess of the AI generated codebase, both in code quality and performance. 
 
-Therefore, I (LagradOst) will not accept or allow any pull requests concering the Compose rewrite
+Therefore, I (mehdigm) will not accept or allow any pull requests concering the Compose rewrite
 before I put the core structures are in place. The compose rewrite is supposed to be a refactor and 
 quality improvement for everyone involved, to solve the massive tech debt we already have. XML and 
 old plans forced bad design decissions, which we can improve greatly upon. However, in no part do I 

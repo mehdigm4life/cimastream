@@ -27,10 +27,10 @@ tasks.withType<JavaExec> {
 
 compose.desktop {
     application {
-        mainClass = "com.lagradost.cloudstream4.MainKt"
+        mainClass = "com.mehdigm.cimastream4.MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "CloudStream"
+            packageName = "CimaStream"
             packageVersion = "1.0.0"
 
             val iconsRoot = project.file("desktop-icons")

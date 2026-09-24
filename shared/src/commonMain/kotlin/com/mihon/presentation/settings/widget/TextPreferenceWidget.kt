@@ -13,9 +13,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
-import com.lagradost.cloudstream4.generated.resources.Res
-import com.lagradost.cloudstream4.generated.resources.preview
-import com.lagradost.cloudstream4.theme.CloudStreamPreviewTheme
+import com.mehdigm.cimastream4.generated.resources.Res
+import com.mehdigm.cimastream4.generated.resources.preview
+import com.mehdigm.cimastream4.theme.CimaStreamPreviewTheme
 import org.jetbrains.compose.resources.painterResource
 import com.mihon.presentation.secondaryItemAlpha
 
@@ -66,7 +66,7 @@ fun TextPreferenceWidget(
 @PreviewLightDark
 @Composable
 private fun TextPreferenceWidgetPreview() {
-    CloudStreamPreviewTheme {
+    CimaStreamPreviewTheme {
         Surface {
             Column {
                 TextPreferenceWidget(

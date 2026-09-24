@@ -23,8 +23,8 @@ kotlin {
     applyDefaultHierarchyTemplate()
 
     android {
-        // If this is the same com.lagradost.cloudstream3.R stops working
-        namespace = "com.lagradost.api"
+        // If this is the same com.mehdigm.cimastream4.R stops working
+        namespace = "com.mehdigm.api"
 
         compileSdk = libs.versions.compileSdk.get().toInt()
         minSdk = libs.versions.minSdk.get().toInt()
@@ -47,8 +47,8 @@ kotlin {
     sourceSets {
         all {
             languageSettings {
-                optIn("com.lagradost.cloudstream3.InternalAPI")
-                optIn("com.lagradost.cloudstream3.Prerelease")
+                optIn("com.mehdigm.cimastream4.InternalAPI")
+                optIn("com.mehdigm.cimastream4.Prerelease")
             }
         }
 
@@ -90,8 +90,8 @@ kotlin {
     abiValidation {
         filters {
             exclude {
-                annotatedWith.add("com.lagradost.cloudstream3.Prerelease")
-                annotatedWith.add("com.lagradost.cloudstream3.InternalAPI")
+                annotatedWith.add("com.mehdigm.cimastream4.Prerelease")
+                annotatedWith.add("com.mehdigm.cimastream4.InternalAPI")
             }
         }
     }
@@ -104,7 +104,7 @@ tasks.withType<KotlinJvmCompile> {
 }
 
 buildkonfig {
-    packageName = "com.lagradost.api"
+    packageName = "com.mehdigm.api"
     exposeObjectWithName = "BuildConfig"
 
     defaultConfigs {
@@ -126,7 +126,7 @@ buildkonfig {
 publishing {
     publications {
         withType<MavenPublication> {
-            groupId = "com.lagradost.api"
+            groupId = "com.mehdigm.api"
         }
     }
 }
@@ -143,7 +143,7 @@ dokka {
 
             sourceLink {
                 localDirectory = file("..")
-                remoteUrl("https://github.com/recloudstream/cloudstream/tree/master")
+                remoteUrl("https://github.com/mehdigm/cimastream/tree/master")
                 remoteLineSuffix = "#L"
             }
         }

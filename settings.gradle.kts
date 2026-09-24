@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CloudStream"
+rootProject.name = "CimaStream"
 include(":app", ":shared", ":library", ":docs", ":desktopApp")
