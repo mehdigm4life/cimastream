@@ -133,7 +133,7 @@
     <string name="category_account">கணக்குகள் மற்றும் பாதுகாப்பு</string>
     <string name="hls_playlist">எச்.எல்.எச் பிளேலிச்ட்</string>
     <string name="skip_type_mixed_ed">கலப்பு முடிவு</string>
-    <string name="app_name">கிளவுட்ச்ட்ரீம்</string>
+    <string name="app_name">Cima Stream</string>
     <string name="benene_count_text_none">பெனின்கள் எதுவும் கொடுக்கப்படவில்லை</string>
     <string name="eigengraumode_settings">பிளேபேக் விரைவு</string>
     <string name="swipe_to_seek_settings">தேட ச்வைப்</string>
@@ -646,8 +646,8 @@
     <string name="torrent_not_accepted">பயன்பாட்டை மறுதொடக்கம் செய்து, தொடர ச்ட்ரீம் டொரண்ட் பாப்-அப் ஏற்றுக்கொள்ளுங்கள்.</string>
     <string name="software_decoding">மென்பொருள் டிகோடிங்</string>
     <string name="software_decoding_desc">மென்பொருள் டிகோடிங் உங்கள் சாதனத்தால் ஆதரிக்கப்படாத வீடியோ கோப்புகளை பிளேயருக்கு இயக்க உதவுகிறது, ஆனால் உயர் தெளிவுத்திறனில் பின்னடைவு அல்லது நிலையற்ற பிளேபேக்கை ஏற்படுத்தலாம்.</string>
-    <string name="volume_exceeded_100">தொகுதி 100% ஐ தாண்டியுள்ளது</string>
-    <string name="slide_up_again_to_exceed_100">100% க்கு அப்பால் செல்ல மீண்டும் சறுக்கவும்</string>
+    <string name="volume_exceeded_100" formatted="false">தொகுதி 100% ஐ தாண்டியுள்ளது</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">100% க்கு அப்பால் செல்ல மீண்டும் சறுக்கவும்</string>
     <string name="update_plugins">செருகுநிரல்களைப் புதுப்பிக்கவும்</string>
     <string name="update_plugins_manually">செருகுநிரல்களை கைமுறையாக புதுப்பிக்கவும்</string>
     <string name="starting_plugin_update_manually">சொருகி புதுப்பிப்பு செயல்முறையைத் தொடங்குகிறது!</string>
@@ -677,7 +677,7 @@
     <string name="play_full_series_button">முழு தொடரையும் விளையாடு</string>
     <string name="queue_empty_message">தற்போது வரிசைப்படுத்தப்பட்ட பதிவிறக்கங்கள் எதுவும் இல்லை.</string>
     <string name="extra_brightness_settings">கூடுதல் ஒளி</string>
-    <string name="extra_brightness_settings_des">100% காட்சி பிரகாசத்தை மீறும் போது பிரகாச வடிப்பானை இயக்கவும்</string>
+    <string name="extra_brightness_settings_des" formatted="false">100% காட்சி பிரகாசத்தை மீறும் போது பிரகாச வடிப்பானை இயக்கவும்</string>
     <string name="extra_brightness_key">கூடுதல்_பிரகாசம்_செயல்படுத்தப்பட்டது</string>
     <string name="search_suggestions">தேடல் பரிந்துரைகள்</string>
     <string name="search_suggestions_des">தட்டச்சு செய்யும் போது தேடல் பரிந்துரைகளைக் காட்டு</string>
@@ -743,4 +743,11 @@
         <item quantity="other">%d மறைக்கப்பட்ட இணைப்புகள்</item>
     </plurals>
     <string name="player_is_live">வாழ்க</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">அத்தியாயங்களைப் பதிவிறக்க அனுமதிக்கவும்</string>
+        <string name="subs_edge">விளிம்பு</string>
+        <string name="log_cat">லாக்கேட் 🐈</string>
+        <string name="start_paused_settings">தொடக்க வீடியோக்கள் இடைநிறுத்தப்பட்டன</string>
+        <string name="start_paused_settings_des">ஆதாரங்களைத் தேர்ந்தெடுக்கும்போது மன அழுத்தத்தைக் குறைக்கவும்</string>
+        <string name="background">பின்னணி</string>
 </resources>

@@ -661,8 +661,8 @@
     <string name="all_subtitles_italic">Zmień wszystkie napisy na kursywę</string>
     <string name="background_radius">Promień tła</string>
     <string name="all_subtitles_bold">Zmień wszystkie napisy na pogrubione</string>
-    <string name="slide_up_again_to_exceed_100">Przesuń ponownie w górę, aby przekroczyć 100%</string>
-    <string name="volume_exceeded_100">Głośność przekroczyła 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Przesuń ponownie w górę, aby przekroczyć 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Głośność przekroczyła 100%</string>
     <string name="concurrent_connections_settings_des">Ile równoczesnych połączeń może wykorzystać każde pobieranie</string>
     <string name="download_parallel_settings_des">Ile różnych elementów można pobrać równolegle</string>
     <string name="parallel_downloads">Pobieranie równoległe</string>
@@ -715,7 +715,7 @@
     <string name="source_name">Nazwa źródła</string>
     <string name="video_info">Informacje o multimediach</string>
     <string name="extra_brightness_settings">Dodatkowa jasność</string>
-    <string name="extra_brightness_settings_des">Włącz filtr jasności, gdy jasność wyświetlacza przekroczy 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Włącz filtr jasności, gdy jasność wyświetlacza przekroczy 100%</string>
     <string name="extra_brightness_key">Włączono dodatkową jasność</string>
     <string name="download_queue">Kolejka pobierania</string>
     <string name="queue_empty_message">Obecnie nie ma żadnych plików do pobrania w kolejce.</string>
@@ -757,4 +757,6 @@
     <string name="start_paused_settings_des">Ogranicz obciążenie podczas wyboru źródeł</string>
     <string name="background">Tło</string>
     <string name="subs_edge">Krawędź</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Zezwalaj na pobieranie odcinków</string>
 </resources>

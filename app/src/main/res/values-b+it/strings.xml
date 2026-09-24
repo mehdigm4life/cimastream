@@ -680,8 +680,8 @@
     <string name="all_subtitles_bold">Rendi tutti i sottotitoli in grassetto</string>
     <string name="all_subtitles_italic">Rendi tutti i sottotitoli in corsivo</string>
     <string name="background_radius">Raggio di sfondo</string>
-    <string name="volume_exceeded_100">Il volume ha superato il 100%</string>
-    <string name="slide_up_again_to_exceed_100">Scorri di nuovo verso l\'alto per andare oltre il 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Il volume ha superato il 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Scorri di nuovo verso l\'alto per andare oltre il 100%</string>
     <string name="download_parallel_settings_des">Quanti oggetti possono essere scaricati contemporaneamente</string>
     <string name="parallel_downloads">Download paralleli</string>
     <string name="concurrent_connections">Connessioni concorrenti</string>
@@ -773,4 +773,6 @@
     <string name="start_paused_settings_des">Riduci lo stress nella scelta delle fonti</string>
     <string name="background">Sfondo</string>
     <string name="subs_edge">Bordo</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Consenti il ​​download degli episodi</string>
 </resources>

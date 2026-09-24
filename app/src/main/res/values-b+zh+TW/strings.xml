@@ -656,7 +656,7 @@
     <string name="play_full_series_button">播放全劇</string>
     <string name="queue_empty_message">目前佇列中無下載影片。</string>
     <string name="extra_brightness_settings">額外亮度</string>
-    <string name="extra_brightness_settings_des">超過100%亮度時開啟亮度調整</string>
+    <string name="extra_brightness_settings_des" formatted="false">超過100%亮度時開啟亮度調整</string>
     <string name="extra_brightness_key">已開啟額外亮度</string>
     <string name="search_suggestions">搜尋建議</string>
     <string name="search_suggestions_des">輸入時顯示搜尋建議</string>
@@ -732,7 +732,7 @@
     <string name="sort_button_episode">第 %s 集</string>
     <string name="sort_button_rating">評分 %s</string>
     <string name="sort_button_date">日期 %s</string>
-    <string name="slide_up_again_to_exceed_100">讓音量超過 100%（再次上滑）</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">讓音量超過 100%（再次上滑）</string>
     <string name="update_plugins">更新外掛</string>
     <string name="update_plugins_manually">手動更新外掛</string>
     <string name="starting_plugin_update_manually">正在更新外掛！</string>
@@ -741,9 +741,24 @@
     <string name="no_account">帳戶不存在</string>
     <string name="torrent_preferred_media">在「設定/影片來源/首選媒體」中啟用 Torrent下載</string>
     <string name="software_decoding_desc">軟體解碼使程式可以播放裝置不支援的影片，但可能導致播放高解析的影片時的延遲或不穩定。</string>
-    <string name="volume_exceeded_100">音量已超過 100%</string>
+    <string name="volume_exceeded_100" formatted="false">音量已超過 100%</string>
     <string name="show_player_metadata_overlay">顯示播放器元資料遮罩層</string>
     <string name="video_singular">影片</string>
     <string name="skip_type_preview">預覽</string>
     <string name="player_is_live">播放中</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="subs_edge">邊緣</string>
+        <string name="log_cat">日誌貓🐈</string>
+        <string name="start_paused_settings">開始影片已暫停</string>
+        <string name="start_paused_settings_des">減輕選擇來源時的壓力</string>
+        <string name="tv_layout_clock_settings">顯示實時時鐘</string>
+        <string name="tv_layout_clock_settings_des">在螢幕頂部顯示即時時鐘。適用於首頁和播放器</string>
+        <string name="profile_settings">個人資料設定</string>
+        <string name="profile_hide_negative_sources">隱藏優先權為負的來源</string>
+        <string name="profile_hide_error_sources">隱藏有錯誤的來源</string>
+        <string name="background">背景</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d 個隱藏鏈接</item>
+            <item quantity="other">%d 個隱藏鏈接</item>
+        </plurals>
 </resources>

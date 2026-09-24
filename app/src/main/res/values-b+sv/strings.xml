@@ -637,7 +637,7 @@
     <string name="unsupported_error">Stöds ej</string>
     <string name="sort_episodes_number_asc">Avsnitt (Stigande)</string>
     <string name="sort_episodes_number_desc">Avsnitt (Fallande)</string>
-    <string name="volume_exceeded_100">Volymen har överskridit 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Volymen har överskridit 100%</string>
     <string name="sort_episodes_rating_high_low">Betyg (Högsta)</string>
     <string name="sort_button_date">Datum%s</string>
     <string name="update_plugins_manually">Uppdatera Plugins manuellt</string>
@@ -700,7 +700,7 @@
     <string name="play_full_series_button">Spela hela serierna</string>
     <string name="queue_empty_message">Det finns inga nedladdningar i kö just nu.</string>
     <string name="extra_brightness_settings">Extra ljusstyrka</string>
-    <string name="extra_brightness_settings_des">Aktivera ljusstyrkefiltret när ljusstyrkan överstiger 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Aktivera ljusstyrkefiltret när ljusstyrkan överstiger 100%</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="search_suggestions">Sökförslag</string>
     <string name="search_suggestions_des">Visa sökförslag medan du skriver</string>
@@ -719,7 +719,7 @@
     <string name="source_priority">Källprioritet</string>
     <string name="source_priority_help">Välj hur videokällor ska sorteras i spelaren</string>
     <string name="no_account">Inget konto</string>
-    <string name="slide_up_again_to_exceed_100">Dra uppåt igen för att gå över 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Dra uppåt igen för att gå över 100%</string>
     <string name="starting_plugin_update_manually">Startar plugin uppdateringsprocessen!</string>
     <string name="plugins_updated_manually">%d plugin(s) har uppdaterats</string>
     <string name="no_plugins_updated_manually">Inga plugins blev uppdaterade.</string>
@@ -744,4 +744,10 @@
         <item quantity="other">%d dolda länkar</item>
     </plurals>
     <string name="log_cat">Logcat 🐈</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Tillåt att ladda ner avsnitt</string>
+        <string name="subs_edge">Edge</string>
+        <string name="start_paused_settings">Starta videor pausade</string>
+        <string name="start_paused_settings_des">Minska stressen när du väljer källor</string>
+        <string name="background">Bakgrund</string>
 </resources>

@@ -658,8 +658,8 @@
     <string name="torrent_not_accepted">진행하려면 앱 재시작 후 토렌트 스트리밍 팝업란의 수락이 필요합니다.</string>
     <string name="software_decoding">소프트웨어 디코딩</string>
     <string name="software_decoding_desc">소프트웨어 디코딩은 해당 기기에서 지원되지 않는 영상 파일들을 재생할 수 있지만, 높은 화질에서 렉 또는 불안정한 재생을 유발할 수 있습니다.</string>
-    <string name="volume_exceeded_100">볼륨이 100%를 초과하였습니다</string>
-    <string name="slide_up_again_to_exceed_100">100% 너머로 높이려면 한번 더 슬라이드 하십시오</string>
+    <string name="volume_exceeded_100" formatted="false">볼륨이 100%를 초과하였습니다</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">100% 너머로 높이려면 한번 더 슬라이드 하십시오</string>
     <string name="update_plugins">플러그인 업데이트하기</string>
     <string name="update_plugins_manually">수동으로 플러그인 업데이트 하기</string>
     <string name="starting_plugin_update_manually">플러그인 업데이트 절차를 시작합니다!</string>
@@ -702,7 +702,7 @@
     <string name="top_center">중앙 위</string>
     <string name="top_right">오른쪽 위</string>
     <string name="source_priority_help">비디오 소스가 플레이어에서 정렬되는 순서 설정</string>
-    <string name="extra_brightness_settings_des">디스플레이 밝기가 100%를 초과하면 밝기 필터를 활성화합니다</string>
+    <string name="extra_brightness_settings_des" formatted="false">디스플레이 밝기가 100%를 초과하면 밝기 필터를 활성화합니다</string>
     <string name="cancel_queue_message">모든 다운로드 작업을 취소하시겠습니까?</string>
     <string name="download_episode_range">에피소드를 다운로드 하시겠습니까 %s?</string>
     <string name="queue_empty_message">다운로드 대기열이 비어 있습니다.</string>
@@ -745,4 +745,6 @@
     <string name="start_paused_settings_des">소스를 선택할 때의 부하 줄이기</string>
     <string name="background">배경</string>
     <string name="subs_edge">윤곽선</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">에피소드 다운로드 허용</string>
 </resources>

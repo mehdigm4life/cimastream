@@ -670,8 +670,8 @@
     <string name="speech_recognition_unavailable">Tìm kiếm giọng nói không khả dụng</string>
     <string name="subtitles_from_online">Trực tuyến</string>
     <string name="background_radius">Bo tròn nền</string>
-    <string name="volume_exceeded_100">Âm lượng đã vượt quá 100%</string>
-    <string name="slide_up_again_to_exceed_100">Vuốt lên lần nữa để vượt quá 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Âm lượng đã vượt quá 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Vuốt lên lần nữa để vượt quá 100%</string>
     <string name="subtitles_from_embedded">Được nhúng</string>
     <string name="all_subtitles_bold">Làm tất cả phụ đề in đậm</string>
     <string name="all_subtitles_italic">Làm tất cả phụ đề in nghiêng</string>
@@ -723,7 +723,7 @@
     <string name="prerelease_already_installed">Bản phát hành trước đã được cài đặt.</string>
     <string name="prerelease_install_failed">Cài đặt bản phát hành trước thất bại.</string>
     <string name="show_episode_text">Tập</string>
-    <string name="extra_brightness_settings_des">Bật bộ lọc độ sáng khi độ sáng màn hình vượt quá 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Bật bộ lọc độ sáng khi độ sáng màn hình vượt quá 100%</string>
     <string name="show_cast_in_details">Hiển thị bảng dàn diễn viên</string>
     <string name="video_info">Thông tin video</string>
     <string name="extra_brightness_settings">Độ sáng bổ sung</string>

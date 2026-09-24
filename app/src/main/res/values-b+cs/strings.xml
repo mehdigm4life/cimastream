@@ -673,8 +673,8 @@
     <string name="all_subtitles_bold">Vykreslit všechny titulky tučně</string>
     <string name="all_subtitles_italic">Vykreslit všechny titulky kurzívou</string>
     <string name="background_radius">Poloměr pozadí</string>
-    <string name="slide_up_again_to_exceed_100">Přejeďte opět nahoru pro pokračování nad 100 %</string>
-    <string name="volume_exceeded_100">Hlasitost překročila 100 %</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Přejeďte opět nahoru pro pokračování nad 100 %</string>
+    <string name="volume_exceeded_100" formatted="false">Hlasitost překročila 100 %</string>
     <string name="download_parallel_settings_des">Počet různých položek, které lze stahovat v jednu chvíli</string>
     <string name="poster_size_settings_des">Změní velikost plakátů</string>
     <string name="no_internet_connection">Žádné připojení k internetu. \n\nPřipojte se prosím k internetu a zkuste to znovu, nebo sledujte stažené, zatímco jste offline.</string>

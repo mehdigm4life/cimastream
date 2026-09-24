@@ -669,8 +669,8 @@
     <string name="subtitles_from_online">Çevrimiçi</string>
     <string name="speech_recognition_unavailable">Konuşma tanıma özelliği mevcut değil</string>
     <string name="begin_speaking">Konuşmaya Başlayın…</string>
-    <string name="volume_exceeded_100">Ses %100 oranını aştı</string>
-    <string name="slide_up_again_to_exceed_100">%100 üzerine çıkmak için yukarı kaydır</string>
+    <string name="volume_exceeded_100" formatted="false">Ses %100 oranını aştı</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">%100 üzerine çıkmak için yukarı kaydır</string>
     <string name="all_subtitles_bold">Tüm altyazıları kalın yap</string>
     <string name="all_subtitles_italic">Tüm altyazıları italik yap</string>
     <string name="background_radius">Arka Plan Yarıçapı</string>
@@ -724,7 +724,7 @@
     <string name="clear_suggestions">Önerileri Temizle</string>
     <string name="show_cast_in_details">Yayın panelini göster</string>
     <string name="extra_brightness_settings">Ekstra parlaklık</string>
-    <string name="extra_brightness_settings_des">Görüntü parlaklığı %100\'ü geçerse parlaklık filtresini aktifleştir</string>
+    <string name="extra_brightness_settings_des" formatted="false">Görüntü parlaklığı %100\'ü geçerse parlaklık filtresini aktifleştir</string>
     <string name="extra_brightness_key">Ekstra parlaklık aktifleştirildi</string>
     <string name="video_info">Medya bilgisi</string>
     <string name="source_name">Kaynağın adı</string>

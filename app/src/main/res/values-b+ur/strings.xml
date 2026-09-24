@@ -599,4 +599,155 @@
     <string name="audio_singular">آواز</string>
     <string name="sort_button_date">تاریخ %s</string>
     <string name="device_pin_url_message">اپنے اسمارٹ فون یا کمپیوٹر پر یہ <b>%s</b> وزٹ کریں اور مندرجہ بالا کوڈ ڈالیں</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
+        <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
+        <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
+        <string name="download_queue">قطار ڈاؤن لوڈ کریں۔</string>
+        <string name="play_full_series_button">مکمل سیریز کھیلیں</string>
+        <string name="need_storage">ایپی سوڈز ڈاؤن لوڈ کرنے کی اجازت دیں۔</string>
+        <string name="queue_empty_message">فی الحال کوئی قطار بند ڈاؤن لوڈز نہیں ہیں۔</string>
+        <string name="subs_edge">کنارہ</string>
+        <string name="log_cat">لاگ کیٹ 🐈</string>
+        <string name="start_paused_settings">شروع کی ویڈیوز موقوف ہیں۔</string>
+        <string name="start_paused_settings_des">ذرائع کا انتخاب کرتے وقت تناؤ کو کم کریں۔</string>
+        <string name="extra_brightness_settings">اضافی چمک</string>
+        <string name="extra_brightness_settings_des">Enable brightness filter when 100% display brightness is exceeded</string>
+        <string name="extra_brightness_key">extra_brightness_enabled</string>
+        <string name="search_suggestions">تلاش کی تجاویز</string>
+        <string name="search_suggestions_des">ٹائپ کرتے وقت تلاش کی تجاویز دکھائیں۔</string>
+        <string name="clear_suggestions">واضح تجاویز</string>
+        <string name="show_player_metadata_overlay">پلیئر میٹا ڈیٹا اوورلے دکھائیں۔</string>
+        <string name="show_cast_in_details">کاسٹ پینل دکھائیں۔</string>
+        <string name="install_prerelease">پری ریلیز ورژن انسٹال کریں۔</string>
+        <string name="prerelease_already_installed">پری ریلیز پہلے ہی انسٹال ہے۔</string>
+        <string name="prerelease_install_failed">پری ریلیز انسٹال کرنے میں ناکام۔</string>
+        <string name="delete_format" formatted="true">حذف کریں (%1$d | %2$s)</string>
+        <string name="delete_message_multiple" formatted="true">کیا آپ واقعی درج ذیل آئٹمز کو مستقل طور پر حذف کرنا چاہتے ہیں؟\n\n%s</string>
+        <string name="delete_message_series_episodes" formatted="true">کیا آپ واقعی %1$s میں درج ذیل ایپی سوڈز کو مستقل طور پر حذف کرنا چاہتے ہیں؟\n\n%2$s</string>
+        <string name="delete_message_series_section" formatted="true">آپ مندرجہ ذیل سیریز کی تمام اقساط کو بھی مستقل طور پر حذف کر دیں گے:\n\n%s</string>
+        <string name="delete_message_series_only" formatted="true">کیا آپ واقعی درج ذیل سیریز کی تمام اقساط کو مستقل طور پر حذف کرنا چاہتے ہیں؟\n\n%s</string>
+        <string name="podcast_singular">پوڈ کاسٹ</string>
+        <string name="video_singular">ویڈیو</string>
+        <string name="encoding_error">انکوڈنگ کی خرابی۔</string>
+        <string name="unsupported_error">غیر تعاون یافتہ خرابی۔</string>
+        <string name="episode_action_cast_mirror">کاسٹ آئینہ</string>
+        <string name="episode_action_play_mirror">آئینہ چلائیں۔</string>
+        <string name="show_rating">درجہ بندی کا لیبل</string>
+        <string name="show_episode_text">قسط کا متن</string>
+        <string name="pref_category_security">سیکورٹی</string>
+        <string name="pref_category_accounts">اکاؤنٹس</string>
+        <string name="tv_layout_clock_settings">حقیقی وقت کی گھڑی دکھائیں۔</string>
+        <string name="tv_layout_clock_settings_des">اسکرین کے اوپری حصے میں حقیقی وقت کی گھڑی دکھائیں۔ ہوم پیج اور پلیئر پر لاگو ہوتا ہے۔</string>
+        <string name="auth_locally">مقامی طور پر تصدیق کریں۔</string>
+        <string name="player_load_one_subtitle_online">پہلے دستیاب لوڈ کریں۔</string>
+        <string name="qr_image">QR کوڈ کی تصویر</string>
+        <string name="video_info">میڈیا کی معلومات</string>
+        <string name="delete_plugin">پلگ ان کو حذف کریں۔</string>
+        <string name="player_settings_always_ask">ہمیشہ پوچھنا</string>
+        <string name="player_settings_select_cast_device">کاسٹ ڈیوائس کو منتخب کریں۔</string>
+        <string name="skip_type_preview">پیش نظارہ</string>
+        <string name="dismiss">برطرف کرنا</string>
+        <string name="open_downloaded_repo">ذخیرہ کھولیں۔</string>
+        <string name="sort_episodes_number_asc">قسط (صعودی)</string>
+        <string name="sort_episodes_number_desc">قسط (نزولی)</string>
+        <string name="sort_episodes_rating_high_low">درجہ بندی (سب سے زیادہ)</string>
+        <string name="sort_episodes_rating_low_high">درجہ بندی (سب سے کم)</string>
+        <string name="sort_episodes_date_newest">نشر ہونے کی تاریخ (تازہ ترین)</string>
+        <string name="sort_episodes_date_oldest">نشر ہونے کی تاریخ (سب سے پرانی)</string>
+        <string name="sort_button_episode">ایپی %s</string>
+        <string name="sort_button_rating">درجہ بندی %s</string>
+        <string name="profile_settings">پروفائل کی ترتیبات</string>
+        <string name="profile_hide_negative_sources">منفی ترجیح کے ساتھ ذرائع کو چھپائیں۔</string>
+        <string name="profile_hide_error_sources">خامیوں کے ساتھ ذرائع چھپائیں۔</string>
+        <string name="source_priority">ماخذ کی ترجیح</string>
+        <string name="source_priority_help">فیصلہ کریں کہ پلیئر میں ویڈیو کے ذرائع کو کس طرح ترتیب دیا جانا چاہیے۔</string>
+        <string name="no_account">کوئی حساب نہیں۔</string>
+        <string name="cima4wiki">CimaStream Wiki</string>
+        <string name="device_pin_error_message">آلہ کا PIN کوڈ حاصل نہیں کر سکتا، مقامی تصدیق کی کوشش کریں۔</string>
+        <string name="device_pin_expired_message">پن کوڈ اب ختم ہو چکا ہے!</string>
+        <string name="device_pin_counter_text">کوڈ کی میعاد %1$dm %2$ds میں ختم ہو جائے گی۔</string>
+        <string name="sort_release_date_new">ریلیز کی تاریخ (نئی سے پرانی)</string>
+        <string name="sort_release_date_old">ریلیز کی تاریخ (پرانی سے نئی)</string>
+        <string name="hide_player_control_names">کھلاڑی کے کنٹرولز کے نام چھپائیں۔</string>
+        <string name="preview_seekbar">سیک بار کا پیش نظارہ</string>
+        <string name="preview_seekbar_desc">تلاش بار پر پیش نظارہ تھمب نیل کو فعال کریں۔</string>
+        <string name="no_subtitles_loaded">ابھی تک کوئی سب ٹائٹلز لوڈ نہیں ہوئے۔</string>
+        <string name="backup_path_title">بیک اپ فولڈر کا مقام</string>
+        <string name="custom">حسب ضرورت</string>
+        <string name="confirm_before_exiting_title">باہر نکلنے سے پہلے تصدیق کریں۔</string>
+        <string name="confirm_before_exiting_desc">ایپ سے باہر نکلنے سے پہلے ڈائیلاگ دکھائیں۔</string>
+        <string name="show">دکھائیں۔</string>
+        <string name="dont_show">نہ دکھائیں۔</string>
+        <string name="subs_edge_size">کنارے کا سائز</string>
+        <string name="torrent_preferred_media">ترتیبات/فراہم کنندگان/ترجیحی میڈیا میں ٹورینٹ کو فعال کریں۔</string>
+        <string name="torrent_not_accepted">ایپ کو دوبارہ شروع کریں اور آگے بڑھنے کے لیے سٹریم ٹورینٹ پاپ اپ قبول کریں۔</string>
+        <string name="software_decoding">سافٹ ویئر ڈی کوڈنگ</string>
+        <string name="software_decoding_desc">سافٹ ویئر ڈی کوڈنگ پلیئر کو ان ویڈیو فائلوں کو چلانے کے قابل بناتا ہے جو آپ کے آلے کے ذریعہ تعاون یافتہ نہیں ہیں، لیکن ہائی ریزولوشن پر سست یا غیر مستحکم پلے بیک کا سبب بن سکتا ہے۔</string>
+        <string name="volume_exceeded_100" formatted="false">حجم 100% سے تجاوز کر گیا ہے</string>
+        <string name="slide_up_again_to_exceed_100" formatted="false">100% سے آگے جانے کے لیے دوبارہ اوپر کی طرف سلائیڈ کریں</string>
+        <string name="update_plugins">پلگ انز کو اپ ڈیٹ کریں۔</string>
+        <string name="update_plugins_manually">پلگ ان کو دستی طور پر اپ ڈیٹ کریں۔</string>
+        <string name="starting_plugin_update_manually">پلگ ان اپ ڈیٹ کا عمل شروع ہو رہا ہے!</string>
+        <string name="plugins_updated_manually">%d پلگ ان کو کامیابی کے ساتھ اپ ڈیٹ کیا گیا</string>
+        <string name="no_plugins_updated_manually">کوئی پلگ ان اپ ڈیٹ نہیں کیا گیا۔</string>
+        <string name="player_notification_channel_name">پلیئر کی اطلاعات</string>
+        <string name="player_notification_channel_description">پس منظر سے پلے بیک کو کنٹرول کرنے کے لیے پلیئر کی اطلاع</string>
+        <string name="subtitles_from_embedded">ایمبیڈڈ</string>
+        <string name="subtitles_from_online">آن لائن</string>
+        <string name="all_subtitles_bold">تمام سب ٹائٹلز کو بولڈ بنائیں</string>
+        <string name="all_subtitles_italic">تمام سب ٹائٹلز کو ترچھا بنائیں</string>
+        <string name="background_radius">پس منظر کا رداس</string>
+        <string name="background">پس منظر</string>
+        <string name="download_parallel_settings_des">متوازی طور پر کتنے مختلف آئٹمز ڈاؤن لوڈ کیے جاسکتے ہیں۔</string>
+        <string name="parallel_downloads">متوازی ڈاؤن لوڈز</string>
+        <string name="concurrent_connections">ہم آہنگی کنکشن</string>
+        <string name="concurrent_connections_settings_des">ڈاؤن لوڈ کرتے وقت ہر ڈاؤن لوڈ کتنے کنکرنٹ کنکشن استعمال کر سکتا ہے۔</string>
+        <string name="go_to_downloads">ڈاؤن لوڈز پر جائیں۔</string>
+        <string name="no_internet_connection">\n انٹرنیٹ کنکشن نہیں ہے۔\n \n\nبراہ کرم انٹرنیٹ سے جڑیں اور دوبارہ کوشش کریں، یا آف لائن ہونے کے دوران اپنے ڈاؤن لوڈ دیکھیں۔\n    </string>
+        <string name="overscan_settings_des">اسکرین کی حدود کو تبدیل کرتا ہے۔</string>
+        <string name="overscan_settings">اوور اسکین</string>
+        <string name="poster_size_settings_des">پوسٹرز کا سائز تبدیل کرتا ہے۔</string>
+        <string name="poster_size_settings">پوسٹر کا سائز</string>
+        <string name="speedup_title">لانگ پریس اسپیڈ ٹوگل</string>
+        <string name="speedup_summary">2x رفتار حاصل کرنے کے لیے پکڑو</string>
+        <string name="edit_profile_image_title">پروفائل امیج میں ترمیم کریں۔</string>
+        <string name="edit_profile_image_hint">پروفائل تصویر کا URL درج کریں۔</string>
+        <string name="edit_profile_image_error_empty">کوئی URL نہیں ملا</string>
+        <string name="edit_profile_image_error_invalid">غلط URL یا تصویر</string>
+        <string name="edit_profile_image_success">تصویر کو کامیابی کے ساتھ اپ ڈیٹ کر دیا گیا۔</string>
+        <string name="action_mark_watched_up_to_this_episode">اس ایپی سوڈ تک دیکھے گئے کے بطور نشان زد کریں۔</string>
+        <string name="action_remove_mark_watched_up_to_this_episode">اس ایپی سوڈ تک دیکھے گئے کو ہٹا دیں۔</string>
+        <string name="action_reload">دوبارہ لوڈ کیا گیا۔</string>
+        <string name="reload_provider">فراہم کنندہ کو دوبارہ لوڈ کریں۔</string>
+        <string name="name">نام</string>
+        <string name="source_name">ماخذ کا نام</string>
+        <string name="resolution_and_name">قرارداد اور نام</string>
+        <string name="download_all">تمام ڈاؤن لوڈ کریں۔</string>
+        <string name="cancel_all">تمام منسوخ کریں۔</string>
+        <string name="download_episode_range">کیا آپ ایپی سوڈ %s ڈاؤن لوڈ کرنا چاہتے ہیں؟</string>
+        <string name="cancel_queue_message">کیا آپ تمام قطار والے ڈاؤن لوڈز کو منسوخ کرنا چاہتے ہیں؟</string>
+        <string name="subs_subtitle_alignment">ذیلی عنوان کی سیدھ</string>
+        <string name="bottom_left">نیچے بائیں</string>
+        <string name="bottom_center">نیچے کا مرکز</string>
+        <string name="bottom_right">نیچے دائیں طرف</string>
+        <string name="middle_left">درمیانی بائیں</string>
+        <string name="middle_center">درمیانی مرکز</string>
+        <string name="middle_right">درمیانی دائیں</string>
+        <string name="top_left">اوپر بائیں</string>
+        <string name="top_center">سب سے اوپر مرکز</string>
+        <string name="top_right">اوپر دائیں</string>
+        <string name="player_is_live">جیو</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d پوشیدہ لنک</item>
+            <item quantity="other">%d پوشیدہ لنکس</item>
+        </plurals>
+        <plurals name="downloads_active">
+            <item quantity="one">%d فعال ڈاؤن لوڈ</item>
+            <item quantity="other">%d فعال ڈاؤن لوڈز</item>
+        </plurals>
+        <plurals name="downloads_queued">
+            <item quantity="one">%d ڈاؤن لوڈ قطار میں ہے۔</item>
+            <item quantity="other">%d ڈاؤن لوڈز قطار میں ہیں۔</item>
+        </plurals>
 </resources>

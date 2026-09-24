@@ -584,8 +584,8 @@
     <string name="encoding_error">Проблем с кодирането</string>
     <string name="unsupported_error">Неподдържана грешка</string>
     <string name="subtitles_from_online">Онлайн</string>
-    <string name="volume_exceeded_100">Обемът надвиши 100%</string>
-    <string name="slide_up_again_to_exceed_100">Плъзнете нагоре отново, за да преминете над 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Обемът надвиши 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Плъзнете нагоре отново, за да преминете над 100%</string>
     <string name="player_notification_channel_description">Известие на плейъра за контролиране на възпроизвеждането от фона</string>
     <string name="subtitles_from_embedded">Вграден</string>
     <string name="all_subtitles_bold">Направете всички субтитри удебелени</string>
@@ -684,7 +684,7 @@
     <string name="play_full_series_button">Пусни цялата поредица</string>
     <string name="queue_empty_message">В момента няма изтегляния в опашката.</string>
     <string name="extra_brightness_settings">Допълнителна яркост</string>
-    <string name="extra_brightness_settings_des">Активирай филтъра за яркост, когато яркостта на екрана надвиши 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Активирай филтъра за яркост, когато яркостта на екрана надвиши 100%</string>
     <string name="search_suggestions">Предложения за търсене</string>
     <string name="search_suggestions_des">Показвай предложения за търсене по време на писане</string>
     <string name="clear_suggestions">Изтрий предложения</string>
@@ -732,4 +732,55 @@
         <item quantity="one">%d изтегляне в опашката</item>
         <item quantity="other">%d изтегляния в опашката</item>
     </plurals>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="next_episode_time_day_format" formatted="true">%1$dd %2$dh %3$dm</string>
+        <string name="next_episode_time_hour_format" formatted="true">%1$dh %2$dm</string>
+        <string name="next_episode_time_min_format" formatted="true">%dm</string>
+        <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
+        <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
+        <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
+        <string name="episode_format" formatted="true">%1$d %2$s</string>
+        <string name="resume_time_left" formatted="true">%dm\nremaining</string>
+        <string name="app_dub_sub_episode_text_format" formatted="true">%1$s, еп. %2$d</string>
+        <string name="cast_format" formatted="true">Актьори: %s</string>
+        <string name="next_episode_format" formatted="true">Епизод %d ще бъде пуснат в</string>
+        <string name="player_speed_text_format" formatted="true">Скорост (%.2fx)</string>
+        <string name="rated_format" formatted="true">Оценка: %.1f</string>
+        <string name="new_update_format" formatted="true">Намерена е нова актуализация!\n%1$s -&gt; %2$s</string>
+        <string name="filler" formatted="true">Пълнител</string>
+        <string name="duration_format" formatted="true">%d мин</string>
+        <string name="search_hint_site" formatted="true">Търсете %s...</string>
+        <string name="need_storage">Разрешаване на изтегляне на епизоди</string>
+        <string name="subs_edge">Ръб</string>
+        <string name="subs_import_text" formatted="true">Импортирайте шрифтове, като ги поставите в %s</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">Стартиране на видеоклипове на пауза</string>
+        <string name="start_paused_settings_des">Намалете стреса при избора на източници</string>
+        <string name="extra_brightness_key">допълнителна_яркост_активирана</string>
+        <string name="restore_failed_format" formatted="true">Неуспешно възстановяване на данни от файл %s</string>
+        <string name="show_player_metadata_overlay">Показване на наслагване на метаданни на плейъра</string>
+        <string name="delete_message" formatted="true">Това ще изтрие за постоянно %s\nСигурни ли сте?</string>
+        <string name="video_singular">видео</string>
+        <string name="episode_action_play_mirror">Играйте огледало</string>
+        <string name="tv_layout_clock_settings">Показване на часовника в реално време</string>
+        <string name="tv_layout_clock_settings_des">Показване на часовник в реално време в горната част на екрана. Отнася се за началната страница и плейъра</string>
+        <string name="added_sync_format" formatted="true">Добавен %s</string>
+        <string name="authenticated_user" formatted="true">%s удостоверени</string>
+        <string name="authenticated_user_fail" formatted="true">Не можах да вляза в %s</string>
+        <string name="player_loaded_subtitles" formatted="true">Заредено %s</string>
+        <string name="plugins_downloaded" formatted="true">Изтеглено: %d</string>
+        <string name="plugins_disabled" formatted="true">Деактивирано: %d</string>
+        <string name="plugins_not_downloaded" formatted="true">Не е изтеглено: %d</string>
+        <string name="plugins_updated" formatted="true">Актуализирани %d добавки</string>
+        <string name="extension_rating" formatted="true">Оценка: %s</string>
+        <string name="skip_type_preview">Преглед</string>
+        <string name="profile_settings">Настройки на профила</string>
+        <string name="profile_hide_negative_sources">Скриване на източници с отрицателен приоритет</string>
+        <string name="profile_hide_error_sources">Скриване на източници с грешки</string>
+        <string name="background">Фон</string>
+        <string name="player_is_live">На живо</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d скрита връзка</item>
+            <item quantity="other">%d скрити връзки</item>
+        </plurals>
 </resources>

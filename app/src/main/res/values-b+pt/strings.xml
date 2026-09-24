@@ -657,9 +657,9 @@
     <string name="player_notification_channel_name">Notificações de reprodução</string>
     <string name="all_subtitles_italic">Colocar todas as legendas em itálico</string>
     <string name="background_radius">Raio do fundo</string>
-    <string name="volume_exceeded_100">O volume excedeu 100%</string>
+    <string name="volume_exceeded_100" formatted="false">O volume excedeu 100%</string>
     <string name="all_subtitles_bold">Colocar todas as legendas em negrito</string>
-    <string name="slide_up_again_to_exceed_100">Deslize para cima novamente para ir além de 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Deslize para cima novamente para ir além de 100%</string>
     <string name="download_parallel_settings_des">Quantos itens diferentes podem ser baixados em paralelo</string>
     <string name="parallel_downloads">Downloads paralelos</string>
     <string name="concurrent_connections">Conexões simultâneas</string>
@@ -708,7 +708,7 @@
     <string name="download_queue">Fila de downloads</string>
     <string name="queue_empty_message">Não há downloads na fila no momento.</string>
     <string name="extra_brightness_settings">Brilho extra</string>
-    <string name="extra_brightness_settings_des">Ativar filtro de brilho quando o brilho da tela exceder 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Ativar filtro de brilho quando o brilho da tela exceder 100%</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="search_suggestions">Sugestões de pesquisa</string>
     <string name="search_suggestions_des">Mostrar sugestões de pesquisa enquanto digita</string>
@@ -736,4 +736,20 @@
     <string name="video_singular">Vídeo</string>
     <string name="skip_type_preview">Pré-visualização</string>
     <string name="player_is_live">Ao Vivo</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Permitir baixar episódios</string>
+        <string name="subs_edge">Borda</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">Iniciar vídeos pausados</string>
+        <string name="start_paused_settings_des">Reduza o estresse ao selecionar fontes</string>
+        <string name="tv_layout_clock_settings">Mostrar relógio em tempo real</string>
+        <string name="tv_layout_clock_settings_des">Mostre um relógio em tempo real na parte superior da tela. Aplica-se à página inicial e ao player</string>
+        <string name="profile_settings">Configurações de perfil</string>
+        <string name="profile_hide_negative_sources">Ocultar fontes com prioridade negativa</string>
+        <string name="profile_hide_error_sources">Ocultar fontes com erros</string>
+        <string name="background">Plano de fundo</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d link oculto</item>
+            <item quantity="other">%d links ocultos</item>
+        </plurals>
 </resources>

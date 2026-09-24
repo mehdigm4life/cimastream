@@ -521,4 +521,233 @@
     <string name="already_voted">သင်နဂိုတည်းကသတ်မှတ်ပြီး</string>
     <string name="select_library">လိုက်ဘရီရွေးချယ်ရန်</string>
     <string name="open_with">ဖြင့်ဖွင့်မည်</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
+        <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
+        <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
+        <string name="resume_remaining" formatted="true">%s\nremaining</string>
+        <string name="next_season_episode_format" formatted="true">ဇာတ်လမ်းတွဲ %1$d အပိုင်း %2$d တွင် ထွက်ရှိပါမည်။</string>
+        <string name="play_from_beginning_img_des">အစမှစကစားပါ။</string>
+        <string name="download_queue">ဒေါင်းလုဒ်တန်းစီ</string>
+        <string name="speech_recognition_unavailable">မိန့်ခွန်းကို အသိအမှတ်ပြုခြင်း မရနိုင်ပါ။</string>
+        <string name="begin_speaking">စတင်ပြောဆိုခြင်း...</string>
+        <string name="play_full_series_button">စီးရီးအပြည့်အစုံကို ဖွင့်ပါ။</string>
+        <string name="torrent_info">ဤဗီဒီယိုသည် Torrent တစ်ခုဖြစ်ပြီး ဆိုလိုသည်မှာ သင့်ဗီဒီယိုလုပ်ဆောင်ချက်ကို ခြေရာခံနိုင်သည်။\nဆက်လက်မလုပ်ဆောင်မီ Torrenting ကို နားလည်ကြောင်း သေချာပါစေ။</string>
+        <string name="need_storage">အပိုင်းများကို ဒေါင်းလုဒ်လုပ်ခွင့်ပြုပါ။</string>
+        <string name="downloads_delete_select">ဖျက်မည့်အရာများကို ရွေးပါ။</string>
+        <string name="downloads_empty">လောလောဆယ်တွင် ဒေါင်းလုဒ်များ မရှိပါ။</string>
+        <string name="queue_empty_message">လောလောဆယ်တွင် တန်းစီထားသောဒေါင်းလုဒ်များ မရှိပါ။</string>
+        <string name="offline_file">အော့ဖ်လိုင်းကြည့်ရန် ရနိုင်သည်။</string>
+        <string name="select_all">အားလုံးကို ရွေးပါ။</string>
+        <string name="deselect_all">အားလုံးကို ဖြုတ်လိုက်ပါ။</string>
+        <string name="open_local_video">ဒေသတွင်းဗီဒီယိုကိုဖွင့်ပါ။</string>
+        <string name="links_reloaded_toast">လင့်ခ်များ ပြန်လည်တင်ထားသည်။</string>
+        <string name="repo_copy_label">သိုလှောင်မှုအမည်နှင့် URL</string>
+        <string name="toast_copied">ကူးယူထားသည်!</string>
+        <string name="subscribe_tooltip">အပိုင်းအသစ် အသိပေးချက်</string>
+        <string name="result_search_tooltip">အခြားသော တိုးချဲ့မှုများတွင် ရှာဖွေပါ။</string>
+        <string name="recommendations_tooltip">အကြံပြုချက်များကို ပြပါ။</string>
+        <string name="subs_edge">အစွန်း</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="speed_setting_summary">ပလေယာတွင် မြန်နှုန်းရွေးချယ်မှုတစ်ခုကို ပေါင်းထည့်သည်။</string>
+        <string name="start_paused_settings">ဗီဒီယိုများ စတင်ခြင်းကို ခေတ္တရပ်ထားသည်။</string>
+        <string name="start_paused_settings_des">အရင်းအမြစ်များကို ရွေးချယ်သည့်အခါ စိတ်ဖိစီးမှုကို လျှော့ချပါ။</string>
+        <string name="extra_brightness_settings">အပိုတောက်ပမှု</string>
+        <string name="extra_brightness_settings_des">Enable brightness filter when 100% display brightness is exceeded</string>
+        <string name="extra_brightness_key">extra_brightness_enabled</string>
+        <string name="backup_frequency">Backup အကြိမ်ရေ</string>
+        <string name="search_suggestions">အကြံပြုချက်များကို ရှာဖွေပါ။</string>
+        <string name="search_suggestions_des">စာရိုက်နေစဉ် ရှာဖွေမှု အကြံပြုချက်များကို ပြပါ။</string>
+        <string name="clear_suggestions">အကြံပြုချက်များကို ရှင်းလင်းပါ။</string>
+        <string name="show_player_metadata_overlay">Player Metadata Overlay ကိုပြသပါ။</string>
+        <string name="show_cast_in_details">ကာစ်အကန့်ကို ပြပါ။</string>
+        <string name="install_prerelease">အကြိုထုတ်ဗားရှင်းကို ထည့်သွင်းပါ။</string>
+        <string name="prerelease_already_installed">အကြိုဖြန့်ချိမှုကို ထည့်သွင်းပြီးဖြစ်သည်။</string>
+        <string name="prerelease_install_failed">အကြိုထုတ်လွှတ်မှုကို ထည့်သွင်း၍မရပါ။</string>
+        <string name="episode_upcoming_format" formatted="true">%s တွင် လာမည့်</string>
+        <string name="delete_files">ဖိုင်များကိုဖျက်ပါ။</string>
+        <string name="delete_format" formatted="true">ဖျက်ရန် (%1$d | %2$s)</string>
+        <string name="test_warning">သတိပေးချက်</string>
+        <string name="delete_message_multiple" formatted="true">အောက်ပါအရာများကို အပြီးတိုင်ဖျက်လိုသည်မှာ သေချာပါသလား။\n\n%s</string>
+        <string name="delete_message_series_episodes" formatted="true">%1$s တွင် အောက်ပါအပိုင်းများကို အပြီးတိုင်ဖျက်လိုသည်မှာ သေချာပါသလား။\n\n%2$s</string>
+        <string name="delete_message_series_section" formatted="true">အောက်ပါစီးရီးများရှိ အပိုင်းအားလုံးကိုလည်း အပြီးဖျက်ပါမည်-\n\n%s</string>
+        <string name="delete_message_series_only" formatted="true">အောက်ပါစီးရီးများရှိ အပိုင်းအားလုံးကို အပြီးဖျက်လိုသည်မှာ သေချာပါသလား။\n\n%s</string>
+        <string name="music_singular">ဂီတ</string>
+        <string name="audio_book_singular">အသံစာအုပ်</string>
+        <string name="custom_media_singular">မီဒီယာ</string>
+        <string name="audio_singular">အသံ</string>
+        <string name="podcast_singular">Podcast</string>
+        <string name="video_singular">ဗီဒီယို</string>
+        <string name="encoding_error">ကုဒ်ရေးခြင်း အမှား</string>
+        <string name="unsupported_error">ပံ့ပိုးမထားသော အမှား</string>
+        <string name="episode_action_cast_mirror">သွန်းလုပ်ထား</string>
+        <string name="episode_action_play_mirror">မှန်ဖွင့်ပါ။</string>
+        <string name="show_rating">အဆင့်သတ်မှတ်တံဆိပ်</string>
+        <string name="show_episode_text">အပိုင်းစာသား</string>
+        <string name="pref_category_security">လုံခြုံရေး</string>
+        <string name="pref_category_accounts">အကောင့်များ</string>
+        <string name="tv_layout_clock_settings">အချိန်မှန်နာရီကိုပြသပါ။</string>
+        <string name="tv_layout_clock_settings_des">မျက်နှာပြင်၏ထိပ်တွင် အချိန်မှန်နာရီကို ပြသပါ။ ပင်မစာမျက်နှာနှင့် ပလေယာတို့ပေါ့။</string>
+        <string name="test_extensions">Extensions အားလုံးကို စမ်းသပ်ပါ။</string>
+        <string name="test_extensions_summary">ဤစမ်းသပ်မှုသည် ဆော့ဖ်ဝဲအင်ဂျင်နီယာများအတွက်သာ ရည်ရွယ်ပြီး မည်သည့် extension ၏ လုပ်ဆောင်မှုကိုမျှ စစ်ဆေးခြင်း သို့မဟုတ် ငြင်းဆိုခြင်းမပြုပါ။</string>
+        <string name="auth_locally">ဒေသအလိုက် အထောက်အထားပြပါ။</string>
+        <string name="player_load_one_subtitle_online">Load ကို ဦးစွာ ရယူနိုင်ပါသည်။</string>
+        <string name="qr_image">QR ကုဒ်ပုံ</string>
+        <string name="video_info">မီဒီယာအချက်အလက်</string>
+        <string name="delete_plugin">ပလပ်အင်ကိုဖျက်ပါ။</string>
+        <string name="player_settings_always_ask">အမြဲမေးပါ။</string>
+        <string name="player_settings_select_cast_device">ကာစ်တ်စက်ကို ရွေးပါ။</string>
+        <string name="skip_type_preview">စမ်းကြည့်ပါ။</string>
+        <string name="clipboard_permission_error">ကလစ်ဘုတ်ကို အသုံးပြုရာတွင် အမှားအယွင်းရှိပါသည်၊ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ။</string>
+        <string name="clipboard_unknown_error">ကူးယူရာတွင် အမှားအယွင်းရှိနေသည်၊ ကျေးဇူးပြု၍ logcat ကိုကူးယူပြီး အက်ပ်ပံ့ပိုးကူညီမှုကို ဆက်သွယ်ပါ။</string>
+        <string name="ok">အိုကေ</string>
+        <string name="dismiss">ပယ်ရန်</string>
+        <string name="open_downloaded_repo">သိုလှောင်ခန်းဖွင့်ပါ။</string>
+        <string name="battery_dialog_title">ဘက်ထရီ ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်ခြင်းကို ပိတ်ပါ။</string>
+        <string name="battery_dialog_message">စာရင်းသွင်းထားသော\nတီဗီရှိုးများအတွက် အနှောင့်အယှက်ကင်းသော ဒေါင်းလုဒ်များနှင့် အကြောင်းကြားချက်များကို သေချာစေရန် CimaStream သည် နောက်ခံတွင်လည်ပတ်ရန် ခွင့်ပြုချက်လိုအပ်ပါသည်။ &quot;OK&quot; ကို နှိပ်ခြင်းဖြင့် သင်သည် တောင်းဆိုချက် ဒိုင်ယာလော့ခ်ကို ပြသပါမည်။\n ကျေးဇူးပြု၍ \\'Allow\\' ကို နှိပ်ပါ။\n\nကျေးဇူးပြု၍ မှတ်သားပါ၊ ဤခွင့်ပြုချက်သည် CIMA4 သည် သင့်ဘက်ထရီအား ကုန်သွားသည်ဟု မဆိုလိုပါ။ အကြောင်းကြားချက်များလက်ခံရရှိခြင်း သို့မဟုတ် တရားဝင်နောက်ဆက်တွဲများမှ ဗီဒီယိုများကို ဒေါင်းလုဒ်လုပ်သည့်အခါတွင်သာ လိုအပ်သည့်အခါတွင်သာ ၎င်းသည် နောက်ခံတွင်သာ လုပ်ဆောင်ပါမည်။</string>
+        <string name="app_unrestricted_toast">အက်ပ်ဘက်ထရီအသုံးပြုမှုကို ကန့်သတ်မထားဘဲ သတ်မှတ်ထားပြီးဖြစ်သည်။</string>
+        <string name="app_info_intent_error">CimaStream\ ၏အက်ပ်အချက်အလက်ကို ဖွင့်၍မရပါ။</string>
+        <string name="sort_episodes_number_asc">အပိုင်း (ကြီးလာသည်)</string>
+        <string name="sort_episodes_number_desc">အပိုင်း (ငယ်စဉ်)</string>
+        <string name="sort_episodes_rating_high_low">အဆင့်သတ်မှတ်ခြင်း (အမြင့်ဆုံး)</string>
+        <string name="sort_episodes_rating_low_high">အဆင့်သတ်မှတ်ချက် (အနိမ့်ဆုံး)</string>
+        <string name="sort_episodes_date_newest">လေကြောင်းရက်စွဲ (အသစ်ဆုံး)</string>
+        <string name="sort_episodes_date_oldest">Air Date (အသက်အကြီးဆုံး)</string>
+        <string name="sort_button_episode">Ep %s</string>
+        <string name="sort_button_rating">အဆင့်သတ်မှတ်ခြင်း %s</string>
+        <string name="sort_button_date">ရက်စွဲ %s</string>
+        <string name="action_subscribe">စာရင်းသွင်းပါ။</string>
+        <string name="action_unsubscribe">စာရင်းမှဖြုတ်ပါ။</string>
+        <string name="profile_settings">ပရိုဖိုင် ဆက်တင်များ</string>
+        <string name="profile_hide_negative_sources">အနုတ်လက္ခဏာဦးစားပေးဖြင့် အရင်းအမြစ်များကို ဝှက်ထားပါ။</string>
+        <string name="profile_hide_error_sources">အရင်းအမြစ်များကို အမှားများဖြင့် ဝှက်ပါ။</string>
+        <string name="source_priority">အရင်းအမြစ်ဦးစားပေး</string>
+        <string name="source_priority_help">ပလေယာတွင် ဗီဒီယိုရင်းမြစ်များကို မည်သို့စီခွဲသင့်သည်ကို ဆုံးဖြတ်ပါ။</string>
+        <string name="favorites_list_name">အကြိုက်ဆုံးများ</string>
+        <string name="favorite_added">%s ကို အကြိုက်ဆုံးများထဲသို့ ထည့်လိုက်သည်</string>
+        <string name="favorite_removed">%s ကို စိတ်ကြိုက်များမှ ဖယ်ရှားခဲ့သည်။</string>
+        <string name="action_add_to_favorites">စိတ်ကြိုက်များထဲသို့ ထည့်ပါ။</string>
+        <string name="action_remove_from_favorites">စိတ်ကြိုက်များမှ ဖယ်ရှားပါ။</string>
+        <string name="duplicate_title">ဖြစ်နိုင်ချေ ထပ်တူကို တွေ့ရှိ</string>
+        <string name="duplicate_add">ထည့်ပါ။</string>
+        <string name="duplicate_replace">အစားထိုးပါ။</string>
+        <string name="duplicate_replace_all">အားလုံးကို အစားထိုးပါ။</string>
+        <string name="duplicate_message_single" formatted="true">\n သင့်ဒစ်ဂျစ်တိုက်တွင် ထပ်နေနိုင်ချေရှိသော အရာတစ်ခု ရှိနေပြီဖြစ်ကြောင်း ပေါ်လာသည်- \\'%s.\\'\n\n \n\nမည်သို့ပင်ဖြစ်စေ ဤအရာကို ထည့်သွင်းလိုပါသလား၊ ရှိပြီးသားတစ်ခုကို အစားထိုးပါ သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပယ်ဖျက်လိုပါသလား။\n    </string>
+        <string name="duplicate_message_multiple" formatted="true">\n သင့်ဒစ်ဂျစ်တိုက်တွင် ဖြစ်နိုင်ချေရှိသော မိတ္တူပွားပစ္စည်းများကို ရှာတွေ့ပါပြီ-\n\n \n\n%s\n\n \n\nမည်သို့ပင်ဖြစ်စေ ဤအရာကို ထည့်သွင်းလိုပါသလား၊ ရှိပြီးသားအရာများကို အစားထိုးပါ သို့မဟုတ် လုပ်ဆောင်ချက်ကို ပယ်ဖျက်လိုပါသလား။\n    </string>
+        <string name="enter_pin">ပင်နံပါတ်ထည့်ပါ။</string>
+        <string name="enter_pin_with_name" formatted="true">%s အတွက် PIN ထည့်ပါ။</string>
+        <string name="enter_current_pin">လက်ရှိ PIN ကို ရိုက်ထည့်ပါ။</string>
+        <string name="lock_profile">ပရိုဖိုင်ကို လော့ခ်ချပါ။</string>
+        <string name="pin">ပင်နံပါတ်</string>
+        <string name="pin_error_incorrect">ပင်နံပါတ် မမှန်ပါ။ ထပ်စမ်းကြည့်ပါ။</string>
+        <string name="pin_error_length">ပင်နံပါတ်သည် စာလုံး 4 လုံးဖြစ်ရပါမည်။</string>
+        <string name="select_an_account">အကောင့်တစ်ခုကို ရွေးပါ။</string>
+        <string name="no_account">အကောင့်မရှိပါ။</string>
+        <string name="manage_accounts">အကောင့်များကို စီမံခန့်ခွဲပါ။</string>
+        <string name="edit_account">အကောင့်ကို တည်းဖြတ်ပါ။</string>
+        <string name="logged_account" formatted="true">%s အဖြစ် အကောင့်ဝင်ထားသည်။</string>
+        <string name="skip_startup_account_select_pref">စတင်ချိန်တွင် အကောင့်ရွေးချယ်မှုကို ကျော်ပါ။</string>
+        <string name="use_default_account">မူရင်းအကောင့်ကို သုံးပါ။</string>
+        <string name="rotate_video">အလှည့်</string>
+        <string name="rotate_video_desc">မျက်နှာပြင် တိမ်းညွှတ်မှုအတွက် အဖွင့်ခလုတ်ကို ပြသပါ။</string>
+        <string name="auto_rotate_video_desc">ဗီဒီယို တိမ်းညွှတ်မှုကို အခြေခံ၍ မျက်နှာပြင် တိမ်းညွှတ်မှုကို အလိုအလျောက် ပြောင်းခြင်းကို ဖွင့်ပါ။</string>
+        <string name="auto_rotate_video">အလိုအလျောက်လှည့်</string>
+        <string name="favorite">အကြိုက်ဆုံး</string>
+        <string name="unfavorite">မကြိုက်ဘူး။</string>
+        <string name="biometric_authentication_title">CimaStream ကို လော့ခ်ဖွင့်ပါ။</string>
+        <string name="biometric_setting">Biometrics ဖြင့် လော့ခ်ချပါ။</string>
+        <string name="password_pin_authentication_title">စကားဝှက်/ PIN စစ်မှန်ကြောင်းအထောက်အထားပြခြင်း။</string>
+        <string name="biometric_unsupported">ဤစက်ပစ္စည်းတွင် ဇီဝဗေဒဆိုင်ရာ အထောက်အထားစိစစ်ခြင်းကို ပံ့ပိုးမထားပါ။</string>
+        <string name="biometric_setting_summary">Fingerprint၊ Face ID၊ PIN၊ Pattern နှင့် Password ဖြင့် အက်ပ်ကို လော့ခ်ဖွင့်ပါ။</string>
+        <string name="biometric_prompt_description">မအောင်မြင်သောကြိုးစားမှုအနည်းငယ်ပြီးနောက်၊ အမှာစာသည်ပိတ်လိမ့်မည်။ ထပ်စမ်းကြည့်ရန် အက်ပ်ကို ပြန်လည်စတင်ပါ။</string>
+        <string name="biometric_warning">သင်၏ CimaStream ဒေတာကို ယခု အရန်သိမ်းလိုက်ပါပြီ။ ဖြစ်နိုင်ခြေ အလွန်နည်းသော်လည်း စက်ပစ္စည်းအားလုံးသည် ကွဲပြားစွာ ပြုမူနိုင်သည်။ ရှားရှားပါးပါးအခြေအနေတွင်၊ သင်သည် အက်ပ်ကိုဝင်ရောက်ခြင်းမှ လော့ခ်ကျသွားပါက၊ အက်ပ်ဒေတာကို အလုံးစုံရှင်းလင်းပြီး အရန်သိမ်းဆည်းမှုမှ ပြန်လည်ရယူပါ။ ယင်းကြောင့် အဆင်မပြေမှုများအတွက် ကျွန်ုပ်တို့ အလွန်တောင်းပန်ပါသည်။</string>
+        <string name="reset_btn">ပြန်လည်သတ်မှတ်ပါ။</string>
+        <string name="cima4wiki">CimaStream ဝီကီ</string>
+        <string name="device_pin_url_message">သင့်စမတ်ဖုန်း သို့မဟုတ် ကွန်ပျူတာပေါ်ရှိ &lt;b&gt;%s&lt;/b&gt; သို့ ဝင်ရောက်ပြီး အထက်ပါကုဒ်ကို ရိုက်ထည့်ပါ။</string>
+        <string name="device_pin_error_message">စက်ပစ္စည်း ပင်နံပါတ်ကုဒ်ကို မရနိုင်ပါ၊ စက်တွင်း စစ်မှန်ကြောင်း အတည်ပြုခြင်းကို စမ်းကြည့်ပါ။</string>
+        <string name="device_pin_expired_message">ပင်နံပါတ်ကုဒ် သက်တမ်းကုန်သွားပါပြီ။</string>
+        <string name="device_pin_counter_text">ကုဒ်သည် %1$dm %2$ds တွင် သက်တမ်းကုန်ပါသည်။</string>
+        <string name="sort_release_date_new">ထုတ်ဝေသည့်ရက်စွဲ (အသစ်မှ အဟောင်း)</string>
+        <string name="sort_release_date_old">ထုတ်ဝေသည့်ရက်စွဲ (အဟောင်းမှအသစ်)</string>
+        <string name="hide_player_control_names">ကစားသမား၏ ထိန်းချုပ်မှုများ၏ အမည်များကို ဝှက်ထားပါ။</string>
+        <string name="preview_seekbar">Seekbar အစမ်းကြည့်ရှုခြင်း။</string>
+        <string name="preview_seekbar_desc">seekbar တွင် အစမ်းကြည့်ပုံသေးကို ဖွင့်ပါ။</string>
+        <string name="no_subtitles_loaded">စာတန်းထိုးများ မတင်ရသေးပါ။</string>
+        <string name="backup_path_title">အရန်ဖိုင်တွဲတည်နေရာ</string>
+        <string name="custom">စိတ်ကြိုက်</string>
+        <string name="confirm_before_exiting_title">မထွက်ခင် အတည်ပြုပါ။</string>
+        <string name="confirm_before_exiting_desc">အက်ပ်မှမထွက်မီ ဒိုင်ယာလော့ခ်ကို ပြပါ။</string>
+        <string name="show">ရှိုး</string>
+        <string name="dont_show">မပြပါနှင့်</string>
+        <string name="subs_edge_size">အစွန်းအရွယ်အစား</string>
+        <string name="torrent_preferred_media">Settings/Providers/Preferred media တွင် torrent ကိုဖွင့်ပါ။</string>
+        <string name="torrent_not_accepted">အက်ပ်ကို ပြန်လည်စတင်ပြီး ဆက်လက်ဆောင်ရွက်ရန် Stream Torrent Pop-up ကို လက်ခံပါ။</string>
+        <string name="software_decoding">Software decoding</string>
+        <string name="software_decoding_desc">ဆော့ဖ်ဝဲလ်ကုဒ်ဖြင့် ကုဒ်ဆွဲခြင်းသည် ပလေယာအား သင့်စက်မှ မပံ့ပိုးနိုင်သော ဗီဒီယိုဖိုင်များကို ဖွင့်နိုင်သော်လည်း မြင့်မားသော ရုပ်ထွက်အရည်အသွေးတွင် နှေးကွေးခြင်း သို့မဟုတ် မတည်မငြိမ်ဖြစ်စေနိုင်သည်။</string>
+        <string name="volume_exceeded_100" formatted="false">ပမာဏ 100% ကျော်လွန်သွားပါပြီ</string>
+        <string name="slide_up_again_to_exceed_100" formatted="false">100% ကျော်သွားစေရန် နောက်တစ်ကြိမ် အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+        <string name="update_plugins">ပလပ်အင်များကို အပ်ဒိတ်လုပ်ပါ။</string>
+        <string name="update_plugins_manually">ပလပ်အင်များကို ကိုယ်တိုင် အပ်ဒိတ်လုပ်ပါ။</string>
+        <string name="starting_plugin_update_manually">ပလပ်အင် အပ်ဒိတ်လုပ်ငန်းစဉ်ကို စတင်နေပါသည်။</string>
+        <string name="plugins_updated_manually">%d ပလပ်အင်(s) ကို အောင်မြင်စွာ မွမ်းမံပြီးပါပြီ</string>
+        <string name="no_plugins_updated_manually">ပလပ်အင်များကို အပ်ဒိတ်လုပ်ထားခြင်းမရှိပါ။</string>
+        <string name="player_notification_channel_name">ကစားသမား အသိပေးချက်များ</string>
+        <string name="player_notification_channel_description">နောက်ခံမှ ပြန်ဖွင့်ခြင်းကို ထိန်းချုပ်ရန်အတွက် ပလေယာ အသိပေးချက်</string>
+        <string name="subtitles_from_embedded">မြှုပ်ထားသည်။</string>
+        <string name="subtitles_from_online">အွန်လိုင်း</string>
+        <string name="all_subtitles_bold">စာတန်းများအားလုံးကို ရဲရင့်အောင်လုပ်ပါ။</string>
+        <string name="all_subtitles_italic">စာတန်းများအားလုံးကို စာလုံးစောင်းလုပ်ပါ။</string>
+        <string name="background_radius">နောက်ခံ အချင်းဝက်</string>
+        <string name="background">နောက်ခံ</string>
+        <string name="download_parallel_settings_des">အပြိုင်ဒေါင်းလုဒ်လုပ်နိုင်သော မတူညီသော အကြောင်းအရာ မည်မျှရှိသည်။</string>
+        <string name="parallel_downloads">အပြိုင်ဒေါင်းလုဒ်များ</string>
+        <string name="concurrent_connections">ပြိုင်တူချိတ်ဆက်မှုများ</string>
+        <string name="concurrent_connections_settings_des">ဒေါင်းလုဒ်လုပ်နေစဉ် ဒေါင်းလုဒ်တစ်ခုစီတွင် တစ်ပြိုင်နက်ချိတ်ဆက်မှု မည်မျှအသုံးပြုနိုင်သည်</string>
+        <string name="go_to_downloads">Downloads သို့သွားပါ။</string>
+        <string name="no_internet_connection">\n အင်တာနက် ချိတ်ဆက်မှု မရှိပါ။\n \n\nကျေးဇူးပြု၍ အင်တာနက်သို့ ချိတ်ဆက်ပြီး ထပ်စမ်းကြည့်ပါ သို့မဟုတ် အော့ဖ်လိုင်း ဖြစ်နေချိန်တွင် သင့်ဒေါင်းလုဒ်များကို ကြည့်ရှုပါ။\n    </string>
+        <string name="overscan_settings_des">စခရင်၏ဘောင်များကို ပြောင်းလဲသည်။</string>
+        <string name="overscan_settings">စကင်န်ဖတ်ပါ။</string>
+        <string name="poster_size_settings_des">ပိုစတာများ၏ အရွယ်အစားကို ပြောင်းလဲသည်။</string>
+        <string name="poster_size_settings">ပိုစတာအရွယ်အစား</string>
+        <string name="speedup_title">LongPress Speed Toggle</string>
+        <string name="speedup_summary">2x အရှိန်ရရန် ဖိထားပါ။</string>
+        <string name="edit_profile_image_title">Profile Image ကို တည်းဖြတ်ပါ။</string>
+        <string name="edit_profile_image_hint">Profile Image URL ကိုထည့်ပါ။</string>
+        <string name="edit_profile_image_error_empty">URL မတွေ့ပါ။</string>
+        <string name="edit_profile_image_error_invalid">မမှန်ကန်သော URL သို့မဟုတ် ပုံ</string>
+        <string name="edit_profile_image_success">ပုံအား အောင်မြင်စွာ အပ်ဒိတ်လုပ်ထားသည်။</string>
+        <string name="action_mark_watched_up_to_this_episode">ဤအပိုင်းအထိ ကြည့်ရှုသူအဖြစ် အမှတ်အသားပြုပါ။</string>
+        <string name="action_remove_mark_watched_up_to_this_episode">ဤအပိုင်းအထိ ကြည့်ရှုထားသည့် ဖယ်ရှားလိုက်ပါ။</string>
+        <string name="action_reload">ပြန်တင်သည်။</string>
+        <string name="reload_provider">ဝန်ဆောင်မှုပေးသူကို ပြန်လည်စတင်ပါ။</string>
+        <string name="name">နာမည်</string>
+        <string name="source_name">အရင်းအမြစ်အမည်</string>
+        <string name="resolution_and_name">ဆုံးဖြတ်ချက်နှင့်အမည်</string>
+        <string name="download_all">အားလုံးကိုဒေါင်းလုဒ်လုပ်ပါ။</string>
+        <string name="cancel_all">အားလုံးကို ပယ်ဖျက်ပါ။</string>
+        <string name="download_episode_range">အပိုင်း %s ကို ဒေါင်းလုဒ်လုပ်လိုပါသလား။</string>
+        <string name="cancel_queue_message">တန်းစီနေသောဒေါင်းလုဒ်များအားလုံးကို ပယ်ဖျက်လိုပါသလား။</string>
+        <string name="subs_subtitle_alignment">စာတန်းထိုး ချိန်ညှိခြင်း။</string>
+        <string name="bottom_left">ဘယ်ဘက်အောက်ခြေ</string>
+        <string name="bottom_center">အောက်ခြေဗဟို</string>
+        <string name="bottom_right">အောက်ခြေညာဘက်</string>
+        <string name="middle_left">အလယ်ဝဲ</string>
+        <string name="middle_center">အလယ်ဗဟို</string>
+        <string name="middle_right">အလယ်ညာဘက်</string>
+        <string name="top_left">ဘယ်ဘက်ထိပ်</string>
+        <string name="top_center">ထိပ်တန်းစင်တာ</string>
+        <string name="top_right">ညာဘက်</string>
+        <string name="player_is_live">နေထိုင်ပါ။</string>
+        <plurals name="links_hidden">
+            <item quantity="one">ဝှက်ထားသောလင့်ခ် %d ခု</item>
+            <item quantity="other">ဝှက်ထားသောလင့်ခ် %d ခု</item>
+        </plurals>
+        <plurals name="downloads_active">
+            <item quantity="one">လက်ရှိဒေါင်းလုဒ် %d ခု</item>
+            <item quantity="other">လက်ရှိ ဒေါင်းလုဒ် %d ခု</item>
+        </plurals>
+        <plurals name="downloads_queued">
+            <item quantity="one">ဒေါင်းလုဒ် %d ခု တန်းစီထားသည်။</item>
+            <item quantity="other">ဒေါင်းလုဒ် %d ခု တန်းစီထားသည်။</item>
+        </plurals>
 </resources>

@@ -658,8 +658,8 @@
     <string name="background_radius">Радиус фона</string>
     <string name="all_subtitles_bold">Сделать все субтитры жирными</string>
     <string name="all_subtitles_italic">Сделать все субтитры курсивом</string>
-    <string name="volume_exceeded_100">Громкость превысила 100%</string>
-    <string name="slide_up_again_to_exceed_100">Повысьте снова чтобы перевысить 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Громкость превысила 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Повысьте снова чтобы перевысить 100%</string>
     <string name="go_to_downloads">Перейти к загрузкам</string>
     <string name="no_internet_connection">Нет подключения к Интернету.\n\nПожалуйста, подключитесь к Интернету и повторите попытку, или смотрите свои загрузки, находясь в автономном режиме.</string>
     <string name="download_parallel_settings_des">Сколько различных элементов можно загружать параллельно</string>
@@ -726,7 +726,7 @@
     <string name="download_queue">Очередь загрузок</string>
     <string name="queue_empty_message">В настоящее время нет загрузок в очереди.</string>
     <string name="extra_brightness_settings">Дополнительная яркость</string>
-    <string name="extra_brightness_settings_des">Включать фильтр яркости при превышении 100% яркости</string>
+    <string name="extra_brightness_settings_des" formatted="false">Включать фильтр яркости при превышении 100% яркости</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="source_priority">Приоритетный источник</string>
     <string name="source_priority_help">Выберите способ сортировки видеоисточников в плеере</string>
@@ -749,4 +749,11 @@
         <item quantity="many">%d скрытых ссылок</item>
         <item quantity="other">%d скрытых ссылок</item>
     </plurals>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Разрешить скачивание серий</string>
+        <string name="subs_edge">Край</string>
+        <string name="log_cat">Логкот 🐈</string>
+        <string name="start_paused_settings">Начало видео приостановлено</string>
+        <string name="start_paused_settings_des">Уменьшите стресс при выборе источников</string>
+        <string name="background">Фон</string>
 </resources>

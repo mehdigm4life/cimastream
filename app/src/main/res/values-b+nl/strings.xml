@@ -694,4 +694,73 @@
     <string name="subtitles_from_online">Online</string>
     <string name="download_parallel_settings_des">Hoeveel verschillende items kunnen in parallel gedownload worden</string>
     <string name="parallel_downloads">Parallel downloads</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="subs_edge">Rand</string>
+        <string name="log_cat">Logkat 🐈</string>
+        <string name="start_paused_settings">Start video\'s gepauzeerd</string>
+        <string name="start_paused_settings_des">Verminder stress bij het selecteren van bronnen</string>
+        <string name="tv_layout_clock_settings">Toon real-time klok</string>
+        <string name="tv_layout_clock_settings_des">Toon een realtime klok bovenaan het scherm. Geldt voor de startpagina en speler</string>
+        <string name="battery_dialog_message">Om ononderbroken downloads en meldingen voor geabonneerde tv-programma\'s te garanderen, heeft CimaStream toestemming nodig om op de achtergrond te draaien. Als u op &quot;OK&quot; drukt, krijgt u een verzoekvenster te zien.\n Druk alstublieft op \\'Toestaan\\'.\n\nLet op: deze toestemming betekent niet dat CIMA4 uw batterij leegmaakt. Het werkt alleen op de achtergrond als dat nodig is, zoals\n bij het ontvangen van meldingen of het downloaden van video\'s van officiële extensies.</string>
+        <string name="profile_settings">Profielinstellingen</string>
+        <string name="profile_hide_negative_sources">Verberg bronnen met een negatieve prioriteit</string>
+        <string name="profile_hide_error_sources">Verberg bronnen met fouten</string>
+        <string name="biometric_warning">Er is nu een back-up gemaakt van uw CimaStream-gegevens. Hoewel de kans hierop zeer klein is, kunnen alle apparaten zich verschillend gedragen. In het zeldzame geval dat u geen toegang meer heeft tot de app, wist u de app-gegevens volledig en herstelt u deze vanaf een back-up. Het spijt ons zeer voor het eventuele ongemak dat hieruit voortvloeit.</string>
+        <string name="slide_up_again_to_exceed_100" formatted="false">Schuif opnieuw omhoog om verder te gaan dan 100%</string>
+        <string name="starting_plugin_update_manually">Updateproces voor plug-ins starten!</string>
+        <string name="plugins_updated_manually">%d plug-in(s) succesvol bijgewerkt</string>
+        <string name="subtitles_from_embedded">Ingebed</string>
+        <string name="all_subtitles_bold">Maak alle ondertitels vetgedrukt</string>
+        <string name="all_subtitles_italic">Maak alle ondertitels cursief</string>
+        <string name="background_radius">Achtergrondradius</string>
+        <string name="background">Achtergrond</string>
+        <string name="concurrent_connections">Gelijktijdige verbindingen</string>
+        <string name="concurrent_connections_settings_des">Hoeveel gelijktijdige verbindingen elke download kan gebruiken tijdens het downloaden</string>
+        <string name="go_to_downloads">Ga naar Downloads</string>
+        <string name="no_internet_connection">\n Geen internetverbinding.\n \n\nMaak verbinding met internet en probeer het opnieuw, of bekijk je downloads terwijl je offline bent.\n    </string>
+        <string name="overscan_settings_des">Verandert de grenzen van het scherm</string>
+        <string name="overscan_settings">Overscan</string>
+        <string name="poster_size_settings_des">Verandert het formaat van posters</string>
+        <string name="poster_size_settings">Posterformaat</string>
+        <string name="speedup_title">Snelheidsschakelaar lang indrukken</string>
+        <string name="speedup_summary">Houd ingedrukt om 2x de snelheid te krijgen</string>
+        <string name="edit_profile_image_title">Profielafbeelding bewerken</string>
+        <string name="edit_profile_image_hint">Voer de URL van de profielafbeelding in</string>
+        <string name="edit_profile_image_error_empty">Geen URL gevonden</string>
+        <string name="edit_profile_image_error_invalid">Ongeldige URL of afbeelding</string>
+        <string name="edit_profile_image_success">Afbeelding succesvol bijgewerkt</string>
+        <string name="action_mark_watched_up_to_this_episode">Markeer als bekeken naar deze aflevering</string>
+        <string name="action_remove_mark_watched_up_to_this_episode">Verwijder bekeken tot aan deze aflevering</string>
+        <string name="action_reload">Opnieuw geladen</string>
+        <string name="reload_provider">Aanbieder opnieuw laden</string>
+        <string name="name">Naam</string>
+        <string name="source_name">Bronnaam</string>
+        <string name="resolution_and_name">Resolutie en naam</string>
+        <string name="download_all">Alles downloaden</string>
+        <string name="cancel_all">Alles annuleren</string>
+        <string name="download_episode_range">Wil je aflevering %s downloaden?</string>
+        <string name="cancel_queue_message">Wilt u alle downloads in de wachtrij annuleren?</string>
+        <string name="subs_subtitle_alignment">Uitlijning van ondertitels</string>
+        <string name="bottom_left">Linksonder</string>
+        <string name="bottom_center">Midden onder</string>
+        <string name="bottom_right">Rechtsonder</string>
+        <string name="middle_left">Midden links</string>
+        <string name="middle_center">Midden midden</string>
+        <string name="middle_right">Midden rechts</string>
+        <string name="top_left">Linksboven</string>
+        <string name="top_center">Boven midden</string>
+        <string name="top_right">Rechtsboven</string>
+        <string name="player_is_live">Leef</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d verborgen link</item>
+            <item quantity="other">%d verborgen links</item>
+        </plurals>
+        <plurals name="downloads_active">
+            <item quantity="one">%d actieve download</item>
+            <item quantity="other">%d actieve downloads</item>
+        </plurals>
+        <plurals name="downloads_queued">
+            <item quantity="one">%d download in wachtrij</item>
+            <item quantity="other">%d downloads in de wachtrij</item>
+        </plurals>
 </resources>

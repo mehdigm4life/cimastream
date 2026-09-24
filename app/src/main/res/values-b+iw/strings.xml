@@ -9,7 +9,7 @@
     <string name="new_update_format" formatted="true">נמצא עדכון חדש! \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">סינון</string>
     <string name="duration_format" formatted="true">%d דקות</string>
-    <string name="app_name">קלאודסטרים</string>
+    <string name="app_name">Cima Stream</string>
     <string name="title_home">בית</string>
     <string name="title_search">חיפוש</string>
     <string name="title_downloads">הורדות</string>
@@ -543,4 +543,211 @@
     <string name="recommendations_tooltip">הראה המלצות</string>
     <string name="speed_setting_summary">מוסיף אפשרות מהירות בנגן</string>
     <string name="backup_frequency">תדירות גיבוי</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="resume_remaining" formatted="true">%s\nremaining</string>
+        <string name="download_queue">תור הורדה</string>
+        <string name="play_full_series_button">שחק את הסדרה המלאה</string>
+        <string name="need_storage">אפשר להוריד פרקים</string>
+        <string name="queue_empty_message">כרגע אין הורדות בתור.</string>
+        <string name="subs_edge">קצה</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">התחל סרטונים מושהים</string>
+        <string name="start_paused_settings_des">הפחת מתח בעת בחירת מקורות</string>
+        <string name="extra_brightness_settings">בהירות נוספת</string>
+        <string name="extra_brightness_settings_des">Enable brightness filter when 100% display brightness is exceeded</string>
+        <string name="extra_brightness_key">extra_brightness_enabled</string>
+        <string name="search_suggestions">הצעות חיפוש</string>
+        <string name="search_suggestions_des">הצג הצעות חיפוש בזמן ההקלדה</string>
+        <string name="clear_suggestions">הצעות ברורות</string>
+        <string name="show_player_metadata_overlay">הצג שכבת-על של מטא-נתונים של נגן</string>
+        <string name="show_cast_in_details">הצג את לוח השחקנים</string>
+        <string name="install_prerelease">התקן גרסת טרום-הפצה</string>
+        <string name="prerelease_already_installed">ההפצה המוקדמת כבר מותקנת.</string>
+        <string name="prerelease_install_failed">התקנת ההפצה המוקדמת נכשלה.</string>
+        <string name="episode_upcoming_format" formatted="true">בקרוב בעוד %s</string>
+        <string name="delete_files">מחק קבצים</string>
+        <string name="delete_format" formatted="true">מחק (%1$d | %2$s)</string>
+        <string name="test_warning">אזהרה</string>
+        <string name="delete_message_multiple" formatted="true">האם אתה בטוח שברצונך למחוק לצמיתות את הפריטים הבאים?\n\n%s</string>
+        <string name="delete_message_series_episodes" formatted="true">האם אתה בטוח שברצונך למחוק לצמיתות את הפרקים הבאים ב-%1$s?\n\n%2$s</string>
+        <string name="delete_message_series_section" formatted="true">כמו כן, תמחק לצמיתות את כל הפרקים בסדרה הבאה:\n\n%s</string>
+        <string name="delete_message_series_only" formatted="true">האם אתה בטוח שברצונך למחוק לצמיתות את כל הפרקים בסדרה הבאה?\n\n%s</string>
+        <string name="music_singular">מוזיקה</string>
+        <string name="audio_book_singular">ספר שמע</string>
+        <string name="custom_media_singular">מדיה</string>
+        <string name="audio_singular">אודיו</string>
+        <string name="podcast_singular">פודקאסט</string>
+        <string name="video_singular">וידאו</string>
+        <string name="encoding_error">שגיאת קידוד</string>
+        <string name="unsupported_error">שגיאה לא נתמכת</string>
+        <string name="episode_action_cast_mirror">מראה יצוקה</string>
+        <string name="episode_action_play_mirror">לשחק במראה</string>
+        <string name="show_rating">תווית דירוג</string>
+        <string name="show_episode_text">טקסט פרק</string>
+        <string name="pref_category_security">אבטחה</string>
+        <string name="pref_category_accounts">חשבונות</string>
+        <string name="tv_layout_clock_settings">הצג שעון זמן אמת</string>
+        <string name="tv_layout_clock_settings_des">הצג שעון זמן אמת בחלק העליון של המסך. חל על דף הבית והשחקן</string>
+        <string name="test_extensions">בדוק את כל ההרחבות</string>
+        <string name="test_extensions_summary">בדיקה זו מיועדת למפתחים בלבד ואינה מאמת או מכחישה את פעולתה של הרחבה כלשהי.</string>
+        <string name="auth_locally">אישור מקומי</string>
+        <string name="player_load_one_subtitle_online">טען ראשון זמין</string>
+        <string name="qr_image">תמונה של קוד QR</string>
+        <string name="video_info">מידע מדיה</string>
+        <string name="delete_plugin">מחק תוסף</string>
+        <string name="player_settings_always_ask">תמיד תשאל</string>
+        <string name="player_settings_select_cast_device">בחר מכשיר Cast</string>
+        <string name="skip_type_preview">תצוגה מקדימה</string>
+        <string name="clipboard_permission_error">שגיאה בגישה ללוח, אנא נסה שוב.</string>
+        <string name="clipboard_unknown_error">שגיאה בהעתקה, אנא העתק את logcat וצור קשר עם תמיכת האפליקציה.</string>
+        <string name="ok">בסדר</string>
+        <string name="dismiss">לבטל</string>
+        <string name="open_downloaded_repo">פתח מאגר</string>
+        <string name="battery_dialog_title">השבת את אופטימיזציית הסוללה</string>
+        <string name="battery_dialog_message">כדי להבטיח הורדות והודעות ללא הפרעה עבור תוכניות טלוויזיה רשומות\n, CimaStream זקוק להרשאה לפעול ברקע. על ידי לחיצה על &quot;אישור&quot;, תוצג לך תיבת דו-שיח של בקשה.\n אנא לחץ על \\'אפשר\\'.\n\nשים לב, ההרשאה הזו לא אומרת ש-CIMA4 יגרום לריקון הסוללה שלך. זה יפעל רק ברקע בעת הצורך, כמו\n בעת קבלת התראות או הורדת סרטונים מהרחבות רשמיות.</string>
+        <string name="app_unrestricted_toast">השימוש בסוללת האפליקציה כבר מוגדר ללא הגבלה</string>
+        <string name="app_info_intent_error">לא ניתן לפתוח את פרטי האפליקציה של CimaStream.</string>
+        <string name="sort_episodes_number_asc">פרק (עולה)</string>
+        <string name="sort_episodes_number_desc">פרק (יורד)</string>
+        <string name="sort_episodes_rating_high_low">דירוג (הגבוה ביותר)</string>
+        <string name="sort_episodes_rating_low_high">דירוג (הנמוך ביותר)</string>
+        <string name="sort_episodes_date_newest">תאריך שידור (החדש ביותר)</string>
+        <string name="sort_episodes_date_oldest">תאריך שידור (הישן ביותר)</string>
+        <string name="sort_button_episode">פרק %s</string>
+        <string name="sort_button_rating">דירוג %s</string>
+        <string name="sort_button_date">תאריך %s</string>
+        <string name="action_subscribe">הירשם</string>
+        <string name="action_unsubscribe">בטל את המנוי</string>
+        <string name="profile_settings">הגדרות פרופיל</string>
+        <string name="profile_hide_negative_sources">הסתר מקורות עם עדיפות שלילית</string>
+        <string name="profile_hide_error_sources">הסתר מקורות עם שגיאות</string>
+        <string name="source_priority">עדיפות מקור</string>
+        <string name="source_priority_help">החלט כיצד יש למיין מקורות וידאו בנגן</string>
+        <string name="favorites_list_name">מועדפים</string>
+        <string name="favorite_added">%s נוספה למועדפים</string>
+        <string name="favorite_removed">%s הוסרו מהמועדפים</string>
+        <string name="action_add_to_favorites">הוסף למועדפים</string>
+        <string name="action_remove_from_favorites">הסר מהמועדפים</string>
+        <string name="duplicate_title">נמצאה כפילות פוטנציאלית</string>
+        <string name="duplicate_add">הוסף</string>
+        <string name="duplicate_replace">החלף</string>
+        <string name="duplicate_replace_all">החלף הכל</string>
+        <string name="duplicate_message_single" formatted="true">\n נראה שכבר קיים פריט שעלול להיות משוכפל בספרייה שלך: \\'%s.\\'\n\n \n\nהאם בכל זאת תרצה להוסיף פריט זה, להחליף את הקיים או לבטל את הפעולה?\n    </string>
+        <string name="duplicate_message_multiple" formatted="true">\n פריטים כפולים פוטנציאליים נמצאו בספרייה שלך:\n\n \n\n%s\n\n \n\nהאם תרצה להוסיף פריט זה בכל זאת, להחליף את הקיימים או לבטל את הפעולה?\n    </string>
+        <string name="enter_pin">הזן PIN</string>
+        <string name="enter_pin_with_name" formatted="true">הזן PIN עבור %s</string>
+        <string name="enter_current_pin">הזן PIN נוכחי</string>
+        <string name="lock_profile">נעל פרופיל</string>
+        <string name="pin">PIN</string>
+        <string name="pin_error_incorrect">PIN שגוי. אנא נסה שוב.</string>
+        <string name="pin_error_length">PIN חייב להיות בן 4 תווים</string>
+        <string name="select_an_account">בחר חשבון</string>
+        <string name="no_account">אין חשבון</string>
+        <string name="manage_accounts">ניהול חשבונות</string>
+        <string name="edit_account">ערוך חשבון</string>
+        <string name="logged_account" formatted="true">מחובר בתור %s</string>
+        <string name="skip_startup_account_select_pref">דלג על בחירת חשבון בעת ההפעלה</string>
+        <string name="use_default_account">השתמש בחשבון ברירת מחדל</string>
+        <string name="rotate_video">סובב</string>
+        <string name="rotate_video_desc">הצג לחצן החלפת מצב לכיוון המסך</string>
+        <string name="auto_rotate_video_desc">אפשר החלפה אוטומטית של כיוון המסך בהתבסס על כיוון הווידאו</string>
+        <string name="auto_rotate_video">סיבוב אוטומטי</string>
+        <string name="favorite">מועדף</string>
+        <string name="unfavorite">לא מועדף</string>
+        <string name="biometric_authentication_title">בטל את הנעילה של CimaStream</string>
+        <string name="biometric_setting">מנעול עם ביומטריה</string>
+        <string name="password_pin_authentication_title">אימות סיסמה/PIN</string>
+        <string name="biometric_unsupported">אימות ביומטרי אינו נתמך במכשיר זה</string>
+        <string name="biometric_setting_summary">בטל את נעילת האפליקציה באמצעות טביעת אצבע, מזהה פנים, PIN, דפוס וסיסמה.</string>
+        <string name="biometric_prompt_description">לאחר כמה ניסיונות כושלים, ההנחיה תיסגר. פשוט הפעל מחדש את האפליקציה כדי לנסות שוב.</string>
+        <string name="biometric_warning">נתוני CimaStream שלך גובו כעת. למרות שהאפשרות לכך נמוכה מאוד, כל המכשירים יכולים להתנהג אחרת. במקרה הנדיר, שבו אתה ננעל מגישה לאפליקציה, נקה את נתוני האפליקציה לחלוטין ושחזר מגיבוי. אנו מצטערים מאוד על אי הנוחות הנובעת מכך.</string>
+        <string name="reset_btn">אפס</string>
+        <string name="cima4wiki">CimaStream Wiki</string>
+        <string name="device_pin_url_message">בקר ב-&lt;b&gt;%s&lt;/b&gt; בטלפון החכם או במחשב שלך והזן את הקוד שלמעלה</string>
+        <string name="device_pin_error_message">לא ניתן לקבל את קוד ה-PIN של המכשיר, נסה לבצע אימות מקומי</string>
+        <string name="device_pin_expired_message">פג תוקף קוד ה-PIN!</string>
+        <string name="device_pin_counter_text">תוקף הקוד יפוג בעוד %1$dm %2$ds</string>
+        <string name="sort_release_date_new">תאריך יציאה (חדש לישן)</string>
+        <string name="sort_release_date_old">תאריך יציאה (ישן עד חדש)</string>
+        <string name="hide_player_control_names">הסתר את השמות של הפקדים של השחקן</string>
+        <string name="preview_seekbar">תצוגה מקדימה של סרגל החיפוש</string>
+        <string name="preview_seekbar_desc">אפשר תמונה ממוזערת של תצוגה מקדימה בסרגל החיפוש</string>
+        <string name="no_subtitles_loaded">עדיין לא נטענו כתוביות</string>
+        <string name="backup_path_title">מיקום תיקיית הגיבוי</string>
+        <string name="custom">מותאם אישית</string>
+        <string name="confirm_before_exiting_title">אשר לפני היציאה</string>
+        <string name="confirm_before_exiting_desc">הצג תיבת דו-שיח לפני יציאה מהאפליקציה</string>
+        <string name="show">הצג</string>
+        <string name="dont_show">אל תראה</string>
+        <string name="subs_edge_size">גודל קצה</string>
+        <string name="torrent_preferred_media">אפשר טורנט בהגדרות/ספקים/מדיה מועדפת</string>
+        <string name="torrent_not_accepted">הפעל מחדש את האפליקציה וקבל את החלון הקופץ של Stream Torrent כדי להמשיך.</string>
+        <string name="software_decoding">פענוח תוכנה</string>
+        <string name="software_decoding_desc">פענוח תוכנה מאפשר לנגן להפעיל קובצי וידאו שאינם נתמכים על ידי המכשיר שלך, אך עלול לגרום להפעלה לא יציבה או לא יציבה ברזולוציה גבוהה.</string>
+        <string name="volume_exceeded_100" formatted="false">עוצמת הקול עברה את 100%</string>
+        <string name="slide_up_again_to_exceed_100" formatted="false">החלק שוב למעלה כדי לחרוג מ-100%</string>
+        <string name="update_plugins">עדכן פלאגינים</string>
+        <string name="update_plugins_manually">עדכן פלאגינים באופן ידני</string>
+        <string name="starting_plugin_update_manually">מתחיל תהליך עדכון תוסף!</string>
+        <string name="plugins_updated_manually">עודכן בהצלחה %d פלאגין(ים)</string>
+        <string name="no_plugins_updated_manually">לא עודכנו תוספים.</string>
+        <string name="player_notification_channel_name">התראות נגן</string>
+        <string name="player_notification_channel_description">הודעת הנגן לשליטה בהשמעה מהרקע</string>
+        <string name="subtitles_from_embedded">מוטבע</string>
+        <string name="subtitles_from_online">באינטרנט</string>
+        <string name="all_subtitles_bold">הפוך את כל הכתוביות למודגשות</string>
+        <string name="all_subtitles_italic">הפוך את כל הכתוביות לנטוי</string>
+        <string name="background_radius">רדיוס רקע</string>
+        <string name="background">רקע</string>
+        <string name="download_parallel_settings_des">כמה פריטים שונים ניתן להוריד במקביל</string>
+        <string name="parallel_downloads">הורדות מקבילות</string>
+        <string name="concurrent_connections">חיבורים במקביל</string>
+        <string name="concurrent_connections_settings_des">כמה חיבורים בו זמנית יכולה להשתמש בכל הורדה בזמן ההורדה</string>
+        <string name="go_to_downloads">עבור אל הורדות</string>
+        <string name="no_internet_connection">\n אין חיבור לאינטרנט.\n \n\nאנא התחבר לאינטרנט ונסה שוב, או צפה בהורדות שלך כשאתה במצב לא מקוון.\n</string>
+        <string name="overscan_settings_des">משנה את גבולות המסך</string>
+        <string name="overscan_settings">סריקה יתרה</string>
+        <string name="poster_size_settings_des">משנה את גודל הפוסטרים</string>
+        <string name="poster_size_settings">גודל פוסטר</string>
+        <string name="speedup_title">החלפת מהירות לחיצה ארוכה</string>
+        <string name="speedup_summary">החזק כדי לקבל מהירות פי 2</string>
+        <string name="edit_profile_image_title">ערוך תמונת פרופיל</string>
+        <string name="edit_profile_image_hint">הזן כתובת אתר של תמונת פרופיל</string>
+        <string name="edit_profile_image_error_empty">לא נמצאה כתובת אתר</string>
+        <string name="edit_profile_image_error_invalid">כתובת אתר או תמונה לא חוקיים</string>
+        <string name="edit_profile_image_success">התמונה עודכנה בהצלחה</string>
+        <string name="action_mark_watched_up_to_this_episode">סמן כנצפה עד לפרק זה</string>
+        <string name="action_remove_mark_watched_up_to_this_episode">הסר שנצפה עד לפרק זה</string>
+        <string name="action_reload">נטען מחדש</string>
+        <string name="reload_provider">טען מחדש ספק</string>
+        <string name="name">שם</string>
+        <string name="source_name">שם המקור</string>
+        <string name="resolution_and_name">החלטה ושם</string>
+        <string name="download_all">הורד הכל</string>
+        <string name="cancel_all">בטל הכל</string>
+        <string name="download_episode_range">האם אתה רוצה להוריד את הפרק %s?</string>
+        <string name="cancel_queue_message">האם ברצונך לבטל את כל ההורדות בתור?</string>
+        <string name="subs_subtitle_alignment">יישור כתוביות</string>
+        <string name="bottom_left">משמאל למטה</string>
+        <string name="bottom_center">מרכז תחתון</string>
+        <string name="bottom_right">מימין למטה</string>
+        <string name="middle_left">שמאל באמצע</string>
+        <string name="middle_center">מרכז אמצעי</string>
+        <string name="middle_right">ימין אמצעי</string>
+        <string name="top_left">למעלה משמאל</string>
+        <string name="top_center">מרכז עליון</string>
+        <string name="top_right">ימין למעלה</string>
+        <string name="player_is_live">חי</string>
+        <plurals name="links_hidden">
+            <item quantity="one">קישור נסתר %d</item>
+            <item quantity="other">%d קישורים מוסתרים</item>
+        </plurals>
+        <plurals name="downloads_active">
+            <item quantity="one">%d הורדה פעילה</item>
+            <item quantity="other">%d הורדות פעילות</item>
+        </plurals>
+        <plurals name="downloads_queued">
+            <item quantity="one">%d בתור הורדה</item>
+            <item quantity="other">%d הורדות בתור</item>
+        </plurals>
 </resources>

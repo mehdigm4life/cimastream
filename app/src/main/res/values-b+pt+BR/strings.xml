@@ -673,8 +673,8 @@
     <string name="background_radius">Bordas do plano de fundo</string>
     <string name="all_subtitles_bold">Tornar todas as legendas em negrito</string>
     <string name="all_subtitles_italic">Tornar todas as legendas em itálico</string>
-    <string name="volume_exceeded_100">O volume ultrapassou 100%</string>
-    <string name="slide_up_again_to_exceed_100">Deslize para cima novamente para ir além de 100%</string>
+    <string name="volume_exceeded_100" formatted="false">O volume ultrapassou 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Deslize para cima novamente para ir além de 100%</string>
     <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
     <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
     <string name="download_time_left_sec_format" formatted="true">%1$d s</string>

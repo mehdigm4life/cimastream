@@ -658,7 +658,7 @@
     <string name="all_subtitles_bold">Alle Untertitel fett machen</string>
     <string name="all_subtitles_italic">Alle Untertitel kursiv machen</string>
     <string name="background_radius">Hintergrundsradius</string>
-    <string name="volume_exceeded_100">Lautstärke hat 100% überschritten</string>
+    <string name="volume_exceeded_100" formatted="false">Lautstärke hat 100% überschritten</string>
     <string name="slide_up_again_to_exceed_100">Noch einmal nach oben wischen, um 100% zu überschreiten</string>
     <string name="player_settings_always_ask">Immer fragen</string>
     <string name="download_parallel_settings_des">Wie viele verschiedene Elemente können parallel heruntergeladen werden</string>
@@ -743,4 +743,11 @@
         <item quantity="one">%d ausgeblendeter Link</item>
         <item quantity="other">%d ausgeblendete Links</item>
     </plurals>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Erlauben Sie das Herunterladen von Episoden</string>
+        <string name="subs_edge">Rand</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">Startvideos pausiert</string>
+        <string name="start_paused_settings_des">Reduzieren Sie Stress bei der Quellenauswahl</string>
+        <string name="background">Hintergrund</string>
 </resources>

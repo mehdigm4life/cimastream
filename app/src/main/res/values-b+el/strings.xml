@@ -657,9 +657,98 @@
     <string name="player_load_one_subtitle_online">Φορτώστε το πρώτο διαθέσιμο</string>
     <string name="sort_episodes_date_newest">Ημερομηνία εκπομπής (Νεότερη)</string>
     <string name="sort_episodes_date_oldest">Ημερομηνία εκπομπής (Παλαιότερη)</string>
-    <string name="volume_exceeded_100">Ο ήχος έχει ξεπεράσει το 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Ο ήχος έχει ξεπεράσει το 100%</string>
     <string name="all_subtitles_bold">Κάντε όλους τους υπότιτλους έντονους</string>
     <string name="all_subtitles_italic">Κάντε όλους τους υπότιτλους πλάγιους</string>
     <string name="background_radius">Ακτίνα φόντου</string>
-    <string name="slide_up_again_to_exceed_100">Σύρετε ξανά προς τα πάνω για να υπερβείτε το 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Σύρετε ξανά προς τα πάνω για να υπερβείτε το 100%</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
+        <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
+        <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
+        <string name="download_queue">Ουρά λήψης</string>
+        <string name="play_full_series_button">Παίξτε την πλήρη σειρά</string>
+        <string name="queue_empty_message">Αυτήν τη στιγμή δεν υπάρχουν λήψεις σε ουρά.</string>
+        <string name="subs_edge">Άκρη</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">Έναρξη βίντεο σε παύση</string>
+        <string name="start_paused_settings_des">Μειώστε το άγχος κατά την επιλογή πηγών</string>
+        <string name="extra_brightness_settings">Έξτρα φωτεινότητα</string>
+        <string name="extra_brightness_settings_des">Enable brightness filter when 100% display brightness is exceeded</string>
+        <string name="extra_brightness_key">extra_brightness_enabled</string>
+        <string name="search_suggestions">Προτάσεις αναζήτησης</string>
+        <string name="search_suggestions_des">Εμφάνιση προτάσεων αναζήτησης κατά την πληκτρολόγηση</string>
+        <string name="clear_suggestions">Σαφείς προτάσεις</string>
+        <string name="show_player_metadata_overlay">Εμφάνιση επικάλυψης μεταδεδομένων προγράμματος αναπαραγωγής</string>
+        <string name="show_cast_in_details">Εμφάνιση πάνελ cast</string>
+        <string name="install_prerelease">Εγκαταστήστε την έκδοση προέκδοσης</string>
+        <string name="prerelease_already_installed">Η προέκδοση έχει ήδη εγκατασταθεί.</string>
+        <string name="prerelease_install_failed">Η εγκατάσταση της προέκδοσης απέτυχε.</string>
+        <string name="video_singular">Βίντεο</string>
+        <string name="episode_action_play_mirror">Παίξτε καθρέφτη</string>
+        <string name="show_rating">Ετικέτα αξιολόγησης</string>
+        <string name="show_episode_text">Κείμενο επεισοδίου</string>
+        <string name="tv_layout_clock_settings">Εμφάνιση ρολογιού σε πραγματικό χρόνο</string>
+        <string name="tv_layout_clock_settings_des">Εμφάνιση ενός ρολογιού πραγματικού χρόνου στο επάνω μέρος της οθόνης. Ισχύει για την αρχική σελίδα και τη συσκευή αναπαραγωγής</string>
+        <string name="video_info">Πληροφορίες πολυμέσων</string>
+        <string name="player_settings_always_ask">Ρωτάτε πάντα</string>
+        <string name="skip_type_preview">Προεπισκόπηση</string>
+        <string name="profile_settings">Ρυθμίσεις προφίλ</string>
+        <string name="profile_hide_negative_sources">Απόκρυψη πηγών με αρνητική προτεραιότητα</string>
+        <string name="profile_hide_error_sources">Απόκρυψη πηγών με σφάλματα</string>
+        <string name="source_priority">Προτεραιότητα πηγής</string>
+        <string name="source_priority_help">Αποφασίστε πώς θα πρέπει να ταξινομηθούν οι πηγές βίντεο στο πρόγραμμα αναπαραγωγής</string>
+        <string name="no_account">Χωρίς λογαριασμό</string>
+        <string name="background">φόντο</string>
+        <string name="download_parallel_settings_des">Πόσα διαφορετικά στοιχεία μπορούν να ληφθούν παράλληλα</string>
+        <string name="parallel_downloads">Παράλληλες λήψεις</string>
+        <string name="concurrent_connections">Ταυτόχρονες συνδέσεις</string>
+        <string name="concurrent_connections_settings_des">Πόσες ταυτόχρονες συνδέσεις μπορεί να χρησιμοποιήσει κάθε λήψη κατά τη λήψη</string>
+        <string name="go_to_downloads">Μεταβείτε στις Λήψεις</string>
+        <string name="no_internet_connection">\n Δεν υπάρχει σύνδεση στο διαδίκτυο.\n \n\nΣυνδεθείτε στο διαδίκτυο και δοκιμάστε ξανά ή παρακολουθήστε τις λήψεις σας ενώ είστε εκτός σύνδεσης.\n</string>
+        <string name="overscan_settings_des">Αλλάζει τα όρια της οθόνης</string>
+        <string name="overscan_settings">Υπερσάρωση</string>
+        <string name="poster_size_settings_des">Αλλάζει το μέγεθος των αφισών</string>
+        <string name="poster_size_settings">Μέγεθος αφίσας</string>
+        <string name="speedup_title">Εναλλαγή ταχύτητας LongPress</string>
+        <string name="speedup_summary">Κρατήστε για να πάρετε 2x ταχύτητα</string>
+        <string name="edit_profile_image_title">Επεξεργασία εικόνας προφίλ</string>
+        <string name="edit_profile_image_hint">Εισαγάγετε τη διεύθυνση URL της εικόνας προφίλ</string>
+        <string name="edit_profile_image_error_empty">Δεν βρέθηκε URL</string>
+        <string name="edit_profile_image_error_invalid">Μη έγκυρη διεύθυνση URL ή εικόνα</string>
+        <string name="edit_profile_image_success">Η εικόνα ενημερώθηκε με επιτυχία</string>
+        <string name="action_mark_watched_up_to_this_episode">Επισήμανση ως παρακολούθησης μέχρι αυτό το επεισόδιο</string>
+        <string name="action_remove_mark_watched_up_to_this_episode">Κατάργηση παρακολούθησης μέχρι αυτό το επεισόδιο</string>
+        <string name="action_reload">Επαναφόρτωση</string>
+        <string name="reload_provider">Επαναφόρτωση παρόχου</string>
+        <string name="name">Όνομα</string>
+        <string name="source_name">Όνομα πηγής</string>
+        <string name="resolution_and_name">Ανάλυση και όνομα</string>
+        <string name="download_all">Λήψη όλων</string>
+        <string name="cancel_all">Ακύρωση όλων</string>
+        <string name="download_episode_range">Θέλετε να κατεβάσετε το επεισόδιο %s;</string>
+        <string name="cancel_queue_message">Θέλετε να ακυρώσετε όλες τις λήψεις στην ουρά;</string>
+        <string name="subs_subtitle_alignment">Στοίχιση υποτίτλων</string>
+        <string name="bottom_left">Κάτω αριστερά</string>
+        <string name="bottom_center">Κάτω κέντρο</string>
+        <string name="bottom_right">Κάτω δεξιά</string>
+        <string name="middle_left">Μέση αριστερά</string>
+        <string name="middle_center">Μεσαίο κέντρο</string>
+        <string name="middle_right">Μέση δεξιά</string>
+        <string name="top_left">Επάνω αριστερά</string>
+        <string name="top_center">Κορυφαίο κέντρο</string>
+        <string name="top_right">Πάνω δεξιά</string>
+        <string name="player_is_live">Ζωντανά</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d κρυφός σύνδεσμος</item>
+            <item quantity="other">%d κρυφοί σύνδεσμοι</item>
+        </plurals>
+        <plurals name="downloads_active">
+            <item quantity="one">%d ενεργή λήψη</item>
+            <item quantity="other">%d ενεργές λήψεις</item>
+        </plurals>
+        <plurals name="downloads_queued">
+            <item quantity="one">%d λήψη στην ουρά</item>
+            <item quantity="other">%d λήψεις σε ουρά</item>
+        </plurals>
 </resources>

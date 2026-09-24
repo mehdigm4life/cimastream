@@ -658,8 +658,8 @@
     <string name="background_radius">Радіус тла</string>
     <string name="all_subtitles_bold">Зробити всі субтитри потовщеним</string>
     <string name="all_subtitles_italic">Зробити всі субтитри курсивом</string>
-    <string name="volume_exceeded_100">Гучність перевищила 100%</string>
-    <string name="slide_up_again_to_exceed_100">Ще раз проведіть угору, щоби перевищити 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Гучність перевищила 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Ще раз проведіть угору, щоби перевищити 100%</string>
     <string name="concurrent_connections">Одночасних з’єднань</string>
     <string name="overscan_settings_des">Змінює межі екрана</string>
     <string name="overscan_settings">Обрізання зображення</string>
@@ -709,7 +709,7 @@
     <string name="search_suggestions_des">Показувати підказки пошуку під час введення тексту</string>
     <string name="clear_suggestions">Очистити пропозиції</string>
     <string name="extra_brightness_settings">Додаткова яскравість</string>
-    <string name="extra_brightness_settings_des">Увімкнути фільтр яскравості при перевищенні 100% яскравості дисплея</string>
+    <string name="extra_brightness_settings_des" formatted="false">Увімкнути фільтр яскравості при перевищенні 100% яскравості дисплея</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="show_cast_in_details">Показати панель трансляції</string>
     <string name="video_info">Інформація про медіа</string>
@@ -754,4 +754,6 @@
     <string name="start_paused_settings_des">Зменште стрес під час вибору джерел</string>
     <string name="subs_edge">Край</string>
     <string name="background">Тло</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Дозволити завантажувати епізоди</string>
 </resources>

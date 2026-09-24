@@ -672,8 +672,8 @@
     <string name="all_subtitles_italic">让所有字幕变为斜体</string>
     <string name="background_radius">背景半径</string>
     <string name="all_subtitles_bold">加粗所有字幕</string>
-    <string name="volume_exceeded_100">音量已经超过 100%</string>
-    <string name="slide_up_again_to_exceed_100">再次上滑让音量超过 100%</string>
+    <string name="volume_exceeded_100" formatted="false">音量已经超过 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">再次上滑让音量超过 100%</string>
     <string name="parallel_downloads">并行下载</string>
     <string name="concurrent_connections">并发连接</string>
     <string name="overscan_settings_des">更改屏幕边界</string>
@@ -726,7 +726,7 @@
     <string name="video_info">媒体信息</string>
     <string name="source_name">源名称</string>
     <string name="extra_brightness_settings">额外亮度</string>
-    <string name="extra_brightness_settings_des">超过 100% 亮度时启用亮度过滤器</string>
+    <string name="extra_brightness_settings_des" formatted="false">超过 100% 亮度时启用亮度过滤器</string>
     <string name="download_queue">下载队列</string>
     <string name="queue_empty_message">队列中当前无下载。</string>
     <string name="download_all">全部下载</string>

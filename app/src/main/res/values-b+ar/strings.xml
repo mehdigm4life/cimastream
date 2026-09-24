@@ -670,7 +670,7 @@
     <string name="subtitles_from_embedded">داخلياً</string>
     <string name="volume_exceeded_100">لقد تجاوز مستوى الصوت 100٪</string>
     <string name="all_subtitles_bold">جعل جميع العناوين الفرعية عريضة</string>
-    <string name="slide_up_again_to_exceed_100">اسحب لأعلى مرة أخرى لتتجاوز 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">اسحب لأعلى مرة أخرى لتتجاوز 100%</string>
     <string name="all_subtitles_italic">جعل كل العناوين الفرعية مائلة</string>
     <string name="background_radius">نصف قطر الخلفية</string>
     <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$d</string>
@@ -715,7 +715,7 @@
     <string name="top_right">اعلى يمين</string>
     <string name="play_full_series_button">شاهد المسلسل كاملاً</string>
     <string name="extra_brightness_settings">سطوع إضافي</string>
-    <string name="extra_brightness_settings_des">تفعيل فلتر السطوع عند تجاوز سطوع الشاشة 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">تفعيل فلتر السطوع عند تجاوز سطوع الشاشة 100%</string>
     <string name="extra_brightness_key">تفعيل فلتر السطوع الإضافي</string>
     <string name="search_suggestions">اقتراحات البحث</string>
     <string name="search_suggestions_des">عرض اقتراحات البحث أثناء الكتابة</string>
@@ -760,4 +760,14 @@
     <string name="profile_settings">اعدادات الملف الشخصي</string>
     <string name="profile_hide_negative_sources">أخفي المصادر صاحبة الأولوية السلبية</string>
     <string name="profile_hide_error_sources">أخفي المصادر التي تحتوي أخطاء</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="subs_edge">الحافة</string>
+        <string name="log_cat">لوجكات 🐈</string>
+        <string name="start_paused_settings">بدء مقاطع الفيديو المتوقفة مؤقتًا</string>
+        <string name="start_paused_settings_des">تقليل التوتر عند اختيار المصادر</string>
+        <string name="background">الخلفية</string>
+        <plurals name="links_hidden">
+            <item quantity="one">%d رابط مخفي</item>
+            <item quantity="other">%d رابط مخفي</item>
+        </plurals>
 </resources>

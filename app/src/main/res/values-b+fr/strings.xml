@@ -656,8 +656,8 @@
     <string name="subtitles_from_online">En ligne</string>
     <string name="speech_recognition_unavailable">La reconnaissance vocale n\'est pas disponible</string>
     <string name="begin_speaking">Commencez à parler…</string>
-    <string name="volume_exceeded_100">Le volume a dépassé 100 %</string>
-    <string name="slide_up_again_to_exceed_100">Glisser à nouveau vers le haut pour dépasser 100 %</string>
+    <string name="volume_exceeded_100" formatted="false">Le volume a dépassé 100 %</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Glisser à nouveau vers le haut pour dépasser 100 %</string>
     <string name="all_subtitles_bold">Mettre tous les sous-titres en gras</string>
     <string name="background_radius">Rayon d\'arrière-plan</string>
     <string name="all_subtitles_italic">Mettre tous les sous-titres en italique</string>
@@ -710,7 +710,7 @@
     <string name="search_suggestions_des">Afficher des suggestions de recherche pendant la saisie</string>
     <string name="clear_suggestions">Effacer les suggestions</string>
     <string name="extra_brightness_settings">Luminosité supplémentaire</string>
-    <string name="extra_brightness_settings_des">Activer le filtre de luminosité lorsque la luminosité dépasse 100 %</string>
+    <string name="extra_brightness_settings_des" formatted="false">Activer le filtre de luminosité lorsque la luminosité dépasse 100 %</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="show_cast_in_details">Afficher le panneau de cast</string>
     <string name="video_info">Information du média</string>
@@ -750,4 +750,7 @@
     <string name="log_cat">Logcat 🐈</string>
     <string name="start_paused_settings">Commencer des vidéos en pause</string>
     <string name="start_paused_settings_des">Réduire le stress lors du choix des sources</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="subs_edge">Bord</string>
+        <string name="background">Contexte</string>
 </resources>

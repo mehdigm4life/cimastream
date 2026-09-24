@@ -160,7 +160,7 @@
     <string name="use_system_brightness_settings">ໃຊ້ຄວາມສະຫວ່າງຂອງລະບົບ</string>
     <string name="use_system_brightness_settings_des">ໃຊ້ຄວາມສະຫວ່າງຂອງລະບົບໃນເຄື່ອງຫຼິ້ນແທນການໃຊ້ແຜ່ນມົວສີດຳ</string>
     <string name="extra_brightness_settings">ຄວາມສະຫວ່າງພິເສດ</string>
-    <string name="extra_brightness_settings_des">ເປີດໃຊ້ຟິວເຕີຄວາມສະຫວ່າງເມື່ອຄວາມສະຫວ່າງໜ້າຈໍເກີນ 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">ເປີດໃຊ້ຟິວເຕີຄວາມສະຫວ່າງເມື່ອຄວາມສະຫວ່າງໜ້າຈໍເກີນ 100%</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="episode_sync_settings">ອັບເດດຄວາມຄືບໜ້າການເບິ່ງ</string>
     <string name="episode_sync_settings_des">ຊິງຄ໌ຄວາມຄືບໜ້າຂອງຕອນປັດຈຸບັນໂດຍອັດຕະໂນມັດ</string>
@@ -681,8 +681,8 @@
     <string name="torrent_not_accepted">ເລີ່ມແອັບໃໝ່ ແລະ ກົດຍອມຮັບ Stream Torrent ເພື່ອດຳເນີນການຕໍ່.</string>
     <string name="software_decoding">ການຖອດລະຫັດດ້ວຍຊອບແວ</string>
     <string name="software_decoding_desc">ການຖອດລະຫັດດ້ວຍຊອບແວຊ່ວຍໃຫ້ຫຼິ້ນໄຟລ໌ທີ່ອຸປະກອນບໍ່ຮອງຮັບໄດ້, ແຕ່ອາດເຮັດໃຫ້ກະຕຸກ ຫຼື ບໍ່ສະຖຽນໃນຄວາມລະອຽດສູງ.</string>
-    <string name="volume_exceeded_100">ລະດັບສຽງເກີນ 100% ແລ້ວ</string>
-    <string name="slide_up_again_to_exceed_100">ເລື່ອນຂຶ້ນອີກຄັ້ງເພື່ອໃຫ້ສຽງດັງເກີນ 100%</string>
+    <string name="volume_exceeded_100" formatted="false">ລະດັບສຽງເກີນ 100% ແລ້ວ</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">ເລື່ອນຂຶ້ນອີກຄັ້ງເພື່ອໃຫ້ສຽງດັງເກີນ 100%</string>
     <string name="update_plugins">ອັບເດດປລັກອິນ</string>
     <string name="update_plugins_manually">ອັບເດດປລັກອິນດ້ວຍຕົນເອງ</string>
     <string name="starting_plugin_update_manually">ເລີ່ມຂະບວນການອັບເດດປລັກອິນ!</string>
@@ -740,4 +740,11 @@
         <item quantity="other">%d ລາຍການຢູ່ໃນຄິວ</item>
     </plurals>
     <string name="player_is_live">ຖ່າຍທອດສົດ</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">ອະນຸຍາດໃຫ້ດາວໂຫຼດຕອນຕ່າງໆ</string>
+        <string name="subs_edge">ຂອບ</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">ເລີ່ມວິດີໂອຢຸດຊົ່ວຄາວ</string>
+        <string name="start_paused_settings_des">ຫຼຸດຜ່ອນຄວາມກົດດັນໃນເວລາທີ່ເລືອກແຫຼ່ງ</string>
+        <string name="background">ຄວາມເປັນມາ</string>
 </resources>

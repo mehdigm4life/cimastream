@@ -672,8 +672,8 @@
     <string name="all_subtitles_bold">Tebalkan semua subtitel</string>
     <string name="all_subtitles_italic">Miringkan semua subtitel</string>
     <string name="background_radius">Radius Latar Belakang</string>
-    <string name="volume_exceeded_100">Volume telah melebihi 100%</string>
-    <string name="slide_up_again_to_exceed_100">Geser ke atas lagi untuk melampaui 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Volume telah melebihi 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Geser ke atas lagi untuk melampaui 100%</string>
     <string name="player_settings_always_ask">Selalu tanya</string>
     <string name="download_parallel_settings_des">Berapa banyak item yang bisa diunduh secara paralel</string>
     <string name="parallel_downloads">Pengunduhan paralel</string>
@@ -720,7 +720,7 @@
     <string name="prerelease_install_failed">Gagal memasang versi pra-rilis.</string>
     <string name="show_episode_text">Teks Episode</string>
     <string name="extra_brightness_settings">Kecerahan ekstra</string>
-    <string name="extra_brightness_settings_des">Aktifkan filter kecerahan saat kecerahan layar melebihi 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Aktifkan filter kecerahan saat kecerahan layar melebihi 100%</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="clear_suggestions">Hapus saran</string>
     <string name="show_cast_in_details">Tampilkan panel cast</string>

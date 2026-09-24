@@ -160,7 +160,7 @@
     <string name="use_system_brightness_settings">Përdor nivelin e ndriçimit të sitemit</string>
     <string name="use_system_brightness_settings_des">Përdor ndriçimin e sistemit në luajtësin e aplikacionit në vend të një mbivendosjeje të errët</string>
     <string name="extra_brightness_settings">Ndriçim ekstra</string>
-    <string name="extra_brightness_settings_des">Aktivizo filtrin e ndriçimit kur ndriçimi i ekranit kalon 100%</string>
+    <string name="extra_brightness_settings_des" formatted="false">Aktivizo filtrin e ndriçimit kur ndriçimi i ekranit kalon 100%</string>
     <string name="extra_brightness_key">extra_brightness_enabled</string>
     <string name="episode_sync_settings">Përditëso progresin e shikimit</string>
     <string name="episode_sync_settings_des">Sinkronizo automatikisht progresin e episodit aktual</string>
@@ -673,8 +673,8 @@
     <string name="torrent_not_accepted">Rifillo aplikacionin dhe prano dritaren “Stream Torrent” për të vazhduar.</string>
     <string name="software_decoding">Dekodim me softuer</string>
     <string name="software_decoding_desc">Dekodimi me softuer i lejon player-it të luajë video që nuk mbështeten nga pajisja juaj, por mund të shkaktojë vonesa ose paqëndrueshmëri në rezolucione të larta.</string>
-    <string name="volume_exceeded_100">Volumi është mbi 100%</string>
-    <string name="slide_up_again_to_exceed_100">Rrëshqit lart përsëri për të kaluar mbi 100%</string>
+    <string name="volume_exceeded_100" formatted="false">Volumi është mbi 100%</string>
+    <string name="slide_up_again_to_exceed_100" formatted="false">Rrëshqit lart përsëri për të kaluar mbi 100%</string>
     <string name="update_plugins">Përditëso shtesat</string>
     <string name="update_plugins_manually">Përditëso shtesat manualisht</string>
     <string name="starting_plugin_update_manually">Filloi procesi i përditësimit të shtesave!</string>
@@ -743,4 +743,11 @@
     </plurals>
     <string name="tv_layout_clock_settings">Shfaq orën në kohë reale</string>
     <string name="tv_layout_clock_settings_des">Shfaq një orë në krye të ekranit. Aplikohet në faqen kryesore dhe në luajtës</string>
+    <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
+        <string name="need_storage">Lejo shkarkimin e episodeve</string>
+        <string name="subs_edge">Buzë</string>
+        <string name="log_cat">Logcat 🐈</string>
+        <string name="start_paused_settings">Nisni videot në pauzë</string>
+        <string name="start_paused_settings_des">Ulni stresin kur zgjidhni burime</string>
+        <string name="background">Sfondi</string>
 </resources>
