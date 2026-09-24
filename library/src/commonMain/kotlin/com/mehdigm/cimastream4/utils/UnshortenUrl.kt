@@ -3,7 +3,7 @@ package com.mehdigm.cimastream4.utils
 import com.mehdigm.cimastream4.app
 import com.mehdigm.cimastream4.base64Decode
 import com.mehdigm.cimastream4.utils.StringUtils.decodeUrl
-import com.lagradost.nicehttp.NiceResponse
+import com.mehdigm.nicehttp.NiceResponse
 import io.ktor.http.Url
 
 // Code heavily based on unshortenit.py form kodiondemand /addon

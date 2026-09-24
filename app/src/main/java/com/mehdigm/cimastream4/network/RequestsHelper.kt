@@ -6,8 +6,8 @@ import com.mehdigm.cimastream4.Prerelease
 import com.mehdigm.cimastream4.R
 import com.mehdigm.cimastream4.USER_AGENT
 import com.mehdigm.cimastream4.mvvm.safe
-import com.lagradost.nicehttp.Requests
-import com.lagradost.nicehttp.ignoreAllSSLErrors
+import com.mehdigm.nicehttp.Requests
+import com.mehdigm.nicehttp.ignoreAllSSLErrors
 import okhttp3.Cache
 import okhttp3.Headers
 import okhttp3.Headers.Companion.toHeaders

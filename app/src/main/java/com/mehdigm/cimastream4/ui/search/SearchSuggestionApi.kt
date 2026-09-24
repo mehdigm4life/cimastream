@@ -3,7 +3,7 @@ package com.mehdigm.cimastream4.ui.search
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.mehdigm.cimastream4.app
 import com.mehdigm.cimastream4.mvvm.logError
-import com.lagradost.nicehttp.NiceResponse
+import com.mehdigm.nicehttp.NiceResponse
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

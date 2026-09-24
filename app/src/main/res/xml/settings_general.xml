@@ -92,10 +92,10 @@
         <Preference
             android:icon="@drawable/quick_novel_icon"
             android:title="@string/lightnovel"
-            app:summary="https://github.com/LagradOst/QuickNovel">
+            app:summary="https://github.com/mehdigm4life/QuickNovel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/LagradOst/QuickNovel" />
+                android:data="https://github.com/mehdigm4life/QuickNovel" />
         </Preference>
         <Preference
             android:icon="@drawable/ic_baseline_discord_24"

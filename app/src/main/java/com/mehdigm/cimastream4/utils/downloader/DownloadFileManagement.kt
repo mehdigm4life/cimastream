@@ -8,8 +8,8 @@ import com.mehdigm.cimastream4.R
 import com.mehdigm.cimastream4.TvType
 import com.mehdigm.cimastream4.getFolderPrefix
 import com.mehdigm.cimastream4.isEpisodeBased
-import com.lagradost.safefile.MediaFileContentType
-import com.lagradost.safefile.SafeFile
+import com.mehdigm.safefile.MediaFileContentType
+import com.mehdigm.safefile.SafeFile
 
 object DownloadFileManagement {
     private const val RESERVED_CHARS = "|\\?*<\":>+[]/\'"

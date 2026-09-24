@@ -6,8 +6,8 @@ import androidx.annotation.AnyThread
 import com.mehdigm.cimastream4.app
 import com.mehdigm.cimastream4.mvvm.debugWarning
 import com.mehdigm.cimastream4.mvvm.safe
-import com.lagradost.nicehttp.Requests.Companion.await
-import com.lagradost.nicehttp.cookies
+import com.mehdigm.nicehttp.Requests.Companion.await
+import com.mehdigm.nicehttp.cookies
 import kotlinx.coroutines.runBlocking
 import okhttp3.Headers
 import okhttp3.Interceptor

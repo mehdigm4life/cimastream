@@ -2,8 +2,8 @@ package com.mehdigm.cimastream4.network
 
 import androidx.annotation.AnyThread
 import com.mehdigm.cimastream4.app
-import com.lagradost.nicehttp.Requests
-import com.lagradost.nicehttp.cookies
+import com.mehdigm.nicehttp.Requests
+import com.mehdigm.nicehttp.cookies
 import kotlinx.coroutines.runBlocking
 import okhttp3.Interceptor
 import okhttp3.Request

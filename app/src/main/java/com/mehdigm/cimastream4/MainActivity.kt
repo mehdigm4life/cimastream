@@ -179,7 +179,7 @@ import com.mehdigm.cimastream4.utils.downloader.DownloadQueueManager
 import com.mehdigm.cimastream4.utils.setText
 import com.mehdigm.cimastream4.utils.setTextHtml
 import com.mehdigm.cimastream4.utils.txt
-import com.lagradost.safefile.SafeFile
+import com.mehdigm.safefile.SafeFile
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.sync.Mutex
@@ -326,7 +326,7 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
                             }
                         }
                         // This specific intent is used for the gradle deployWithAdb
-                        // https://github.com/recloudstream/gradle/blob/master/src/main/kotlin/com/lagradost/cloudstream3/gradle/tasks/DeployWithAdbTask.kt#L46
+                        // https://github.com/mehdigm4life/gradle
                         if (str == "$APP_STRING:") {
                             ioSafe {
                                 PluginManager.___DO_NOT_CALL_FROM_A_PLUGIN_hotReloadAllLocalPlugins(

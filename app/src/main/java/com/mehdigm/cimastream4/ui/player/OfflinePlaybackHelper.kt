@@ -10,7 +10,7 @@ import com.mehdigm.cimastream4.actions.temp.CimaStreamPackage
 import com.mehdigm.cimastream4.utils.AppUtils.tryParseJson
 import com.mehdigm.cimastream4.utils.DataStoreHelper
 import com.mehdigm.cimastream4.utils.UIHelper.navigate
-import com.lagradost.safefile.SafeFile
+import com.mehdigm.safefile.SafeFile
 
 object OfflinePlaybackHelper {
     /**

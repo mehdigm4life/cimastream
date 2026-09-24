@@ -14,7 +14,7 @@ import com.mehdigm.cimastream4.utils.Coroutines.atomicListOf
 import com.mehdigm.cimastream4.utils.Coroutines.main
 import com.mehdigm.cimastream4.utils.Coroutines.mainWork
 import com.mehdigm.cimastream4.utils.Coroutines.runOnMainThread
-import com.lagradost.nicehttp.requestCreator
+import com.mehdigm.nicehttp.requestCreator
 import io.ktor.http.Url
 import io.ktor.http.decodeURLPart
 import kotlinx.coroutines.delay

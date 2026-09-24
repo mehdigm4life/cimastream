@@ -21,7 +21,7 @@ import com.mehdigm.cimastream4.utils.Coroutines.atomicListOf
 import com.mehdigm.cimastream4.utils.Coroutines.mainWork
 import com.mehdigm.cimastream4.utils.SubtitleHelper.fromCodeToLangTagIETF
 import com.mehdigm.cimastream4.utils.SubtitleHelper.fromLanguageToTagIETF
-import com.lagradost.nicehttp.RequestBodyTypes
+import com.mehdigm.nicehttp.RequestBodyTypes
 import io.ktor.http.Url
 import io.ktor.http.URLBuilder
 import io.ktor.http.encodedPath

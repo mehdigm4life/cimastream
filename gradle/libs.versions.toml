@@ -3,7 +3,7 @@
 [versions]
 activity = "1.13.0"
 androidGradlePlugin = "9.1.1"
-animeDb = "1.0.2"
+animeDb = "v1.1.0"
 annotation = "1.10.0"
 appcompat = "1.7.1"
 biometric = "1.4.0-alpha07"
@@ -41,14 +41,14 @@ media3 = "1.9.3"
 navigationKtx = "2.9.8"
 newpipeextractor = "v0.26.3"
 nextlibMedia3 = "1.9.3-0.12.0"
-nicehttp = "0.4.18"
+nicehttp = "v0.5.0"
 overlappingpanels = "0.1.5"
 paletteKtx = "1.0.0"
 preferenceKtx = "1.2.1"
 previewseekbarMedia3 = "1.1.1.0"
 qrcodeKotlin = "4.5.0"
 rhino = { strictly = "1.8.1" } # Requires minSdk 26 or later beginning at version 1.9.0
-safefile = "0.0.8"
+safefile = "v0.1.0"
 shimmer = "0.5.0"
 torrentserver = "7861970"
 tvprovider = "1.1.0"
@@ -128,7 +128,7 @@ navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.
 newpipeextractor = { module = "com.github.teamnewpipe:NewPipeExtractor", version.ref = "newpipeextractor" }
 nextlib-media3ext = { module = "io.github.anilbeesetti:nextlib-media3ext", version.ref = "nextlibMedia3" }
 nextlib-mediainfo = { module = "io.github.anilbeesetti:nextlib-mediainfo", version.ref = "nextlibMedia3" }
-nicehttp = { module = "com.github.Blatzar:NiceHttp", version.ref = "nicehttp" }
+nicehttp = { module = "com.github.mehdigm4life:NiceHttp", version.ref = "nicehttp" }
 overlappingpanels = { module = "com.github.discord:OverlappingPanels", version.ref = "overlappingpanels" }
 palette-ktx = { module = "androidx.palette:palette-ktx", version.ref = "paletteKtx" }
 preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferenceKtx" }

@@ -4,7 +4,7 @@ import android.util.Log
 import androidx.annotation.WorkerThread
 import com.mehdigm.cimastream4.utils.AppUtils.toJson
 import com.mehdigm.cimastream4.utils.Coroutines.ioSafe
-import com.lagradost.safefile.closeQuietly
+import com.mehdigm.safefile.closeQuietly
 import java.io.DataOutputStream
 import java.net.Socket
 import kotlin.jvm.Throws

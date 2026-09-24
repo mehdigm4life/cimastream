@@ -2,7 +2,7 @@ package com.mehdigm.cimastream4.network
 
 import com.mehdigm.cimastream4.mvvm.debugException
 import com.mehdigm.cimastream4.mvvm.logError
-import com.lagradost.nicehttp.requestCreator
+import com.mehdigm.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
