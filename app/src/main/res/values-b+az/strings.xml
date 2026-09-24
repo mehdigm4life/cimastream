@@ -566,7 +566,7 @@
         <string name="dismiss">Rədd et</string>
         <string name="open_downloaded_repo">Anbarı açın</string>
         <string name="battery_dialog_title">Batareyanın optimallaşdırılmasını söndürün</string>
-        <string name="battery_dialog_message">Abunə olunan TV şoular üçün fasiləsiz endirmələri və bildirişləri təmin etmək üçün\n CimaStream-in arxa fonda işləməsi üçün icazə lazımdır. &quot;OK&quot; düyməsini sıxmaqla sizə sorğu dialoqu göstəriləcək.\n Lütfən, \\'İcazə Ver\\' düyməsini basın.\n\nNəzərinizə çatdıraq ki, bu icazə CIMA4-ün batareyanızı boşaldacağı anlamına gəlmir. O, yalnız lazım olduqda, məsələn\n bildirişlər qəbul edərkən və ya rəsmi genişləndirmələrdən video endirərkən arxa planda işləyəcək.</string>
+        <string name="battery_dialog_message">Abunə olunan TV şoular üçün fasiləsiz endirmələri və bildirişləri təmin etmək üçün\n CimaStream-in arxa fonda işləməsi üçün icazə lazımdır. &quot;OK&quot; düyməsini sıxmaqla sizə sorğu dialoqu göstəriləcək.\n Lütfən, \'İcazə Ver\' düyməsini basın.\n\nNəzərinizə çatdıraq ki, bu icazə CIMA4-ün batareyanızı boşaldacağı anlamına gəlmir. O, yalnız lazım olduqda, məsələn\n bildirişlər qəbul edərkən və ya rəsmi genişləndirmələrdən video endirərkən arxa planda işləyəcək.</string>
         <string name="app_unrestricted_toast">Tətbiq batareyasının istifadəsi artıq məhdudiyyətsiz olaraq ayarlanıb</string>
         <string name="app_info_intent_error">CimaStream\'in Tətbiq məlumatını açmaq mümkün deyil.</string>
         <string name="update_notification_downloading">Tətbiq yeniləməsi endirilir...</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">əlavə et</string>
         <string name="duplicate_replace">Əvəz edin</string>
         <string name="duplicate_replace_all">Hamısını dəyişdirin</string>
-        <string name="duplicate_message_single" formatted="true">\n Deyəsən, potensial təkrarlanan element kitabxananızda artıq mövcuddur: \\'%s.\\'\n\n \n\nHər halda bu elementi əlavə etmək, mövcud olanı əvəz etmək və ya əməliyyatı ləğv etmək istəyirsiniz?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Deyəsən, potensial təkrarlanan element kitabxananızda artıq mövcuddur: \'%s.\'\n\n \n\nHər halda bu elementi əlavə etmək, mövcud olanı əvəz etmək və ya əməliyyatı ləğv etmək istəyirsiniz?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Kitabxananızda potensial dublikat elementlər tapıldı:\n\n \n\n%s\n\n \n\nHər halda bu elementi əlavə etmək, mövcud olanları əvəz etmək və ya əməliyyatı ləğv etmək istəyirsiniz?\n    </string>
         <string name="enter_pin">PIN kodu daxil edin</string>
         <string name="enter_pin_with_name" formatted="true">%s üçün PIN daxil edin</string>

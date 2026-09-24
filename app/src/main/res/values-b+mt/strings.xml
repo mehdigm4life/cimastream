@@ -566,7 +566,7 @@
         <string name="dismiss">Tkeċċi</string>
         <string name="open_downloaded_repo">Repożitorju miftuħ</string>
         <string name="battery_dialog_title">Itfi l-ottimizzazzjoni tal-batterija</string>
-        <string name="battery_dialog_message">Biex tiżgura downloads u notifiki mingħajr interruzzjoni għal\n programmi tat-TV abbonati, CimaStream jeħtieġ permess biex jaħdem fl-isfond. Billi tagħfas &quot;OK&quot;, tintwera djalogu ta\' rikjesta.\n Jekk jogħġbok agħfas \\'Ħalli\\'.\n\nJekk jogħġbok innota, dan il-permess ma jfissirx li CIMA4 se jbattal il-batterija tiegħek. Se jopera biss fl-isfond meta jkun meħtieġ, bħal\n meta tirċievi notifiki jew tniżżel vidjows minn estensjonijiet uffiċjali.</string>
+        <string name="battery_dialog_message">Biex tiżgura downloads u notifiki mingħajr interruzzjoni għal\n programmi tat-TV abbonati, CimaStream jeħtieġ permess biex jaħdem fl-isfond. Billi tagħfas &quot;OK&quot;, tintwera djalogu ta\' rikjesta.\n Jekk jogħġbok agħfas \'Ħalli\'.\n\nJekk jogħġbok innota, dan il-permess ma jfissirx li CIMA4 se jbattal il-batterija tiegħek. Se jopera biss fl-isfond meta jkun meħtieġ, bħal\n meta tirċievi notifiki jew tniżżel vidjows minn estensjonijiet uffiċjali.</string>
         <string name="app_unrestricted_toast">L-użu tal-batterija tal-app huwa diġà ssettjat għal mhux ristrett</string>
         <string name="app_info_intent_error">Ma tistax tiftaħ l-informazzjoni tal-App ta\' CimaStream.</string>
         <string name="update_notification_downloading">Niżżel l-aġġornament tal-app...</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Żid</string>
         <string name="duplicate_replace">Ibdel</string>
         <string name="duplicate_replace_all">Ibdel Kollha</string>
-        <string name="duplicate_message_single" formatted="true">\n Jidher li oġġett potenzjalment duplikat diġà jeżisti fil-librerija tiegħek: \\'%s.\\'\n\n \n\nTixtieq iżżid dan l-oġġett xorta waħda, tissostitwixxi dik eżistenti, jew tikkanċella l-azzjoni?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Jidher li oġġett potenzjalment duplikat diġà jeżisti fil-librerija tiegħek: \'%s.\'\n\n \n\nTixtieq iżżid dan l-oġġett xorta waħda, tissostitwixxi dik eżistenti, jew tikkanċella l-azzjoni?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Instabu oġġetti duplikati potenzjali fil-librerija tiegħek:\n\n \n\n%s\n\n \n\nTixtieq iżżid dan l-oġġett xorta waħda, tissostitwixxi dawk eżistenti, jew tikkanċella l-azzjoni?\n    </string>
         <string name="enter_pin">Daħħal il-PIN</string>
         <string name="enter_pin_with_name" formatted="true">Daħħal PIN għal %s</string>

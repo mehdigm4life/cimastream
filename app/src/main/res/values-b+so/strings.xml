@@ -572,7 +572,7 @@
         <string name="dismiss">Eryi</string>
         <string name="open_downloaded_repo">Furo kaydka</string>
         <string name="battery_dialog_title">Dami tayaynta baytariyada</string>
-        <string name="battery_dialog_message">Si loo hubiyo soo dejinta aan kala go\'a lahayn iyo ogaysiisyada la is-qoray \n showyada TV, CimaStream waxay u baahan tahay ogolaansho si ay gadaal uga socoto. Markaad riixdo &quot;OK&quot;, waxaa lagu tusi doonaa wada hadal codsi. \n Fadlan taabo \\'Allow\n\nFadlan ogow, oggolaanshahani macnaheedu maaha CIMA4 waxay daadinaysaa baytarigaaga. Waxa kaliya oo ay ku shaqayn doontaa gadaasha marka loo baahdo, sida\n marka la helayo ogeysiisyada ama soo dejinta fiidiyowyada kordhinta rasmiga ah.</string>
+        <string name="battery_dialog_message">Si loo hubiyo soo dejinta aan kala go\'a lahayn iyo ogaysiisyada la is-qoray \n showyada TV, CimaStream waxay u baahan tahay ogolaansho si ay gadaal uga socoto. Markaad riixdo &quot;OK&quot;, waxaa lagu tusi doonaa wada hadal codsi. \n Fadlan taabo \'Allow\n\nFadlan ogow, oggolaanshahani macnaheedu maaha CIMA4 waxay daadinaysaa baytarigaaga. Waxa kaliya oo ay ku shaqayn doontaa gadaasha marka loo baahdo, sida\n marka la helayo ogeysiisyada ama soo dejinta fiidiyowyada kordhinta rasmiga ah.</string>
         <string name="app_unrestricted_toast">Isticmaalka batteriga abka waxa mar hore loo dejiyay mid aan xaddidnayn</string>
         <string name="app_info_intent_error">Lama furi karo macluumaadka App-ka CimaStream</string>
         <string name="sort_by">Ku kala sooc</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Ku dar</string>
         <string name="duplicate_replace">Beddel</string>
         <string name="duplicate_replace_all">Bedel Dhammaan</string>
-        <string name="duplicate_message_single" formatted="true">\n Waxay u muuqataa in shay la nuqulan karo uu hore ugu yaallo maktabadaada: \\'%s.\\'\n\n \n Ma jeclaan lahayd inaad ku darto shaygan, beddelka kan jira, ama tirtirto falka?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Waxay u muuqataa in shay la nuqulan karo uu hore ugu yaallo maktabadaada: \'%s.\'\n\n \n Ma jeclaan lahayd inaad ku darto shaygan, beddelka kan jira, ama tirtirto falka?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Walxaha suurtagalka ah ee nuqul ka mid ah ayaa laga helay maktabadaada:\n\n \n\n%s\n\n \n Ma jeclaan lahayd inaad ku darto shaygan, beddel kuwa jira, ama tirtirto falka?\n    </string>
         <string name="enter_pin">Geli PIN</string>
         <string name="enter_pin_with_name" formatted="true">Geli PIN %s</string>

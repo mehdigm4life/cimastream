@@ -677,7 +677,7 @@
         <string name="action_add_to_favorites">Pievienot izlasei</string>
         <string name="action_remove_from_favorites">Noņemt no izlases</string>
         <string name="duplicate_title">Atrasts potenciāls dublikāts</string>
-        <string name="duplicate_message_single" formatted="true">\n Šķiet, ka jūsu bibliotēkā jau pastāv potenciāli dublēts vienums: \\'%s.\\'\n\n \n\nVai tomēr vēlaties pievienot šo vienumu, aizstāt esošo vai atcelt darbību?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Šķiet, ka jūsu bibliotēkā jau pastāv potenciāli dublēts vienums: \'%s.\'\n\n \n\nVai tomēr vēlaties pievienot šo vienumu, aizstāt esošo vai atcelt darbību?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Jūsu bibliotēkā ir atrasti iespējamie dublēti vienumi:\n\n \n\n%s\n\n \n\nVai vēlaties tomēr pievienot šo vienumu, aizstāt esošos vai atcelt darbību?\n</string>
         <string name="logged_account" formatted="true">Pieteicies kā %s</string>
         <string name="skip_startup_account_select_pref">Izlaist konta atlasi startēšanas laikā</string>

@@ -570,7 +570,7 @@
         <string name="dismiss">I-dismiss</string>
         <string name="open_downloaded_repo">Buksan ang repositoryo</string>
         <string name="battery_dialog_title">Huwag paganahin ang pag-optimize ng baterya</string>
-        <string name="battery_dialog_message">Para matiyak ang mga walang patid na pag-download at notification para sa naka-subscribe\n na mga palabas sa TV, kailangan ng CimaStream ng pahintulot na tumakbo sa background. Sa pamamagitan ng pagpindot sa &quot;OK&quot;, ipapakita sa iyo ang isang dialog ng kahilingan.\n Pakipindot ang \\'Allow\\'.\n\nPakitandaan, ang pahintulot na ito ay hindi nangangahulugan na mauubos ng CIMA4 ang iyong baterya. Gumagana lang ito sa background kung kinakailangan, gaya ng\n kapag tumatanggap ng mga notification o nagda-download ng mga video mula sa mga opisyal na extension.</string>
+        <string name="battery_dialog_message">Para matiyak ang mga walang patid na pag-download at notification para sa naka-subscribe\n na mga palabas sa TV, kailangan ng CimaStream ng pahintulot na tumakbo sa background. Sa pamamagitan ng pagpindot sa &quot;OK&quot;, ipapakita sa iyo ang isang dialog ng kahilingan.\n Pakipindot ang \'Allow\'.\n\nPakitandaan, ang pahintulot na ito ay hindi nangangahulugan na mauubos ng CIMA4 ang iyong baterya. Gumagana lang ito sa background kung kinakailangan, gaya ng\n kapag tumatanggap ng mga notification o nagda-download ng mga video mula sa mga opisyal na extension.</string>
         <string name="app_unrestricted_toast">Ang paggamit ng baterya ng app ay nakatakda na sa hindi pinaghihigpitan</string>
         <string name="app_info_intent_error">Hindi mabuksan ang impormasyon ng App ng CimaStream.</string>
         <string name="update_notification_downloading">Dina-download ang update ng app…</string>
@@ -636,7 +636,7 @@
         <string name="duplicate_add">Idagdag</string>
         <string name="duplicate_replace">Palitan</string>
         <string name="duplicate_replace_all">Palitan Lahat</string>
-        <string name="duplicate_message_single" formatted="true">\n Lumilitaw na mayroon nang potensyal na duplicate na item sa iyong library: \\'%s.\\'\n\n \n\nGusto mo pa rin bang idagdag ang item na ito, palitan ang dati, o kanselahin ang pagkilos?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Lumilitaw na mayroon nang potensyal na duplicate na item sa iyong library: \'%s.\'\n\n \n\nGusto mo pa rin bang idagdag ang item na ito, palitan ang dati, o kanselahin ang pagkilos?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n May nakitang mga potensyal na duplicate na item sa iyong library:\n\n \n\n%s\n\n \n\nGusto mo pa rin bang idagdag ang item na ito, palitan ang mga umiiral na, o kanselahin ang pagkilos?\n    </string>
         <string name="enter_pin">Ilagay ang PIN</string>
         <string name="enter_pin_with_name" formatted="true">Ilagay ang PIN para sa %s</string>

@@ -566,7 +566,7 @@
         <string name="dismiss">አሰናብት</string>
         <string name="open_downloaded_repo">ማከማቻ ክፈት</string>
         <string name="battery_dialog_title">የባትሪ ማትባትን አሰናክል</string>
-        <string name="battery_dialog_message">ለደንበኝነት የተመዘገቡ\n የቲቪ ትዕይንቶች ያልተቋረጡ ውርዶች እና ማሳወቂያዎች ለማረጋገጥ CimaStream ከበስተጀርባ ለማስኬድ ፍቃድ ያስፈልገዋል። &quot;እሺ&quot;ን በመጫን የጥያቄ ንግግር ታያለህ።\nእባክህ \\'ፍቀድ\nን ተጫን።\n\nእባክህ አስተውል፣ይህ ፍቃድ CIMA4 ባትሪህን ያጠፋል ማለት አይደለም። አስፈላጊ ሆኖ ሲገኝ ከበስተጀርባ ብቻ ነው የሚሰራው፣ ለምሳሌ\n ማሳወቂያዎችን ሲቀበሉ ወይም ቪዲዮዎችን ከኦፊሴላዊ ቅጥያዎች ሲያወርዱ።</string>
+        <string name="battery_dialog_message">ለደንበኝነት የተመዘገቡ\n የቲቪ ትዕይንቶች ያልተቋረጡ ውርዶች እና ማሳወቂያዎች ለማረጋገጥ CimaStream ከበስተጀርባ ለማስኬድ ፍቃድ ያስፈልገዋል። &quot;እሺ&quot;ን በመጫን የጥያቄ ንግግር ታያለህ።\nእባክህ \'ፍቀድ\nን ተጫን።\n\nእባክህ አስተውል፣ይህ ፍቃድ CIMA4 ባትሪህን ያጠፋል ማለት አይደለም። አስፈላጊ ሆኖ ሲገኝ ከበስተጀርባ ብቻ ነው የሚሰራው፣ ለምሳሌ\n ማሳወቂያዎችን ሲቀበሉ ወይም ቪዲዮዎችን ከኦፊሴላዊ ቅጥያዎች ሲያወርዱ።</string>
         <string name="app_unrestricted_toast">የመተግበሪያ ባትሪ አጠቃቀም አስቀድሞ ያልተገደበ ተቀናብሯል።</string>
         <string name="app_info_intent_error">የCimaStream መተግበሪያ መረጃን መክፈት አልተቻለም።</string>
         <string name="update_notification_downloading">የመተግበሪያ ዝመናን በማውረድ ላይ…</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">አክል</string>
         <string name="duplicate_replace">ተካ</string>
         <string name="duplicate_replace_all">ሁሉንም ይተኩ</string>
-        <string name="duplicate_message_single" formatted="true">\n        It appears that a potentially duplicate item already exists in your library: \\'%s.\\'\n\n        \n\nWould you like to add this item anyway, replace the existing one, or cancel the action?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n        It appears that a potentially duplicate item already exists in your library: \'%s.\'\n\n        \n\nWould you like to add this item anyway, replace the existing one, or cancel the action?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n የተባዙ ሊሆኑ የሚችሉ ንጥሎች በቤተ-መጽሐፍትዎ ውስጥ ተገኝተዋል፡\n\n \n\n%s\n\n \n\nይህን ንጥል ነገር ለማንኛውም ማከል፣ ያሉትን መተካት ወይም ድርጊቱን መሰረዝ ይፈልጋሉ?\n    </string>
         <string name="enter_pin">ፒን ያስገቡ</string>
         <string name="enter_pin_with_name" formatted="true">ለ%s ፒን አስገባ</string>

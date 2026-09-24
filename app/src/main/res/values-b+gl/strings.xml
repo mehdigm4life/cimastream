@@ -566,7 +566,7 @@
         <string name="dismiss">Descartar</string>
         <string name="open_downloaded_repo">Abrir repositorio</string>
         <string name="battery_dialog_title">Desactivar a optimización da batería</string>
-        <string name="battery_dialog_message">Para garantir descargas e notificacións ininterrompidas dos\n programas de televisión subscritos, CimaStream necesita permiso para executarse en segundo plano. Ao premer &quot;Aceptar&quot;, amosarase un diálogo de solicitude.\n Preme \\'Permitir\\'.\n\nTen en conta que este permiso non significa que CIMA4 esgotará a batería. Só funcionará en segundo plano cando sexa necesario, como\n cando reciba notificacións ou descargue vídeos de extensións oficiais.</string>
+        <string name="battery_dialog_message">Para garantir descargas e notificacións ininterrompidas dos\n programas de televisión subscritos, CimaStream necesita permiso para executarse en segundo plano. Ao premer &quot;Aceptar&quot;, amosarase un diálogo de solicitude.\n Preme \'Permitir\'.\n\nTen en conta que este permiso non significa que CIMA4 esgotará a batería. Só funcionará en segundo plano cando sexa necesario, como\n cando reciba notificacións ou descargue vídeos de extensións oficiais.</string>
         <string name="app_unrestricted_toast">O uso da batería da aplicación xa está configurado como sen restricións</string>
         <string name="app_info_intent_error">Non se pode abrir a información da aplicación de CimaStream.</string>
         <string name="update_notification_downloading">Descargando actualización da aplicación...</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Engadir</string>
         <string name="duplicate_replace">Substitúe</string>
         <string name="duplicate_replace_all">Substituír todo</string>
-        <string name="duplicate_message_single" formatted="true">\n Parece que xa existe un elemento potencialmente duplicado na túa biblioteca: \\'%s.\\'\n\n \n\nDesexa engadir este elemento de todos os xeitos, substituír o existente ou cancelar a acción?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Parece que xa existe un elemento potencialmente duplicado na túa biblioteca: \'%s.\'\n\n \n\nDesexa engadir este elemento de todos os xeitos, substituír o existente ou cancelar a acción?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Atopáronse posibles elementos duplicados na túa biblioteca:\n\n \n\n%s\n\n \n\nQueres engadir este elemento de todos os xeitos, substituír os existentes ou cancelar a acción?\n    </string>
         <string name="enter_pin">Introduce o PIN</string>
         <string name="enter_pin_with_name" formatted="true">Introduce o PIN para %s</string>

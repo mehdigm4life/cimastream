@@ -566,7 +566,7 @@
         <string name="dismiss">Forĵeti</string>
         <string name="open_downloaded_repo">Malfermu deponejon</string>
         <string name="battery_dialog_title">Malebligu Bateria optimumigo</string>
-        <string name="battery_dialog_message">Por certigi seninterrompajn elŝutojn kaj sciigojn por abonitaj\n televidaj programoj, CimaStream bezonas permeson funkcii fone. Premante &quot;Bone&quot;, oni montros al vi petan dialogon.\n Bonvolu premi \\'Permesi\\'.\n\nBonvolu noti, ke ĉi tiu permeso ne signifas, ke CIMA4 elĉerpas vian baterion. Ĝi nur funkcios fone kiam necese, kiel\n kiam oni ricevas sciigojn aŭ elŝutas filmetojn de oficialaj etendaĵoj.</string>
+        <string name="battery_dialog_message">Por certigi seninterrompajn elŝutojn kaj sciigojn por abonitaj\n televidaj programoj, CimaStream bezonas permeson funkcii fone. Premante &quot;Bone&quot;, oni montros al vi petan dialogon.\n Bonvolu premi \'Permesi\'.\n\nBonvolu noti, ke ĉi tiu permeso ne signifas, ke CIMA4 elĉerpas vian baterion. Ĝi nur funkcios fone kiam necese, kiel\n kiam oni ricevas sciigojn aŭ elŝutas filmetojn de oficialaj etendaĵoj.</string>
         <string name="app_unrestricted_toast">Baterio-uzo de la aplikaĵo jam estas senrestrikta</string>
         <string name="app_info_intent_error">Ne eblas malfermi la informojn pri Apliko de CimaStream.</string>
         <string name="update_notification_downloading">Elŝutante ĝisdatigon de la aplikaĵo...</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Aldoni</string>
         <string name="duplicate_replace">Anstataŭigi</string>
         <string name="duplicate_replace_all">Anstataŭigi Ĉion</string>
-        <string name="duplicate_message_single" formatted="true">\n Ŝajnas, ke eble duplikata ero jam ekzistas en via biblioteko: \\'%s.\\'\n\n \n\nĈu vi ŝatus aldoni ĉi tiun objekton ĉiuokaze, anstataŭigi la ekzistantan aŭ nuligi la agon?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Ŝajnas, ke eble duplikata ero jam ekzistas en via biblioteko: \'%s.\'\n\n \n\nĈu vi ŝatus aldoni ĉi tiun objekton ĉiuokaze, anstataŭigi la ekzistantan aŭ nuligi la agon?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Eblaj duplikataj eroj estis trovitaj en via biblioteko:\n\n \n\n%s\n\n \n\nĈu vi ŝatus aldoni ĉi tiun objekton ĉiuokaze, anstataŭigi la ekzistantajn aŭ nuligi la agon?\n    </string>
         <string name="enter_pin">Enigu PIN</string>
         <string name="enter_pin_with_name" formatted="true">Enigu PIN por %s</string>

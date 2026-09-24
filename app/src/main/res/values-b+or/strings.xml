@@ -187,7 +187,7 @@
         <string name="play_livestream_button">ଲାଇଭଷ୍ଟ୍ରିମ୍ ଖେଳନ୍ତୁ |</string>
         <string name="play_torrent_button">ଷ୍ଟ୍ରିମ୍ ଟୋରେଣ୍ଟ୍ |</string>
         <string name="play_full_series_button">ପୂର୍ଣ୍ଣ ସିରିଜ୍ ଖେଳନ୍ତୁ |</string>
-        <string name="torrent_info">ଏହି ଭିଡିଓଟି ଏକ ଟୋରେଣ୍ଟ୍, ଏହାର ଅର୍ଥ ହେଉଛି ଯେ ଆପଣଙ୍କର ଭିଡିଓ କାର୍ଯ୍ୟକଳାପ ଟ୍ରାକ୍ ହୋଇପାରିବ | \ n ଜାରି ରଖିବା ପୂର୍ବରୁ ଆପଣ ଟୋରେଣ୍ଟିଂ ବୁ understand ିଛନ୍ତି ନିଶ୍ଚିତ କରନ୍ତୁ |</string>
+        <string name="torrent_info">ଏହି ଭିଡିଓଟି ଏକ ଟୋରେଣ୍ଟ୍, ଏହାର ଅର୍ଥ ହେଉଛି ଯେ ଆପଣଙ୍କର ଭିଡିଓ କାର୍ଯ୍ୟକଳାପ ଟ୍ରାକ୍ ହୋଇପାରିବ | \n ଜାରି ରଖିବା ପୂର୍ବରୁ ଆପଣ ଟୋରେଣ୍ଟିଂ ବୁ understand ିଛନ୍ତି ନିଶ୍ଚିତ କରନ୍ତୁ |</string>
         <string name="pick_source">ଉତ୍ସ</string>
         <string name="pick_subtitle">ସବ୍ଟାଇଟ୍ସ |</string>
         <string name="reload_error">ପୁନ connection ସଂଯୋଗ ପୁନ… ଚେଷ୍ଟା କରନ୍ତୁ…</string>
@@ -281,10 +281,10 @@
         <string name="double_tap_to_seek_settings">ଖୋଜିବାକୁ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ |</string>
         <string name="double_tap_to_pause_settings">ବିରାମ କରିବାକୁ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ |</string>
         <string name="double_tap_to_seek_amount_settings">ପ୍ଲେୟାର୍ ସନ୍ଧାନ ପରିମାଣ (ସେକେଣ୍ଡ୍)</string>
-        <string name="double_tap_to_seek_settings_des">ଆଗକୁ କିମ୍ବା ପଛକୁ ଖୋଜିବା ପାଇଁ ଡାହାଣ କିମ୍ବା ବାମ ପାର୍ଶ୍ୱରେ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ \ n |    </string>
+        <string name="double_tap_to_seek_settings_des">ଆଗକୁ କିମ୍ବା ପଛକୁ ଖୋଜିବା ପାଇଁ ଡାହାଣ କିମ୍ବା ବାମ ପାର୍ଶ୍ୱରେ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ \n |    </string>
         <string name="double_tap_to_pause_settings_des">ବିରାମ କରିବାକୁ ମ twice ିରେ ଦୁଇଥର ଟ୍ୟାପ୍ କରନ୍ତୁ |</string>
         <string name="use_system_brightness_settings">ସିଷ୍ଟମ୍ ଉଜ୍ଜ୍ୱଳତା ବ୍ୟବହାର କରନ୍ତୁ |</string>
-        <string name="use_system_brightness_settings_des">ଅନ୍ଧାର \ n ଓଭରଲେଜ୍ \ n ପରିବର୍ତ୍ତେ ଆପ୍ ପ୍ଲେୟାରରେ ସିଷ୍ଟମ୍ ଉଜ୍ଜ୍ୱଳତା ବ୍ୟବହାର କରନ୍ତୁ |    </string>
+        <string name="use_system_brightness_settings_des">ଅନ୍ଧାର \n ଓଭରଲେଜ୍ \n ପରିବର୍ତ୍ତେ ଆପ୍ ପ୍ଲେୟାରରେ ସିଷ୍ଟମ୍ ଉଜ୍ଜ୍ୱଳତା ବ୍ୟବହାର କରନ୍ତୁ |    </string>
         <string name="extra_brightness_settings">ଅତିରିକ୍ତ ଉଜ୍ଜ୍ୱଳତା |</string>
         <string name="extra_brightness_settings_des">Enable brightness filter when 100% display brightness is exceeded</string>
         <string name="extra_brightness_key">extra_brightness_enabled</string>
@@ -538,7 +538,7 @@
         <string name="plugins_disabled" formatted="true">Disabled: %d</string>
         <string name="plugins_not_downloaded" formatted="true">Not downloaded: %d</string>
         <string name="plugins_updated" formatted="true">Updated %d plugins</string>
-        <string name="blank_repo_message">ଡିଫଲ୍ଟ ଭାବରେ CimaStream ର କ sites ଣସି ସାଇଟ୍ ସଂସ୍ଥାପିତ ହୋଇନାହିଁ | ସଂଗ୍ରହାଳୟରୁ ଆପଣଙ୍କୁ ସାଇଟଗୁଡିକ ସଂସ୍ଥାପନ କରିବାକୁ ପଡିବ | \ n \ n \ n \ n ଆମର ଡିସକର୍ଡରେ ଯୋଗ ଦିଅନ୍ତୁ କିମ୍ବା ଅନଲାଇନ୍ ସନ୍ଧାନ କରନ୍ତୁ |</string>
+        <string name="blank_repo_message">ଡିଫଲ୍ଟ ଭାବରେ CimaStream ର କ sites ଣସି ସାଇଟ୍ ସଂସ୍ଥାପିତ ହୋଇନାହିଁ | ସଂଗ୍ରହାଳୟରୁ ଆପଣଙ୍କୁ ସାଇଟଗୁଡିକ ସଂସ୍ଥାପନ କରିବାକୁ ପଡିବ | \n \n \n \n ଆମର ଡିସକର୍ଡରେ ଯୋଗ ଦିଅନ୍ତୁ କିମ୍ବା ଅନଲାଇନ୍ ସନ୍ଧାନ କରନ୍ତୁ |</string>
         <string name="view_public_repositories_button">ସମ୍ପ୍ରଦାୟର ସଂଗ୍ରହାଳୟ ଦେଖନ୍ତୁ |</string>
         <string name="view_public_repositories_button_short">ଜନସାଧାରଣ ତାଲିକା |</string>
         <string name="uppercase_all_subtitles">ସମସ୍ତ ଉପ-ଆଖ୍ୟାଗୁଡିକ</string>
@@ -570,7 +570,7 @@
         <string name="dismiss">ବରଖାସ୍ତ</string>
         <string name="open_downloaded_repo">ସଂଗ୍ରହାଳୟ ଖୋଲନ୍ତୁ |</string>
         <string name="battery_dialog_title">ବ୍ୟାଟେରୀ ଅପ୍ଟିମାଇଜେସନ୍ ଅକ୍ଷମ କରନ୍ତୁ |</string>
-        <string name="battery_dialog_message">ସବସ୍କ୍ରାଇଡ୍ ହୋଇଥିବା \ n ଟିଭି ଶୋ ପାଇଁ ନିରବଚ୍ଛିନ୍ନ ଡାଉନଲୋଡ୍ ଏବଂ ବିଜ୍ଞପ୍ତି ନିଶ୍ଚିତ କରିବାକୁ, ସିମା ଷ୍ଟ୍ରିମ୍ ପୃଷ୍ଠଭୂମିରେ ଚାଲିବା ପାଇଁ ଅନୁମତି ଆବଶ୍ୟକ କରେ | &quot;ଓକେ&quot; ଦବାଇ, ଆପଣଙ୍କୁ ଏକ ଅନୁରୋଧ ସଂଳାପ ଦେଖାଯିବ | \ n ଦୟାକରି \ \'ଅନୁମତି \\' ଦବାନ୍ତୁ | \ n \ n ଦୟାକରି ନୋଟ୍ କରନ୍ତୁ, ଏହି ଅନୁମତିର ଅର୍ଥ ନୁହେଁ ଯେ CIMA4 ଆପଣଙ୍କ ବ୍ୟାଟେରୀକୁ ନିଷ୍କାସନ କରିବ | ଆବଶ୍ୟକ ସମୟରେ ଏହା କେବଳ ପୃଷ୍ଠଭୂମିରେ କାର୍ଯ୍ୟ କରିବ, ଯେପରିକି \ n ବିଜ୍ଞପ୍ତି ଗ୍ରହଣ କରିବା ସମୟରେ କିମ୍ବା ଅଫିସିଆଲ୍ ଏକ୍ସଟେନ୍ସନ୍ ରୁ ଭିଡିଓ ଡାଉନଲୋଡ୍ କରିବା |</string>
+        <string name="battery_dialog_message">ସବସ୍କ୍ରାଇଡ୍ ହୋଇଥିବା \n ଟିଭି ଶୋ ପାଇଁ ନିରବଚ୍ଛିନ୍ନ ଡାଉନଲୋଡ୍ ଏବଂ ବିଜ୍ଞପ୍ତି ନିଶ୍ଚିତ କରିବାକୁ, ସିମା ଷ୍ଟ୍ରିମ୍ ପୃଷ୍ଠଭୂମିରେ ଚାଲିବା ପାଇଁ ଅନୁମତି ଆବଶ୍ୟକ କରେ | &quot;ଓକେ&quot; ଦବାଇ, ଆପଣଙ୍କୁ ଏକ ଅନୁରୋଧ ସଂଳାପ ଦେଖାଯିବ | \n ଦୟାକରି  \'ଅନୁମତି \' ଦବାନ୍ତୁ | \n \n ଦୟାକରି ନୋଟ୍ କରନ୍ତୁ, ଏହି ଅନୁମତିର ଅର୍ଥ ନୁହେଁ ଯେ CIMA4 ଆପଣଙ୍କ ବ୍ୟାଟେରୀକୁ ନିଷ୍କାସନ କରିବ | ଆବଶ୍ୟକ ସମୟରେ ଏହା କେବଳ ପୃଷ୍ଠଭୂମିରେ କାର୍ଯ୍ୟ କରିବ, ଯେପରିକି \n ବିଜ୍ଞପ୍ତି ଗ୍ରହଣ କରିବା ସମୟରେ କିମ୍ବା ଅଫିସିଆଲ୍ ଏକ୍ସଟେନ୍ସନ୍ ରୁ ଭିଡିଓ ଡାଉନଲୋଡ୍ କରିବା |</string>
         <string name="app_unrestricted_toast">ଆପ୍ ବ୍ୟାଟେରୀ ବ୍ୟବହାର ପୂର୍ବରୁ ସୀମିତ ହୋଇସାରିଛି |</string>
         <string name="app_info_intent_error">CimaStream ର ଆପ୍ ସୂଚନା ଖୋଲିବାକୁ ଅସମର୍ଥ |</string>
         <string name="apk_installer_legacy">ଉତ୍ତରାଧିକାରୀ |</string>
@@ -595,9 +595,9 @@
         <string name="sort_button_date">Date %s</string>
         <string name="select_library">ଲାଇବ୍ରେରୀ ଚୟନ କରନ୍ତୁ |</string>
         <string name="open_with">ସହିତ ଖୋଲନ୍ତୁ |</string>
-        <string name="empty_library_no_accounts_message">ଆପଣଙ୍କର ଲାଇବ୍ରେରୀ ଖାଲି ଅଛି: (\ n \ n ଏକ ଲାଇବ୍ରେରୀ ଆକାଉଣ୍ଟରେ ଲଗ୍ ଇନ୍ କରନ୍ତୁ କିମ୍ବା ଆପଣଙ୍କର ସ୍ଥାନୀୟ ଲାଇବ୍ରେରୀରେ ଶୋ ଯୋଡନ୍ତୁ |</string>
+        <string name="empty_library_no_accounts_message">ଆପଣଙ୍କର ଲାଇବ୍ରେରୀ ଖାଲି ଅଛି: (\n \n ଏକ ଲାଇବ୍ରେରୀ ଆକାଉଣ୍ଟରେ ଲଗ୍ ଇନ୍ କରନ୍ତୁ କିମ୍ବା ଆପଣଙ୍କର ସ୍ଥାନୀୟ ଲାଇବ୍ରେରୀରେ ଶୋ ଯୋଡନ୍ତୁ |</string>
         <string name="empty_library_logged_in_message">ଏହି ତାଲିକା ଖାଲି ଅଛି | ଅନ୍ୟ ଏକକୁ ପରିବର୍ତ୍ତନ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ |</string>
-        <string name="safe_mode_file">ସୁରକ୍ଷିତ ମୋଡ୍ ଫାଇଲ୍ ମିଳିଲା! \ N ଫାଇଲ୍ ଅପସାରଣ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଷ୍ଟାର୍ଟଅପ୍ ରେ କ ext ଣସି ଏକ୍ସଟେନ୍ସନ୍ ଲୋଡ୍ ହେବ ନାହିଁ |</string>
+        <string name="safe_mode_file">ସୁରକ୍ଷିତ ମୋଡ୍ ଫାଇଲ୍ ମିଳିଲା! \n ଫାଇଲ୍ ଅପସାରଣ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଷ୍ଟାର୍ଟଅପ୍ ରେ କ ext ଣସି ଏକ୍ସଟେନ୍ସନ୍ ଲୋଡ୍ ହେବ ନାହିଁ |</string>
         <string name="revert">ଓଲଟା</string>
         <string name="subscription_in_progress_notification">ସବସ୍କ୍ରାଇବଡ୍ ଶୋ ଅପଡେଟ୍ |</string>
         <string name="subscription_list_name">ସଦସ୍ୟତା</string>
@@ -618,7 +618,7 @@
         <string name="source_priority_help">ପ୍ଲେୟାରରେ ଭିଡିଓ ଉତ୍ସଗୁଡିକ କିପରି ସଜାଯିବା ଉଚିତ ତାହା ସ୍ଥିର କରନ୍ତୁ |</string>
         <string name="profiles">ପ୍ରୋଫାଇଲ୍</string>
         <string name="help">ସାହାଯ୍ୟ</string>
-        <string name="quality_profile_help">\ n ଏଠାରେ ଉତ୍ସଗୁଡିକ କିପରି ଅର୍ଡର ହୁଏ ଆପଣ ପରିବର୍ତ୍ତନ କରିପାରିବେ | ଯଦି ଏକ ଭିଡିଓର ଅଧିକ ପ୍ରାଥମିକତା ଥାଏ ତେବେ ଏହା ଉତ୍ସ ଚୟନରେ ଅଧିକ ଦେଖାଯିବ | \ n ଉତ୍ସ ପ୍ରାଥମିକତା ଏବଂ ଗୁଣବତ୍ତା ପ୍ରାଥମିକତା ହେଉଛି ଭିଡିଓ ପ୍ରାଥମିକତା | \ n \ n \ n ଉତ୍ସ A: 3 \ n \ n ଗୁଣବତ୍ତା B: 7 \ n \ n ଆମର ମିଳିତ ଭିଡିଓ ଅଗ୍ରାଧିକାର 10 ହେବ |    </string>
+        <string name="quality_profile_help">\n ଏଠାରେ ଉତ୍ସଗୁଡିକ କିପରି ଅର୍ଡର ହୁଏ ଆପଣ ପରିବର୍ତ୍ତନ କରିପାରିବେ | ଯଦି ଏକ ଭିଡିଓର ଅଧିକ ପ୍ରାଥମିକତା ଥାଏ ତେବେ ଏହା ଉତ୍ସ ଚୟନରେ ଅଧିକ ଦେଖାଯିବ | \n ଉତ୍ସ ପ୍ରାଥମିକତା ଏବଂ ଗୁଣବତ୍ତା ପ୍ରାଥମିକତା ହେଉଛି ଭିଡିଓ ପ୍ରାଥମିକତା | \n \n \n ଉତ୍ସ A: 3 \n \n ଗୁଣବତ୍ତା B: 7 \n \n ଆମର ମିଳିତ ଭିଡିଓ ଅଗ୍ରାଧିକାର 10 ହେବ |    </string>
         <string name="qualities">ଗୁଣଗୁଡିକ</string>
         <string name="profile_background_des">ପ୍ରୋଫାଇଲ୍ ପୃଷ୍ଠଭୂମି</string>
         <string name="unable_to_inflate">UI was unable to be created correctly, this is a MAJOR BUG and should be reported immediately %s</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">ଯୋଡନ୍ତୁ |</string>
         <string name="duplicate_replace">ବଦଳାନ୍ତୁ |</string>
         <string name="duplicate_replace_all">ସମସ୍ତଙ୍କୁ ବଦଳାନ୍ତୁ |</string>
-        <string name="duplicate_message_single" formatted="true">\n        It appears that a potentially duplicate item already exists in your library: \\'%s.\\'\n\n        \n\nWould you like to add this item anyway, replace the existing one, or cancel the action?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n        It appears that a potentially duplicate item already exists in your library: \'%s.\'\n\n        \n\nWould you like to add this item anyway, replace the existing one, or cancel the action?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n        Potential duplicate items have been found in your library:\n\n        \n\n%s\n\n        \n\nWould you like to add this item anyway, replace the existing ones, or cancel the action?\n    </string>
         <string name="enter_pin">PIN ପ୍ରବେଶ କରନ୍ତୁ |</string>
         <string name="enter_pin_with_name" formatted="true">Enter PIN for %s</string>
@@ -704,7 +704,7 @@
         <string name="concurrent_connections">ସମବାୟ ସଂଯୋଗ |</string>
         <string name="concurrent_connections_settings_des">ଡାଉନଲୋଡ୍ କରିବା ସମୟରେ ପ୍ରତ୍ୟେକ ଡାଉନଲୋଡ୍ କେତେ ସମନ୍ୱିତ ସଂଯୋଗ ବ୍ୟବହାର କରିପାରିବ |</string>
         <string name="go_to_downloads">ଡାଉନଲୋଡ୍ କୁ ଯାଆନ୍ତୁ |</string>
-        <string name="no_internet_connection">\ n କ internet ଣସି ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ନାହିଁ। \ n \ n \ n ଦୟାକରି ଇଣ୍ଟରନେଟ୍ ସହିତ ସଂଯୋଗ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ, କିମ୍ବା ଆପଣ ଅଫଲାଇନ୍ ଥିବାବେଳେ ଆପଣଙ୍କର ଡାଉନଲୋଡ୍ ଦେଖନ୍ତୁ | \ n    </string>
+        <string name="no_internet_connection">\n କ internet ଣସି ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ନାହିଁ। \n \n \n ଦୟାକରି ଇଣ୍ଟରନେଟ୍ ସହିତ ସଂଯୋଗ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ, କିମ୍ବା ଆପଣ ଅଫଲାଇନ୍ ଥିବାବେଳେ ଆପଣଙ୍କର ଡାଉନଲୋଡ୍ ଦେଖନ୍ତୁ | \n    </string>
         <string name="overscan_settings_des">ସ୍କ୍ରିନ୍ ର ସୀମା ପରିବର୍ତ୍ତନ କରେ |</string>
         <string name="overscan_settings">ଓଭରସ୍କାନ୍ |</string>
         <string name="poster_size_settings_des">ପୋଷ୍ଟରର ଆକାର ପରିବର୍ତ୍ତନ କରେ |</string>

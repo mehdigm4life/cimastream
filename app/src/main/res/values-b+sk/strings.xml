@@ -570,7 +570,7 @@
         <string name="dismiss">Odmietnuť</string>
         <string name="open_downloaded_repo">Otvoriť úložisko</string>
         <string name="battery_dialog_title">Zakázať optimalizáciu batérie</string>
-        <string name="battery_dialog_message">CimaStream potrebuje povolenie na spustenie na pozadí, aby sa zabezpečilo neprerušované sťahovanie a upozornenia na predplatné\n TV relácie. Stlačením tlačidla &quot;OK&quot; sa vám zobrazí dialógové okno so žiadosťou.\n Stlačte tlačidlo \\'Povoliť\\'.\n\nUpozorňujeme, že toto povolenie neznamená, že CIMA4 vybije batériu. Na pozadí bude fungovať iba v prípade potreby, napríklad\n pri prijímaní upozornení alebo sťahovaní videí z oficiálnych rozšírení.</string>
+        <string name="battery_dialog_message">CimaStream potrebuje povolenie na spustenie na pozadí, aby sa zabezpečilo neprerušované sťahovanie a upozornenia na predplatné\n TV relácie. Stlačením tlačidla &quot;OK&quot; sa vám zobrazí dialógové okno so žiadosťou.\n Stlačte tlačidlo \'Povoliť\'.\n\nUpozorňujeme, že toto povolenie neznamená, že CIMA4 vybije batériu. Na pozadí bude fungovať iba v prípade potreby, napríklad\n pri prijímaní upozornení alebo sťahovaní videí z oficiálnych rozšírení.</string>
         <string name="app_unrestricted_toast">Využitie batérie aplikácie je už nastavené na neobmedzené</string>
         <string name="app_info_intent_error">Nie je možné otvoriť informácie o aplikácii CimaStream.</string>
         <string name="apk_installer_legacy">Dedičstvo</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Pridať</string>
         <string name="duplicate_replace">Nahradiť</string>
         <string name="duplicate_replace_all">Nahradiť všetko</string>
-        <string name="duplicate_message_single" formatted="true">\n Zdá sa, že vo vašej knižnici už existuje potenciálne duplicitná položka: \\'%s.\\'\n\n \n\nChcete túto položku aj tak pridať, nahradiť existujúcu alebo zrušiť akciu?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Zdá sa, že vo vašej knižnici už existuje potenciálne duplicitná položka: \'%s.\'\n\n \n\nChcete túto položku aj tak pridať, nahradiť existujúcu alebo zrušiť akciu?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Vo vašej knižnici sa našli potenciálne duplicitné položky:\n\n \n\n%s\n\n \n\nChcete túto položku aj tak pridať, nahradiť existujúce alebo zrušiť akciu?\n    </string>
         <string name="enter_pin">Zadajte PIN</string>
         <string name="enter_pin_with_name" formatted="true">Zadajte PIN pre %s</string>

@@ -601,7 +601,7 @@
         <string name="dismiss">Descartar</string>
         <string name="open_downloaded_repo">Repositori obert</string>
         <string name="battery_dialog_title">Desactiva l\'optimització de la bateria</string>
-        <string name="battery_dialog_message">Per garantir descàrregues i notificacions ininterrompudes dels\n programes de televisió subscrits, CimaStream necessita permís per executar-se en segon pla. En prémer &quot;D\'acord&quot;, se us mostrarà un diàleg de sol·licitud.\n Si us plau, premeu \\'Permet\\'.\n\nTingueu en compte que aquest permís no vol dir que CIMA4 esgoti la bateria. Només funcionarà en segon pla quan sigui necessari, com ara\n quan rebeu notificacions o baixeu vídeos d\'extensions oficials.</string>
+        <string name="battery_dialog_message">Per garantir descàrregues i notificacions ininterrompudes dels\n programes de televisió subscrits, CimaStream necessita permís per executar-se en segon pla. En prémer &quot;D\'acord&quot;, se us mostrarà un diàleg de sol·licitud.\n Si us plau, premeu \'Permet\'.\n\nTingueu en compte que aquest permís no vol dir que CIMA4 esgoti la bateria. Només funcionarà en segon pla quan sigui necessari, com ara\n quan rebeu notificacions o baixeu vídeos d\'extensions oficials.</string>
         <string name="app_unrestricted_toast">L\'ús de la bateria de l\'aplicació ja està definit com a il·limitat</string>
         <string name="app_info_intent_error">No es pot obrir la informació de l\'aplicació de CimaStream.</string>
         <string name="update_notification_downloading">S\'està baixant l\'actualització de l\'aplicació...</string>

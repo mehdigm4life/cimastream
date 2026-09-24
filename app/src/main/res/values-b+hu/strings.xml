@@ -647,7 +647,7 @@
         <string name="skip_type_preview">Előnézet</string>
         <string name="open_downloaded_repo">Nyissa meg a tárat</string>
         <string name="battery_dialog_title">Az akkumulátor optimalizálás letiltása</string>
-        <string name="battery_dialog_message">Az előfizetett tévéműsorok megszakítás nélküli letöltése és értesítése érdekében a CimaStreamnek engedélyre van szüksége a háttérben való futáshoz. Ha megnyomja az &quot;OK&quot; gombot, megjelenik egy kérési párbeszédpanel.\n Kérjük, nyomja meg az \\'Engedélyezés\\' gombot.\n\nKérjük, vegye figyelembe, hogy ez az engedély nem jelenti azt, hogy a CIMA4 lemeríti az akkumulátort. Csak akkor működik a háttérben, ha szükséges, például\n értesítések fogadásakor vagy videók letöltésekor a hivatalos bővítményekről.</string>
+        <string name="battery_dialog_message">Az előfizetett tévéműsorok megszakítás nélküli letöltése és értesítése érdekében a CimaStreamnek engedélyre van szüksége a háttérben való futáshoz. Ha megnyomja az &quot;OK&quot; gombot, megjelenik egy kérési párbeszédpanel.\n Kérjük, nyomja meg az \'Engedélyezés\' gombot.\n\nKérjük, vegye figyelembe, hogy ez az engedély nem jelenti azt, hogy a CIMA4 lemeríti az akkumulátort. Csak akkor működik a háttérben, ha szükséges, például\n értesítések fogadásakor vagy videók letöltésekor a hivatalos bővítményekről.</string>
         <string name="app_unrestricted_toast">Az alkalmazás akkumulátorhasználata már korlátlanra van állítva</string>
         <string name="app_info_intent_error">Nem lehet megnyitni a CimaStream alkalmazásinformációit.</string>
         <string name="sort_episodes_number_asc">epizód (növekvő)</string>

@@ -564,13 +564,13 @@
         <string name="clipboard_too_large">متن خیلی زیاد ذخیره در کلیپ بورد امکان پذیر نیست.</string>
         <string name="action_mark_as_watched">علامت گذاری به عنوان تماشا</string>
         <string name="action_remove_from_watched">حذف از تماشا شده</string>
-        <string name="confirm_exit_dialog">آیا مطمئنید که می خواهید خارج شوید\؟</string>
+        <string name="confirm_exit_dialog">آیا مطمئنید که می خواهید خارج شوید؟</string>
         <string name="yes">بله</string>
         <string name="no">خیر</string>
         <string name="ok">باشه</string>
         <string name="dismiss">رد کردن</string>
         <string name="battery_dialog_title">بهینه سازی باتری را غیرفعال کنید</string>
-        <string name="battery_dialog_message">برای اطمینان از بارگیری‌ها و اعلان‌های بدون وقفه برای برنامه‌های تلویزیونی مشترک\n، CimaStream برای اجرا در پس‌زمینه به مجوز نیاز دارد. با فشار دادن &quot;OK&quot;، یک گفتگوی درخواست نمایش داده می‌شود.\n لطفاً \\'Allow\\' را فشار دهید.\n\nلطفاً توجه داشته باشید، این مجوز به این معنی نیست که CIMA4 باتری شما را خالی می‌کند. فقط در صورت لزوم در پس‌زمینه کار می‌کند، مانند\n هنگام دریافت اعلان‌ها یا بارگیری ویدیوها از برنامه‌های افزودنی رسمی.</string>
+        <string name="battery_dialog_message">برای اطمینان از بارگیری‌ها و اعلان‌های بدون وقفه برای برنامه‌های تلویزیونی مشترک\n، CimaStream برای اجرا در پس‌زمینه به مجوز نیاز دارد. با فشار دادن &quot;OK&quot;، یک گفتگوی درخواست نمایش داده می‌شود.\n لطفاً \'Allow\' را فشار دهید.\n\nلطفاً توجه داشته باشید، این مجوز به این معنی نیست که CIMA4 باتری شما را خالی می‌کند. فقط در صورت لزوم در پس‌زمینه کار می‌کند، مانند\n هنگام دریافت اعلان‌ها یا بارگیری ویدیوها از برنامه‌های افزودنی رسمی.</string>
         <string name="app_unrestricted_toast">استفاده از باتری برنامه از قبل روی نامحدود تنظیم شده است</string>
         <string name="app_info_intent_error">اطلاعات برنامه CimaStream باز نشد.</string>
         <string name="update_notification_downloading">در حال دانلود به‌روزرسانی برنامه…</string>
@@ -634,7 +634,7 @@
         <string name="duplicate_add">اضافه کنید</string>
         <string name="duplicate_replace">جایگزین کنید</string>
         <string name="duplicate_replace_all">همه را جایگزین کنید</string>
-        <string name="duplicate_message_single" formatted="true">\n به نظر می‌رسد که یک مورد بالقوه تکراری از قبل در کتابخانه شما وجود دارد: \\'%s.\\'\n\n \n\nآیا می‌خواهید به هر حال این مورد را اضافه کنید، مورد موجود را جایگزین کنید یا اقدام را لغو کنید؟\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n به نظر می‌رسد که یک مورد بالقوه تکراری از قبل در کتابخانه شما وجود دارد: \'%s.\'\n\n \n\nآیا می‌خواهید به هر حال این مورد را اضافه کنید، مورد موجود را جایگزین کنید یا اقدام را لغو کنید؟\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n موارد تکراری احتمالی در کتابخانه شما پیدا شده است:\n\n \n\n%s\n\n \n\nآیا می‌خواهید به هر حال این مورد را اضافه کنید، موارد موجود را جایگزین کنید یا اقدام را لغو کنید؟\n    </string>
         <string name="enter_pin">پین را وارد کنید</string>
         <string name="enter_pin_with_name" formatted="true">پین %s را وارد کنید</string>

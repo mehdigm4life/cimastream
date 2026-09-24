@@ -582,7 +582,7 @@
         <string name="dismiss">Atsisakyti</string>
         <string name="open_downloaded_repo">Atidaryti saugyklą</string>
         <string name="battery_dialog_title">Išjungti akumuliatoriaus optimizavimą</string>
-        <string name="battery_dialog_message">Kad būtų užtikrintas nepertraukiamas atsisiuntimas ir prenumeruojamų TV laidų pranešimai\n, „CimaStream“ reikia leidimo veikti fone. Paspaudus „Gerai“, bus rodomas užklausos dialogo langas.\n Paspauskite \\'Leisti\\'.\n\nAtminkite, kad šis leidimas nereiškia, kad CIMA4 išeikvos akumuliatorių. Jis veiks tik fone, kai reikės, pvz.,\n kai gaunate pranešimus arba atsisiunčiate vaizdo įrašus iš oficialių plėtinių.</string>
+        <string name="battery_dialog_message">Kad būtų užtikrintas nepertraukiamas atsisiuntimas ir prenumeruojamų TV laidų pranešimai\n, „CimaStream“ reikia leidimo veikti fone. Paspaudus „Gerai“, bus rodomas užklausos dialogo langas.\n Paspauskite \'Leisti\'.\n\nAtminkite, kad šis leidimas nereiškia, kad CIMA4 išeikvos akumuliatorių. Jis veiks tik fone, kai reikės, pvz.,\n kai gaunate pranešimus arba atsisiunčiate vaizdo įrašus iš oficialių plėtinių.</string>
         <string name="app_unrestricted_toast">Programos akumuliatoriaus naudojimas jau nustatytas į neribotą</string>
         <string name="app_info_intent_error">Nepavyko atidaryti CimaStream programos informacijos.</string>
         <string name="apk_installer_legacy">Palikimas</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">Pridėti</string>
         <string name="duplicate_replace">Pakeiskite</string>
         <string name="duplicate_replace_all">Pakeisti viską</string>
-        <string name="duplicate_message_single" formatted="true">\n Atrodo, kad jūsų bibliotekoje jau yra galimai pasikartojantis elementas: \\'%s.\\'\n\n \n\nAr vis tiek norėtumėte pridėti šį elementą, pakeisti esamą ar atšaukti veiksmą?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Atrodo, kad jūsų bibliotekoje jau yra galimai pasikartojantis elementas: \'%s.\'\n\n \n\nAr vis tiek norėtumėte pridėti šį elementą, pakeisti esamą ar atšaukti veiksmą?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Jūsų bibliotekoje rasta galimų pasikartojančių elementų:\n\n \n\n%s\n\n \n\nAr vis tiek norėtumėte pridėti šį elementą, pakeisti esamus ar atšaukti veiksmą?\n    </string>
         <string name="enter_pin">Įveskite PIN kodą</string>
         <string name="enter_pin_with_name" formatted="true">Įveskite %s PIN kodą</string>

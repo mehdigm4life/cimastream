@@ -559,14 +559,14 @@
         <string name="clipboard_unknown_error">حدث خطأ أثناء النسخ، يرجى نسخ logcat والاتصال بدعم التطبيق.</string>
         <string name="action_mark_as_watched">وضع علامة كما شاهدت</string>
         <string name="action_remove_from_watched">إزالة من شاهد</string>
-        <string name="confirm_exit_dialog">هل أنت متأكد أنك تريد الخروج\؟</string>
+        <string name="confirm_exit_dialog">هل أنت متأكد أنك تريد الخروج؟</string>
         <string name="yes">نعم</string>
         <string name="no">لا</string>
         <string name="ok">حسنًا</string>
         <string name="dismiss">استبعاد</string>
         <string name="open_downloaded_repo">فتح المستودع</string>
         <string name="battery_dialog_title">تعطيل تحسين البطارية</string>
-        <string name="battery_dialog_message">لضمان عدم انقطاع التنزيلات والإشعارات للبرامج التليفزيونية\n المشتركة، يحتاج CimaStream إلى إذن للتشغيل في الخلفية. بالضغط على &quot;موافق&quot;، سيظهر لك مربع حوار الطلب.\n الرجاء الضغط على \\'السماح\\'.\n\nالرجاء ملاحظة أن هذا الإذن لا يعني أن CIMA4 سوف يستنزف بطاريتك. ولن يعمل إلا في الخلفية عند الضرورة، مثل\n عند تلقي الإشعارات أو تنزيل مقاطع الفيديو من الملحقات الرسمية.</string>
+        <string name="battery_dialog_message">لضمان عدم انقطاع التنزيلات والإشعارات للبرامج التليفزيونية\n المشتركة، يحتاج CimaStream إلى إذن للتشغيل في الخلفية. بالضغط على &quot;موافق&quot;، سيظهر لك مربع حوار الطلب.\n الرجاء الضغط على \'السماح\'.\n\nالرجاء ملاحظة أن هذا الإذن لا يعني أن CIMA4 سوف يستنزف بطاريتك. ولن يعمل إلا في الخلفية عند الضرورة، مثل\n عند تلقي الإشعارات أو تنزيل مقاطع الفيديو من الملحقات الرسمية.</string>
         <string name="app_unrestricted_toast">تم ضبط استخدام بطارية التطبيق بالفعل على غير مقيد</string>
         <string name="app_info_intent_error">غير قادر على فتح معلومات تطبيق CimaStream.</string>
         <string name="update_notification_downloading">جارٍ تنزيل تحديث التطبيق…</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">أضف</string>
         <string name="duplicate_replace">استبدال</string>
         <string name="duplicate_replace_all">استبدال الكل</string>
-        <string name="duplicate_message_single" formatted="true">\n يبدو أن هناك عنصر مكرر موجود بالفعل في مكتبتك: \\'%s.\\'\n\n \n\nهل ترغب في إضافة هذا العنصر على أية حال، أو استبدال العنصر الموجود، أو إلغاء الإجراء؟\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n يبدو أن هناك عنصر مكرر موجود بالفعل في مكتبتك: \'%s.\'\n\n \n\nهل ترغب في إضافة هذا العنصر على أية حال، أو استبدال العنصر الموجود، أو إلغاء الإجراء؟\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n تم العثور على عناصر مكررة محتملة في مكتبتك:\n\n \n\n%s\n\n \n\nهل ترغب في إضافة هذا العنصر على أية حال، أو استبدال العناصر الموجودة، أو إلغاء الإجراء؟\n</string>
         <string name="enter_pin">أدخل رقم التعريف الشخصي</string>
         <string name="enter_pin_with_name" formatted="true">أدخل رقم التعريف الشخصي لـ %s</string>

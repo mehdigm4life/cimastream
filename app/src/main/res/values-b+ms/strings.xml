@@ -632,7 +632,7 @@
         <string name="player_settings_always_ask">Sentiasa bertanya</string>
         <string name="player_settings_select_cast_device">Pilih peranti hantar</string>
         <string name="skip_type_preview">Pratonton</string>
-        <string name="battery_dialog_message">Untuk memastikan muat turun tanpa gangguan dan pemberitahuan untuk rancangan TV yang dilanggan\n, CimaStream memerlukan kebenaran untuk dijalankan di latar belakang. Dengan menekan &quot;OK&quot;, anda akan ditunjukkan dialog permintaan.\n Sila tekan \\'Benarkan\\'.\n\nSila ambil perhatian, kebenaran ini tidak bermakna CIMA4 akan menghabiskan bateri anda. Ia hanya akan beroperasi di latar belakang apabila perlu, seperti\n apabila menerima pemberitahuan atau memuat turun video daripada sambungan rasmi.</string>
+        <string name="battery_dialog_message">Untuk memastikan muat turun tanpa gangguan dan pemberitahuan untuk rancangan TV yang dilanggan\n, CimaStream memerlukan kebenaran untuk dijalankan di latar belakang. Dengan menekan &quot;OK&quot;, anda akan ditunjukkan dialog permintaan.\n Sila tekan \'Benarkan\'.\n\nSila ambil perhatian, kebenaran ini tidak bermakna CIMA4 akan menghabiskan bateri anda. Ia hanya akan beroperasi di latar belakang apabila perlu, seperti\n apabila menerima pemberitahuan atau memuat turun video daripada sambungan rasmi.</string>
         <string name="app_unrestricted_toast">Penggunaan bateri apl sudah ditetapkan kepada tidak terhad</string>
         <string name="apk_installer_package_installer">Pemasang Pakej</string>
         <string name="sort_rating_desc">Penilaian (Tinggi ke Rendah)</string>
@@ -661,7 +661,7 @@
         <string name="quality_profile_help">\n Di sini anda boleh menukar cara sumber disusun. Jika video mempunyai keutamaan yang lebih tinggi, ia akan kelihatan lebih tinggi dalam pemilihan sumber.\n Jumlah keutamaan sumber dan keutamaan kualiti ialah keutamaan video.\n \n\nSumber A: 3\n \nKualiti B: 7\n \nAkan mempunyai gabungan keutamaan video sebanyak 10.\n\n \n\nNOTA: Jika jumlah itu adalah skit secara automatik apabila jumlah tersebut adalah 10 atau lebih. dimuatkan!\n    </string>
         <string name="qualities">Kualiti</string>
         <string name="unable_to_inflate">UI tidak dapat dibuat dengan betul, ini adalah BUG UTAMA dan harus dilaporkan segera %s</string>
-        <string name="duplicate_message_single" formatted="true">\n Nampaknya item yang berpotensi menjadi pendua sudah wujud dalam pustaka anda: \\'%s.\\'\n\n \n\nAdakah anda mahu menambah item ini juga, menggantikan yang sedia ada atau membatalkan tindakan?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Nampaknya item yang berpotensi menjadi pendua sudah wujud dalam pustaka anda: \'%s.\'\n\n \n\nAdakah anda mahu menambah item ini juga, menggantikan yang sedia ada atau membatalkan tindakan?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Item pendua yang berpotensi telah ditemui dalam pustaka anda:\n\n \n\n%s\n\n \n\nAdakah anda mahu menambah item ini juga, menggantikan yang sedia ada atau membatalkan tindakan?\n    </string>
         <string name="no_account">Tiada akaun</string>
         <string name="skip_startup_account_select_pref">Langkau pemilihan akaun semasa permulaan</string>

@@ -600,7 +600,7 @@
         <string name="dismiss">Avvis</string>
         <string name="open_downloaded_repo">Åpne depot</string>
         <string name="battery_dialog_title">Deaktiver batterioptimalisering</string>
-        <string name="battery_dialog_message">For å sikre uavbrutt nedlasting og varsler for abonnerte\n TV-programmer, trenger CimaStream tillatelse til å kjøre i bakgrunnen. Ved å trykke &quot;OK&quot;, vil du få vist en forespørselsdialog.\n Vennligst trykk \\'Tillat\\'.\n\nVær oppmerksom på at denne tillatelsen ikke betyr at CIMA4 vil tømme batteriet. Den vil bare fungere i bakgrunnen når det er nødvendig, for eksempel\n når du mottar varsler eller laster ned videoer fra offisielle utvidelser.</string>
+        <string name="battery_dialog_message">For å sikre uavbrutt nedlasting og varsler for abonnerte\n TV-programmer, trenger CimaStream tillatelse til å kjøre i bakgrunnen. Ved å trykke &quot;OK&quot;, vil du få vist en forespørselsdialog.\n Vennligst trykk \'Tillat\'.\n\nVær oppmerksom på at denne tillatelsen ikke betyr at CIMA4 vil tømme batteriet. Den vil bare fungere i bakgrunnen når det er nødvendig, for eksempel\n når du mottar varsler eller laster ned videoer fra offisielle utvidelser.</string>
         <string name="app_unrestricted_toast">Appens batteribruk er allerede satt til ubegrenset</string>
         <string name="app_info_intent_error">Kan ikke åpne CimaStreams appinformasjon.</string>
         <string name="sort_episodes_number_asc">Episode (stigende)</string>
@@ -635,7 +635,7 @@
         <string name="duplicate_add">Legg til</string>
         <string name="duplicate_replace">Bytt ut</string>
         <string name="duplicate_replace_all">Erstatt alle</string>
-        <string name="duplicate_message_single" formatted="true">\n Det ser ut til at et potensielt duplisert element allerede eksisterer i biblioteket ditt: \\'%s.\\'\n\n \n\nVil du legge til dette elementet likevel, erstatte det eksisterende eller avbryte handlingen?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n Det ser ut til at et potensielt duplisert element allerede eksisterer i biblioteket ditt: \'%s.\'\n\n \n\nVil du legge til dette elementet likevel, erstatte det eksisterende eller avbryte handlingen?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n Potensielle dupliserte elementer er funnet i biblioteket ditt:\n\n \n\n%s\n\n \n\nVil du legge til dette elementet likevel, erstatte de eksisterende eller avbryte handlingen?\n    </string>
         <string name="enter_pin">Skriv inn PIN</string>
         <string name="enter_pin_with_name" formatted="true">Skriv inn PIN-koden for %s</string>

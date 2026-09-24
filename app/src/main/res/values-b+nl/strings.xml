@@ -701,7 +701,7 @@
         <string name="start_paused_settings_des">Verminder stress bij het selecteren van bronnen</string>
         <string name="tv_layout_clock_settings">Toon real-time klok</string>
         <string name="tv_layout_clock_settings_des">Toon een realtime klok bovenaan het scherm. Geldt voor de startpagina en speler</string>
-        <string name="battery_dialog_message">Om ononderbroken downloads en meldingen voor geabonneerde tv-programma\'s te garanderen, heeft CimaStream toestemming nodig om op de achtergrond te draaien. Als u op &quot;OK&quot; drukt, krijgt u een verzoekvenster te zien.\n Druk alstublieft op \\'Toestaan\\'.\n\nLet op: deze toestemming betekent niet dat CIMA4 uw batterij leegmaakt. Het werkt alleen op de achtergrond als dat nodig is, zoals\n bij het ontvangen van meldingen of het downloaden van video\'s van officiële extensies.</string>
+        <string name="battery_dialog_message">Om ononderbroken downloads en meldingen voor geabonneerde tv-programma\'s te garanderen, heeft CimaStream toestemming nodig om op de achtergrond te draaien. Als u op &quot;OK&quot; drukt, krijgt u een verzoekvenster te zien.\n Druk alstublieft op \'Toestaan\'.\n\nLet op: deze toestemming betekent niet dat CIMA4 uw batterij leegmaakt. Het werkt alleen op de achtergrond als dat nodig is, zoals\n bij het ontvangen van meldingen of het downloaden van video\'s van officiële extensies.</string>
         <string name="profile_settings">Profielinstellingen</string>
         <string name="profile_hide_negative_sources">Verberg bronnen met een negatieve prioriteit</string>
         <string name="profile_hide_error_sources">Verberg bronnen met fouten</string>

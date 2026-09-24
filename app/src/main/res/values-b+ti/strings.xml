@@ -566,9 +566,9 @@
         <string name="dismiss">ካብ ስራሕ ምብራር</string>
         <string name="open_downloaded_repo">መኽዘን ክፈት</string>
         <string name="battery_dialog_title">ባትሪ ምምሕያሽ ኣሰናኽል</string>
-        <string name="battery_dialog_message">ንዝተመዝገቡ\n መደባት ቲቪ ብዘይ ምቁራጽ ምውራድን መፍለጢታትን ንምርግጋጽ፡ ሲማስትሪም ብድሕሪት ንኽሰርሕ ፍቓድ የድልዮ። &quot;OK&quot; ብምጽቃጥ፡ ናይ ሕቶ ዝርርብ ክረአየካ እዩ።\n በጃኻ \\'Allow\\' ጽቐጥ።\n\nበጃኻ ኣስተውዕል፡ እዚ ፍቓድ እዚ CIMA4 ባትሪኻ ከውጽእ እዩ ማለት ኣይኮነን። ኣድላዪ ኣብ ዝኾነሉ እዋን ጥራይ እዩ ኣብ ድሕሪት ክሰርሕ፣ ከም\n መፍለጢታት ኣብ ዝቕበልሉ ወይ ካብ ወግዓዊ መቐጸልታታት ቪድዮታት ኣብ ምውራድ።</string>
+        <string name="battery_dialog_message">ንዝተመዝገቡ\n መደባት ቲቪ ብዘይ ምቁራጽ ምውራድን መፍለጢታትን ንምርግጋጽ፡ ሲማስትሪም ብድሕሪት ንኽሰርሕ ፍቓድ የድልዮ። &quot;OK&quot; ብምጽቃጥ፡ ናይ ሕቶ ዝርርብ ክረአየካ እዩ።\n በጃኻ \'Allow\' ጽቐጥ።\n\nበጃኻ ኣስተውዕል፡ እዚ ፍቓድ እዚ CIMA4 ባትሪኻ ከውጽእ እዩ ማለት ኣይኮነን። ኣድላዪ ኣብ ዝኾነሉ እዋን ጥራይ እዩ ኣብ ድሕሪት ክሰርሕ፣ ከም\n መፍለጢታት ኣብ ዝቕበልሉ ወይ ካብ ወግዓዊ መቐጸልታታት ቪድዮታት ኣብ ምውራድ።</string>
         <string name="app_unrestricted_toast">ድሮ ኣጠቓቕማ ባትሪ ኣፕ ናብ ዘይተገደበ ተቐሚጡ ኣሎ።</string>
-        <string name="app_info_intent_error">CimaStream\\'s App info ክኸፍት ኣይከኣለን።</string>
+        <string name="app_info_intent_error">CimaStream\'s App info ክኸፍት ኣይከኣለን።</string>
         <string name="update_notification_downloading">ኣብ ምውራድ app update...</string>
         <string name="update_notification_installing">ምትካል ኣፕ ኣፕዴት...</string>
         <string name="update_notification_failed">ሓድሽ ስሪት ናይቲ ኣፕ ክተክል ኣይከኣለን</string>
@@ -632,7 +632,7 @@
         <string name="duplicate_add">ወስኽ</string>
         <string name="duplicate_replace">ተክኦ</string>
         <string name="duplicate_replace_all">ንኹሉ ተክኦ</string>
-        <string name="duplicate_message_single" formatted="true">\n ኣብ ቤተ-መጻሕፍትኻ ድሮ ክድገም ዝኽእል ኣቕሓ ዘሎ ይመስል፡ \\'%s.\\'\n\n \n\nብዝኾነ ነዚ ኣቕሓ ክትውስኾ፡ ነቲ ዝነበረ ክትትክኦ፡ ወይ ነቲ ተግባር ክትስርዞ ትደሊ ዲኻ?\n    </string>
+        <string name="duplicate_message_single" formatted="true">\n ኣብ ቤተ-መጻሕፍትኻ ድሮ ክድገም ዝኽእል ኣቕሓ ዘሎ ይመስል፡ \'%s.\'\n\n \n\nብዝኾነ ነዚ ኣቕሓ ክትውስኾ፡ ነቲ ዝነበረ ክትትክኦ፡ ወይ ነቲ ተግባር ክትስርዞ ትደሊ ዲኻ?\n    </string>
         <string name="duplicate_message_multiple" formatted="true">\n ኣብ ቤተ-መጻሕፍትኻ ክድገሙ ዝኽእሉ ነገራት ተረኺቦም ኣለዉ:\n\n \n\n%s\n\n \n\nብዝኾነ ነዚ ኣቕሓ ክትውስኾ፡ ነቶም ዝነበሩ ክትትክኦም፡ ወይ ነቲ ተግባር ክትስርዞ ትደሊ ዲኻ?\n    </string>
         <string name="enter_pin">ፒን ኣእቱ</string>
         <string name="enter_pin_with_name" formatted="true">ን %s ፒን ኣእቱ</string>
@@ -669,7 +669,7 @@
         <string name="device_pin_counter_text">ኮድ ኣብ %1$dm %2$ds ይውዳእ እዩ።</string>
         <string name="sort_release_date_new">ዕለት ምውጻእ (ሓድሽ ናብ ኣረጊት)</string>
         <string name="sort_release_date_old">ዕለት ምውጻእ (ካብ ቀደም ክሳብ ሓድሽ)</string>
-        <string name="hide_player_control_names">ኣስማት ናይቲ ተጻዋታይ\\'s መቆጻጸሪታት ምሕባእ</string>
+        <string name="hide_player_control_names">ኣስማት ናይቲ ተጻዋታይ\'s መቆጻጸሪታት ምሕባእ</string>
         <string name="preview_seekbar">ቅድመ ምርኢት ሴክባር</string>
         <string name="preview_seekbar_desc">ኣብ seekbar ቅድመ-ምርኢት ንእሽቶ ስእሊ ኣንቅሕ</string>
         <string name="no_subtitles_loaded">ገና ንኡስ ኣርእስቲ ኣይተጻዕነን።</string>
@@ -678,7 +678,7 @@
         <string name="confirm_before_exiting_title">ቅድሚ ምውጻእካ ኣረጋግጽ</string>
         <string name="confirm_before_exiting_desc">ቅድሚ ካብቲ ኣፕ ምውጻእካ ዝርርብ ኣርኢ</string>
         <string name="show">ኣርእዩ</string>
-        <string name="dont_show">Don\\'t Show</string>
+        <string name="dont_show">Don\'t Show</string>
         <string name="subs_edge_size">መጠን ወሰን</string>
         <string name="torrent_preferred_media">ኣብ ቅጥዕታት/ኣቕረብቲ/ዝምረጹ ሚድያ torrent ኣንቅሕ</string>
         <string name="torrent_not_accepted">ኣፕ ዳግማይ ጀምር እሞ ንኽትቅጽል Stream Torrent pop-up ተቐበል።</string>
