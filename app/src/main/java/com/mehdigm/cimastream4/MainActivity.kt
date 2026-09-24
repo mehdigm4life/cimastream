@@ -1620,7 +1620,7 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
 
 //        ioSafe {
 //            val plugins =
-//                RepositoryParser.getRepoPlugins("https://raw.githubusercontent.com/mehdigm/TestPlugin/master/repo.json")
+//                RepositoryParser.getRepoPlugins("https://raw.githubusercontent.com/mehdigm4life/TestPlugin/master/repo.json")
 //                    ?: emptyList()
 //            plugins.map {
 //                println("Load plugin: ${it.name} ${it.url}")
@@ -2066,7 +2066,7 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
     suspend fun checkGithubConnectivity(): Boolean {
         return try {
             app.get(
-                "https://raw.githubusercontent.com/mehdigm/.github/master/connectivitycheck",
+                "https://raw.githubusercontent.com/mehdigm4life/.github/master/connectivitycheck",
                 timeout = 5
             ).text.trim() == "ok"
         } catch (t: Throwable) {
