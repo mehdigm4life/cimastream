@@ -336,7 +336,6 @@
         <string name="resume_remaining" formatted="true">%s\nremaining</string>
         <string name="download_queue">Cua de descàrrega</string>
         <string name="play_full_series_button">Juga a la sèrie completa</string>
-        <string name="need_storage">Permet descarregar episodis</string>
         <string name="downloaded">Descarregat</string>
         <string name="queue_empty_message">Actualment no hi ha baixades a la cua.</string>
         <string name="subs_edge">Edge</string>

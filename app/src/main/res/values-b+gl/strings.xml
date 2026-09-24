@@ -296,7 +296,6 @@
         <string name="begin_speaking">Comeza a falar...</string>
         <string name="play_full_series_button">Xoga a serie completa</string>
         <string name="torrent_info">Este vídeo é un torrent, isto significa que se pode facer un seguimento da túa actividade de vídeo.\nAsegúrate de entender o torrent antes de continuar.</string>
-        <string name="need_storage">Permite descargar episodios</string>
         <string name="queue_empty_message">Actualmente non hai descargas en cola.</string>
         <string name="subs_edge">Borde</string>
         <string name="log_cat">Logcat 🐈</string>

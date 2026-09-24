@@ -47,7 +47,7 @@
     <string name="reload_error">Opakovat připojení…</string>
     <string name="go_back">Návrat zpět</string>
     <string name="play_episode">Přehrát epizodu</string>
-    <!--<string name="need_storage">Umožnit stahování epizod</string>-->
+    <!---->
     <string name="download">Stáhnout</string>
     <string name="downloaded">Stáhnuto</string>
     <string name="downloading">Stahování</string>

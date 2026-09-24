@@ -170,7 +170,6 @@
         <string name="home_main_poster_img_des">Pangunahing Poster</string>
         <string name="filler" formatted="true">Tagapuno</string>
         <string name="type_dropped">Nahulog</string>
-        <string name="need_storage">Payagan na mag-download ng mga episode</string>
         <string name="stream">Stream ng network</string>
         <string name="subs_edge">gilid</string>
         <string name="subs_edge_type">Uri ng Edge</string>

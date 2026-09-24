@@ -39,7 +39,7 @@
     <string name="reload_error">Prøv tilkoblingen på nytt…</string>
     <string name="go_back">Gå tilbake</string>
     <string name="play_episode">Spille Episode</string>
-    <!--<string name="need_storage">Tillat å laste ned episoder</string>-->
+    <!---->
     <string name="download">nedlasting</string>
     <string name="downloaded">Lastet ned</string>
     <string name="downloading">Nedlasting pågår</string>

@@ -51,7 +51,7 @@
     <string name="reload_error">Tentando conectar novamente…</string>
     <string name="go_back">Volte</string>
     <string name="play_episode">Reproduzir episódio</string>
-    <!--<string name="need_storage">Permirtir baixar episódios</string>-->
+    <!---->
     <string name="download">Download</string>
     <string name="downloaded">Baixado</string>
     <string name="downloading">Baixando</string>

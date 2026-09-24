@@ -744,7 +744,6 @@
     </plurals>
     <string name="player_is_live">வாழ்க</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">அத்தியாயங்களைப் பதிவிறக்க அனுமதிக்கவும்</string>
         <string name="subs_edge">விளிம்பு</string>
         <string name="log_cat">லாக்கேட் 🐈</string>
         <string name="start_paused_settings">தொடக்க வீடியோக்கள் இடைநிறுத்தப்பட்டன</string>

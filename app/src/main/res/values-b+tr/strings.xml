@@ -52,7 +52,7 @@
     <string name="reload_error">Yeniden bağlan…</string>
     <string name="go_back">Geri Dön</string>
     <string name="play_episode">Bölümü Oynat</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">İndir</string>
     <string name="downloaded">İndirildi</string>
     <string name="downloading">İndiriliyor</string>

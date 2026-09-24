@@ -422,7 +422,6 @@
     <string name="subtitle_offset_title">সাবটাইটেল বিলম্ব</string>
     <string name="subtitle_offset_extra_hint_later_format">সাবটাইটেল যদি %d মিলিসেকেন্ড আগে দেখায় তবে এটি ব্যবহার করুন</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">পর্বগুলি ডাউনলোড করার অনুমতি দিন</string>
         <string name="subs_edge">প্রান্ত</string>
         <string name="log_cat">লগক্যাট 🐈</string>
         <string name="start_paused_settings">বিরাম দেওয়া ভিডিও শুরু করুন৷</string>

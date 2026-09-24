@@ -142,7 +142,6 @@
         <string name="begin_speaking">बोल्न सुरु गर्नुहोस्...</string>
         <string name="play_full_series_button">पूर्ण श्रृंखला खेल्नुहोस्</string>
         <string name="torrent_info">यो भिडियो टोरेन्ट हो, यसको मतलब यो हो कि तपाईंको भिडियो गतिविधि ट्र्याक गर्न सकिन्छ।\nजारी राख्नु अघि तपाईंले Torrenting बुझ्नुभएको निश्चित गर्नुहोस्।</string>
-        <string name="need_storage">एपिसोडहरू डाउनलोड गर्न अनुमति दिनुहोस्</string>
         <string name="downloads_delete_select">मेटाउनका लागि वस्तुहरू चयन गर्नुहोस्</string>
         <string name="downloads_empty">हाल कुनै डाउनलोडहरू छैनन्।</string>
         <string name="queue_empty_message">हाल कुनै पङ्क्तिबद्ध डाउनलोडहरू छैनन्।</string>

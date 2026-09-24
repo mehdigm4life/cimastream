@@ -605,7 +605,6 @@
         <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
         <string name="download_queue">قطار ڈاؤن لوڈ کریں۔</string>
         <string name="play_full_series_button">مکمل سیریز کھیلیں</string>
-        <string name="need_storage">ایپی سوڈز ڈاؤن لوڈ کرنے کی اجازت دیں۔</string>
         <string name="queue_empty_message">فی الحال کوئی قطار بند ڈاؤن لوڈز نہیں ہیں۔</string>
         <string name="subs_edge">کنارہ</string>
         <string name="log_cat">لاگ کیٹ 🐈</string>

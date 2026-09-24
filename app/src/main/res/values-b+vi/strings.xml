@@ -53,7 +53,7 @@
     <string name="reload_error">Thử kết nối lại…</string>
     <string name="go_back">Quay lại</string>
     <string name="play_episode">Phát Tập phim</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">Tải xuống</string>
     <string name="downloaded">Đã tải xuống</string>
     <string name="downloading">Đang tải xuống</string>

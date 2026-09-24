@@ -533,7 +533,6 @@
         <string name="begin_speaking">စတင်ပြောဆိုခြင်း...</string>
         <string name="play_full_series_button">စီးရီးအပြည့်အစုံကို ဖွင့်ပါ။</string>
         <string name="torrent_info">ဤဗီဒီယိုသည် Torrent တစ်ခုဖြစ်ပြီး ဆိုလိုသည်မှာ သင့်ဗီဒီယိုလုပ်ဆောင်ချက်ကို ခြေရာခံနိုင်သည်။\nဆက်လက်မလုပ်ဆောင်မီ Torrenting ကို နားလည်ကြောင်း သေချာပါစေ။</string>
-        <string name="need_storage">အပိုင်းများကို ဒေါင်းလုဒ်လုပ်ခွင့်ပြုပါ။</string>
         <string name="downloads_delete_select">ဖျက်မည့်အရာများကို ရွေးပါ။</string>
         <string name="downloads_empty">လောလောဆယ်တွင် ဒေါင်းလုဒ်များ မရှိပါ။</string>
         <string name="queue_empty_message">လောလောဆယ်တွင် တန်းစီထားသောဒေါင်းလုဒ်များ မရှိပါ။</string>

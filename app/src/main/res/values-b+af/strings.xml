@@ -136,7 +136,6 @@
         <string name="begin_speaking">Begin Praat …</string>
         <string name="play_full_series_button">Speel die volledige reeks</string>
         <string name="torrent_info">Hierdie video is \'n Torrent, dit beteken dat jou video-aktiwiteit nagespoor kan word.\nMaak seker dat jy Torrent verstaan voordat jy voortgaan.</string>
-        <string name="need_storage">Laat toe om episodes af te laai</string>
         <string name="downloads_empty">Daar is tans geen aflaaie nie.</string>
         <string name="queue_empty_message">Daar is tans geen tou-aflaaie nie.</string>
         <string name="offline_file">Beskikbaar om vanlyn te kyk</string>

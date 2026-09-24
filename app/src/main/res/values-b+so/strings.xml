@@ -507,7 +507,6 @@
     <string name="prerelease_already_installed">Nooca hordhaca ah horey ayaa loo soo dejiyay.</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
         <string name="resume_remaining" formatted="true">%s\nremaining</string>
-        <string name="need_storage">Oggolow inaad soo dejiso qaybaha</string>
         <string name="subs_edge">Cidhif</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Bilaw fiidiyowyada waa la hakiyay</string>

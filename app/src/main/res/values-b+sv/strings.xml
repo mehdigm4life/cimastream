@@ -745,7 +745,6 @@
     </plurals>
     <string name="log_cat">Logcat 🐈</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Tillåt att ladda ner avsnitt</string>
         <string name="subs_edge">Edge</string>
         <string name="start_paused_settings">Starta videor pausade</string>
         <string name="start_paused_settings_des">Minska stressen när du väljer källor</string>

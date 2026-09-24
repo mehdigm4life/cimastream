@@ -100,7 +100,6 @@
         <string name="play_livestream_button">Play Livestream</string>
         <string name="play_full_series_button">Lîstika Full Series</string>
         <string name="play_episode">Episode Play</string>
-        <string name="need_storage">Destûrê bide daxistina beşan</string>
         <string name="queue_empty_message">Niha tu dakêşanên li rêzê tune.</string>
         <string name="stream">Herikîna torê</string>
         <string name="error_loading_links_toast">Çewtiya Barkirina Girêdan</string>

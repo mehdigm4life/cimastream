@@ -52,7 +52,7 @@
     <string name="reload_error">重試連接…</string>
     <string name="go_back">返回</string>
     <string name="play_episode">播放劇集</string>
-    <!--<string name="need_storage">允許下載劇集</string>-->
+    <!---->
     <string name="download">下載</string>
     <string name="downloaded">已下載</string>
     <string name="downloading">下載中</string>

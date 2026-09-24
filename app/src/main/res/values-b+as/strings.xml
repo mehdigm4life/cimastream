@@ -643,7 +643,6 @@
         <string name="speech_recognition_unavailable">বাক চিনাক্তকৰণৰ ব্যৱস্থা নাই</string>
         <string name="begin_speaking">কথা ক\'বলৈ আৰম্ভ কৰক...</string>
         <string name="play_full_series_button">সম্পূৰ্ণ ছিৰিজ খেলক</string>
-        <string name="need_storage">খণ্ডসমূহ ডাউনলোড কৰিবলৈ অনুমতি দিয়ক</string>
         <string name="queue_empty_message">বৰ্তমান কোনো শাৰীবদ্ধ ডাউনলোড নাই।</string>
         <string name="subs_edge">এজ</string>
         <string name="log_cat">লগকেট 🐈</string>

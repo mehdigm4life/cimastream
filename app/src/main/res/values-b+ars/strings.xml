@@ -347,7 +347,6 @@
         <string name="begin_speaking">ابدأ بالكلام…</string>
         <string name="play_full_series_button">لعب السلسلة الكاملة</string>
         <string name="torrent_info">هذا الفيديو هو تورنت، وهذا يعني أنه يمكن تتبع نشاط الفيديو الخاص بك.\nتأكد من أنك تفهم التورنت قبل المتابعة.</string>
-        <string name="need_storage">السماح بتنزيل الحلقات</string>
         <string name="downloads_delete_select">حدد العناصر المراد حذفها</string>
         <string name="downloads_empty">لا يوجد حاليا أي التنزيلات.</string>
         <string name="queue_empty_message">لا يوجد حاليا أي التنزيلات في قائمة الانتظار.</string>

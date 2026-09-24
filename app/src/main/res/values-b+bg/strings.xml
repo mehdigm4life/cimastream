@@ -736,7 +736,6 @@
         <string name="download_time_left_hour_min_sec_format" formatted="true">%1$dh %2$dm %3$ds</string>
         <string name="download_time_left_min_sec_format" formatted="true">%1$dm %2$ds</string>
         <string name="download_time_left_sec_format" formatted="true">%1$ds</string>
-        <string name="need_storage">Разрешаване на изтегляне на епизоди</string>
         <string name="subs_edge">Ръб</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Стартиране на видеоклипове на пауза</string>

@@ -744,7 +744,6 @@
     <string name="tv_layout_clock_settings">Shfaq orën në kohë reale</string>
     <string name="tv_layout_clock_settings_des">Shfaq një orë në krye të ekranit. Aplikohet në faqen kryesore dhe në luajtës</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Lejo shkarkimin e episodeve</string>
         <string name="subs_edge">Buzë</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Nisni videot në pauzë</string>

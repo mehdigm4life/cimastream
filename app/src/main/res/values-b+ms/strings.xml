@@ -538,7 +538,6 @@
         <string name="resume_time_left" formatted="true">%dm\nremaining</string>
         <string name="download_queue">Muat turun baris gilir</string>
         <string name="play_full_series_button">Main Siri Penuh</string>
-        <string name="need_storage">Benarkan untuk memuat turun episod</string>
         <string name="queue_empty_message">Pada masa ini tiada muat turun beratur.</string>
         <string name="subs_edge">Tepi</string>
         <string name="log_cat">Logcat 🐈</string>

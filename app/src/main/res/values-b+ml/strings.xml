@@ -319,7 +319,6 @@
         <string name="resume_time_left" formatted="true">%dm\nremaining</string>
         <string name="resume_remaining" formatted="true">%s\nremaining</string>
         <string name="login_format" formatted="true">%1$s %2$s</string>
-        <string name="need_storage">എപ്പിസോഡുകൾ ഡൗൺലോഡ് ചെയ്യാൻ അനുവദിക്കുക</string>
         <string name="subs_edge">എഡ്ജ്</string>
         <string name="log_cat">ലോഗ്കാറ്റ് 🐈</string>
         <string name="start_paused_settings">വീഡിയോകൾ ആരംഭിക്കുക താൽക്കാലികമായി നിർത്തി</string>

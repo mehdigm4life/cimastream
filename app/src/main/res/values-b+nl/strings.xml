@@ -52,7 +52,7 @@
     <string name="reload_error">Opnieuw proberen…</string>
     <string name="go_back">Ga terug</string>
     <string name="play_episode">Aflevering afspelen</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">Download</string>
     <string name="downloaded">Gedownload</string>
     <string name="downloading">Downloaden</string>

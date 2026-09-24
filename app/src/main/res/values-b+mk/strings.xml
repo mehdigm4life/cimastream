@@ -32,7 +32,7 @@
     <string name="reload_error">Повтори конекција…</string>
     <string name="go_back">Оди назад</string>
     <string name="play_episode">Вклучи епизода</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">Преземи</string>
     <string name="downloaded">Преземено</string>
     <string name="downloading">Преземање</string>

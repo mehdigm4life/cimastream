@@ -46,7 +46,7 @@
     <string name="reload_error">Coba ulang koneksi…</string>
     <string name="go_back">Kembali</string>
     <string name="play_episode">Putar Episode</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">Unduh</string>
     <string name="downloaded">Terunduh</string>
     <string name="downloading">Mengunduh</string>

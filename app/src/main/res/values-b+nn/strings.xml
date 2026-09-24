@@ -206,7 +206,6 @@
         <string name="resume_remaining" formatted="true">%s\nremaining</string>
         <string name="login_format" formatted="true">%1$s %2$s</string>
         <string name="app_dub_sub_episode_text_format" formatted="true">%1$s Ep %2$d</string>
-        <string name="need_storage">Tillat å laste ned episoder</string>
         <string name="downloads_delete_select">Velg elementer som skal slettes</string>
         <string name="downloads_empty">Det er for øyeblikket ingen nedlastinger.</string>
         <string name="queue_empty_message">Det er for øyeblikket ingen nedlastinger i kø.</string>

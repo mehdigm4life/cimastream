@@ -160,7 +160,6 @@
         <string name="play_torrent_button">Torrent axını</string>
         <string name="play_full_series_button">Tam seriyanı oynayın</string>
         <string name="torrent_info">Bu video Torrentdir, bu o deməkdir ki, video fəaliyyətiniz izlənilə bilər.\nDavam etməzdən əvvəl Torrentingi başa düşdüyünüzə əmin olun.</string>
-        <string name="need_storage">Epizodları endirməyə icazə verin</string>
         <string name="queue_empty_message">Hazırda növbəyə qoyulmuş yükləmələr yoxdur.</string>
         <string name="offline_file">Oflayn baxmaq üçün əlçatandır</string>
         <string name="select_all">Hamısını seçin</string>

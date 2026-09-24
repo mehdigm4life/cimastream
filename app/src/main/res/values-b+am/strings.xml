@@ -124,7 +124,6 @@
         <string name="begin_speaking">መናገር ጀምር…</string>
         <string name="play_full_series_button">ሙሉ ተከታታይ አጫውት።</string>
         <string name="torrent_info">ይህ ቪዲዮ Torrent ነው፣ ይህ ማለት የቪዲዮ እንቅስቃሴዎን መከታተል ይቻላል ማለት ነው።\nከመቀጠልዎ በፊት Torrentingን መረዳትዎን ያረጋግጡ።</string>
-        <string name="need_storage">ክፍሎችን ለማውረድ ፍቀድ</string>
         <string name="downloads_delete_select">የሚሰርዙትን ነገሮች ይምረጡ</string>
         <string name="downloads_empty">በአሁኑ ጊዜ ምንም ማውረዶች የሉም።</string>
         <string name="queue_empty_message">በአሁኑ ጊዜ ምንም የወረፋ ውርዶች የሉም።</string>

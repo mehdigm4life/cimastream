@@ -737,7 +737,6 @@
     <string name="skip_type_preview">Pré-visualização</string>
     <string name="player_is_live">Ao Vivo</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Permitir baixar episódios</string>
         <string name="subs_edge">Borda</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Iniciar vídeos pausados</string>

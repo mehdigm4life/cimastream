@@ -750,7 +750,6 @@
         <item quantity="other">%d скрытых ссылок</item>
     </plurals>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Разрешить скачивание серий</string>
         <string name="subs_edge">Край</string>
         <string name="log_cat">Логкот 🐈</string>
         <string name="start_paused_settings">Начало видео приостановлено</string>

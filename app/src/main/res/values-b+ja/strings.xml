@@ -741,7 +741,6 @@
         <item quantity="other">%d件の非表示リンク</item>
     </plurals>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">エピソードのダウンロードを許可する</string>
         <string name="subs_edge">エッジ</string>
         <string name="log_cat">丸太猫 🐈</string>
         <string name="start_paused_settings">ビデオを一時停止して開始</string>

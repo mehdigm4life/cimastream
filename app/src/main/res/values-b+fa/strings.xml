@@ -357,7 +357,6 @@
         <string name="download_queue">صف دانلود</string>
         <string name="speech_recognition_unavailable">تشخیص گفتار در دسترس نیست</string>
         <string name="play_full_series_button">سریال کامل را پخش کنید</string>
-        <string name="need_storage">اجازه دانلود قسمت ها</string>
         <string name="queue_empty_message">در حال حاضر هیچ بارگیری در صف وجود ندارد.</string>
         <string name="subs_edge">لبه</string>
         <string name="log_cat">لاگ کت 🐈</string>

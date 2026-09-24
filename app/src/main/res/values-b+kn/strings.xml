@@ -145,7 +145,6 @@
         <string name="begin_speaking">ಮಾತು ಆರಂಭಿಸಿ...</string>
         <string name="play_full_series_button">ಪೂರ್ಣ ಸರಣಿಯನ್ನು ಪ್ಲೇ ಮಾಡಿ</string>
         <string name="torrent_info">ಈ ವೀಡಿಯೊ ಟೊರೆಂಟ್ ಆಗಿದೆ, ಇದರರ್ಥ ನಿಮ್ಮ ವೀಡಿಯೊ ಚಟುವಟಿಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಬಹುದು.\nಮುಂದುವರಿಯುವ ಮೊದಲು ನೀವು ಟೊರೆಂಟಿಂಗ್ ಅನ್ನು ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
-        <string name="need_storage">ಸಂಚಿಕೆಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಅನುಮತಿಸಿ</string>
         <string name="downloads_delete_select">ಅಳಿಸಲು ಐಟಂಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
         <string name="downloads_empty">ಪ್ರಸ್ತುತ ಯಾವುದೇ ಡೌನ್‌ಲೋಡ್‌ಗಳಿಲ್ಲ.</string>
         <string name="queue_empty_message">ಪ್ರಸ್ತುತ ಯಾವುದೇ ಸರತಿ ಡೌನ್‌ಲೋಡ್‌ಗಳಿಲ್ಲ.</string>

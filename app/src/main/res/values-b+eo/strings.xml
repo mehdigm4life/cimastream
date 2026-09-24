@@ -187,7 +187,6 @@
         <string name="login_format" formatted="true">%1$s %2$s</string>
         <string name="play_full_series_button">Ludu Plenan Serion</string>
         <string name="torrent_info">Ĉi tiu video estas Torento, tio signifas, ke via video-agado povas esti spurita.\nCertu, ke vi komprenas Torenton antaŭ ol daŭrigi.</string>
-        <string name="need_storage">Permesu elŝuti epizodojn</string>
         <string name="downloads_delete_select">Elektu Erojn por Forigi</string>
         <string name="queue_empty_message">Nuntempe ne estas vicigitaj elŝutoj.</string>
         <string name="offline_file">Disponebla por spekti eksterrete</string>

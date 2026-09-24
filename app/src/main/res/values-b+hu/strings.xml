@@ -634,7 +634,6 @@
     <string name="sort_release_date_old">Kiadás dátuma (régitől újig)</string>
     <string name="hide_player_control_names">A lejátszó vezérlői neveinek elrejtése</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Epizódok letöltésének engedélyezése</string>
         <string name="subs_edge">Edge</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">A videók indítása szünetel</string>
