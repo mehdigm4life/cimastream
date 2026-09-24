@@ -179,7 +179,7 @@ import com.mehdigm.cimastream4.utils.downloader.DownloadQueueManager
 import com.mehdigm.cimastream4.utils.setText
 import com.mehdigm.cimastream4.utils.setTextHtml
 import com.mehdigm.cimastream4.utils.txt
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.SafeFile
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.sync.Mutex

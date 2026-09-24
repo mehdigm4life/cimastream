@@ -9,7 +9,7 @@ import com.mehdigm.cimastream4.utils.ExtractorApi
 import com.mehdigm.cimastream4.utils.ExtractorLink
 import com.mehdigm.cimastream4.utils.ExtractorLinkType
 import com.mehdigm.cimastream4.utils.newExtractorLink
-import com.mehdigm.nicehttp.NiceResponse
+import com.lagradost.nicehttp.NiceResponse
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonPrimitive
 

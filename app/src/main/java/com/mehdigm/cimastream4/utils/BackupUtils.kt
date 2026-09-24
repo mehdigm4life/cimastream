@@ -35,8 +35,8 @@ import com.mehdigm.cimastream4.utils.downloader.DownloadQueueManager.QUEUE_KEY
 import com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.KEY_DOWNLOAD_INFO
 import com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.KEY_RESUME_IN_QUEUE
 import com.mehdigm.cimastream4.utils.downloader.VideoDownloadManager.KEY_RESUME_PACKAGES
-import com.mehdigm.safefile.MediaFileContentType
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.MediaFileContentType
+import com.lagradost.safefile.SafeFile
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import okhttp3.internal.closeQuietly

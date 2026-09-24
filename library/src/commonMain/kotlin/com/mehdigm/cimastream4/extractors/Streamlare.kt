@@ -8,7 +8,7 @@ import com.mehdigm.cimastream4.utils.ExtractorLinkType
 import com.mehdigm.cimastream4.utils.INFER_TYPE
 import com.mehdigm.cimastream4.utils.newExtractorLink
 import com.mehdigm.cimastream4.utils.Qualities
-import com.mehdigm.nicehttp.RequestBodyTypes
+import com.lagradost.nicehttp.RequestBodyTypes
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import okhttp3.MediaType.Companion.toMediaTypeOrNull

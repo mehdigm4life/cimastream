@@ -9,7 +9,7 @@ plugins {
 kotlin {
     android {
         // Must be unique
-        namespace = "com.mehdigm.cimastream4"
+        namespace = "com.mehdigm.cimastream4.shared"
         compileSdk = libs.versions.compileSdk.get().toInt()
         minSdk = libs.versions.minSdk.get().toInt()
 

@@ -84,8 +84,8 @@ import com.mehdigm.cimastream4.utils.downloader.DownloadUtils.getEstimatedTimeLe
 import com.mehdigm.cimastream4.utils.downloader.DownloadUtils.getImageBitmapFromUrl
 import com.mehdigm.cimastream4.utils.downloader.DownloadUtils.join
 import com.mehdigm.cimastream4.utils.txt
-import com.mehdigm.safefile.SafeFile
-import com.mehdigm.safefile.closeQuietly
+import com.lagradost.safefile.SafeFile
+import com.lagradost.safefile.closeQuietly
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -129,7 +129,7 @@ import com.mehdigm.cimastream4.utils.downloader.DownloadUtils.getImageBitmapFrom
 import com.mehdigm.cimastream4.utils.setText
 import com.mehdigm.cimastream4.utils.txt
 import com.mehdigm.cimastream4.utils.videoskip.VideoSkipStamp
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.SafeFile
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive

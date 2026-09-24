@@ -38,7 +38,7 @@ import com.mehdigm.cimastream4.compose.PHONE
 import com.mehdigm.cimastream4.compose.isLayout
 import com.mehdigm.cimastream4.rememberAppSettings
 import com.mehdigm.cimastream4.theme.CimaStreamPreviewTheme
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.SafeFile
 import com.mihon.presentation.settings.Preference
 import com.mihon.presentation.settings.SearchableSettings
 import com.mihon.presentation.settings.collectAsState

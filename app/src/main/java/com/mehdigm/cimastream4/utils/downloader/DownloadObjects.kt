@@ -12,7 +12,7 @@ import com.mehdigm.cimastream4.ui.result.ResultEpisode
 import com.mehdigm.cimastream4.utils.ExtractorLink
 import com.mehdigm.cimastream4.utils.serializers.UriSerializer
 import com.mehdigm.cimastream4.utils.serializers.WriteOnlySerializer
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.SafeFile
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.KeepGeneratedSerializer
 import kotlinx.serialization.SerialName

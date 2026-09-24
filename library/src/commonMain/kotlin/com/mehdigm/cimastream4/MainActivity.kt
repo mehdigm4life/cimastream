@@ -2,8 +2,8 @@ package com.mehdigm.cimastream4
 
 import com.mehdigm.cimastream4.utils.AppUtils.parseJson
 import com.mehdigm.cimastream4.utils.AppUtils.toJson
-import com.mehdigm.nicehttp.Requests
-import com.mehdigm.nicehttp.ResponseParser
+import com.lagradost.nicehttp.Requests
+import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass
 
 // Short name for requests client to make it nicer to use

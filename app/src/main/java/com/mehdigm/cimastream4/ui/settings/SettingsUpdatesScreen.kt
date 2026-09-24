@@ -30,7 +30,7 @@ import com.mehdigm.cimastream4.utils.InAppUpdater.runAutoUpdate
 import com.mehdigm.cimastream4.utils.UIHelper.navigate
 import com.mehdigm.cimastream4.AppSettings
 import com.mehdigm.cimastream4.rememberAppSettings
-import com.mehdigm.safefile.SafeFile
+import com.lagradost.safefile.SafeFile
 import com.mihon.presentation.settings.Preference
 import com.mihon.presentation.settings.SearchableSettings
 import com.mihon.presentation.settings.collectAsState
