@@ -547,7 +547,6 @@
         <string name="resume_remaining" formatted="true">%s\nremaining</string>
         <string name="download_queue">תור הורדה</string>
         <string name="play_full_series_button">שחק את הסדרה המלאה</string>
-        <string name="need_storage">אפשר להוריד פרקים</string>
         <string name="queue_empty_message">כרגע אין הורדות בתור.</string>
         <string name="subs_edge">קצה</string>
         <string name="log_cat">Logcat 🐈</string>
@@ -741,13 +740,19 @@
         <plurals name="links_hidden">
             <item quantity="one">קישור נסתר %d</item>
             <item quantity="other">%d קישורים מוסתרים</item>
-        </plurals>
+        <item quantity="two">קישור נסתר %d</item>
+        <item quantity="many">קישור נסתר %d</item>
+    </plurals>
         <plurals name="downloads_active">
             <item quantity="one">%d הורדה פעילה</item>
             <item quantity="other">%d הורדות פעילות</item>
-        </plurals>
+        <item quantity="two">%d הורדה פעילה</item>
+        <item quantity="many">%d הורדה פעילה</item>
+    </plurals>
         <plurals name="downloads_queued">
             <item quantity="one">%d בתור הורדה</item>
             <item quantity="other">%d הורדות בתור</item>
-        </plurals>
+        <item quantity="two">%d בתור הורדה</item>
+        <item quantity="many">%d בתור הורדה</item>
+    </plurals>
 </resources>

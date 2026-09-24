@@ -473,7 +473,6 @@
     <string name="auth_locally">Lokálna verifikácia</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
         <string name="play_full_series_button">Zahrajte si celú sériu</string>
-        <string name="need_storage">Povoliť sťahovanie epizód</string>
         <string name="subs_edge">Edge</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Spustenie videí je pozastavené</string>
@@ -741,13 +740,19 @@
         <plurals name="links_hidden">
             <item quantity="one">%d skrytý odkaz</item>
             <item quantity="other">%d skrytých odkazov</item>
-        </plurals>
+        <item quantity="few">%d skrytý odkaz</item>
+        <item quantity="many">%d skrytý odkaz</item>
+    </plurals>
         <plurals name="downloads_active">
             <item quantity="one">%d aktívne sťahovanie</item>
             <item quantity="other">%d aktívnych stiahnutí</item>
-        </plurals>
+        <item quantity="few">%d aktívne sťahovanie</item>
+        <item quantity="many">%d aktívne sťahovanie</item>
+    </plurals>
         <plurals name="downloads_queued">
             <item quantity="one">%d sťahovanie v poradí</item>
             <item quantity="other">%d stiahnutí v poradí</item>
-        </plurals>
+        <item quantity="few">%d sťahovanie v poradí</item>
+        <item quantity="many">%d sťahovanie v poradí</item>
+    </plurals>
 </resources>

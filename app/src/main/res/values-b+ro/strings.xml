@@ -642,7 +642,6 @@
     <string name="prerelease_install_failed">Instalarea versiunii preliminare a eșuat.</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
         <string name="download_queue">Coada de descărcare</string>
-        <string name="need_storage">Permite descărcarea episoadelor</string>
         <string name="queue_empty_message">În prezent, nu există descărcări în coadă.</string>
         <string name="subs_edge">Edge</string>
         <string name="log_cat">Logcat 🐈</string>
@@ -759,13 +758,16 @@
         <plurals name="links_hidden">
             <item quantity="one">%d link ascuns</item>
             <item quantity="other">%d linkuri ascunse</item>
-        </plurals>
+        <item quantity="few">%d link ascuns</item>
+    </plurals>
         <plurals name="downloads_active">
             <item quantity="one">%d descărcare activă</item>
             <item quantity="other">%d descărcări active</item>
-        </plurals>
+        <item quantity="few">%d descărcare activă</item>
+    </plurals>
         <plurals name="downloads_queued">
             <item quantity="one">%d descărcare pusă în coadă</item>
             <item quantity="other">%d descărcări în coadă</item>
-        </plurals>
+        <item quantity="few">%d descărcare pusă în coadă</item>
+    </plurals>
 </resources>

@@ -739,7 +739,6 @@
     <string name="skip_type_preview">Перадпрагляд</string>
     <string name="player_is_live">Ужывую</string>
     <!-- AUTO-GENERATED AUTOMATIC TRANSLATION; HUMAN REVIEW WELCOME -->
-        <string name="need_storage">Дазволіць спампаваць серыі</string>
         <string name="subs_edge">край</string>
         <string name="log_cat">Logcat 🐈</string>
         <string name="start_paused_settings">Запуск відэа прыпынены</string>
@@ -753,5 +752,7 @@
         <plurals name="links_hidden">
             <item quantity="one">%d схаваная спасылка</item>
             <item quantity="other">%d схаваных спасылак</item>
-        </plurals>
+        <item quantity="few">%d схаваная спасылка</item>
+        <item quantity="many">%d схаваная спасылка</item>
+    </plurals>
 </resources>

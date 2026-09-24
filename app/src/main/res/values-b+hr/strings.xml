@@ -52,7 +52,7 @@
     <string name="reload_error">Ponovni pokušaj povezivanja …</string>
     <string name="go_back">Idi natrag</string>
     <string name="play_episode">Pokreni epizodu</string>
-    <!--<string name="need_storage">Allow to download episodes</string>-->
+    <!---->
     <string name="download">Preuzmi</string>
     <string name="downloaded">Preuzeto</string>
     <string name="downloading">Preuzimanje u tijeku</string>
@@ -764,5 +764,6 @@
         <plurals name="links_hidden">
             <item quantity="one">%d skrivena veza</item>
             <item quantity="other">%d skrivene veze</item>
-        </plurals>
+        <item quantity="few">%d skrivena veza</item>
+    </plurals>
 </resources>

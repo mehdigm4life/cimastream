@@ -44,7 +44,7 @@
     <string name="reload_error">إعادة محاولة الاتصال …</string>
     <string name="go_back">ارجع للخلف</string>
     <string name="play_episode">تشغيل الحلقة</string>
-    <!--<string name="need_storage">السماح بتنزيل الحلقات</string>-->
+    <!---->
     <string name="download">تحميل</string>
     <string name="downloaded">تم التنزيل</string>
     <string name="downloading">جاري التنزيل</string>
@@ -769,5 +769,9 @@
         <plurals name="links_hidden">
             <item quantity="one">%d رابط مخفي</item>
             <item quantity="other">%d رابط مخفي</item>
-        </plurals>
+        <item quantity="zero">%d رابط مخفي</item>
+        <item quantity="two">%d رابط مخفي</item>
+        <item quantity="few">%d رابط مخفي</item>
+        <item quantity="many">%d رابط مخفي</item>
+    </plurals>
 </resources>
