@@ -24,7 +24,7 @@ jobs:
       with:
         app_id: ${{ secrets.GH_APP_ID }}
         private_key: ${{ secrets.GH_APP_KEY }}
-        repository: "mehdigm/cimastream"
+        repository: "mehdigm4life/cloudstream-mehdigm"
 
     - uses: actions/checkout@v6
       with:

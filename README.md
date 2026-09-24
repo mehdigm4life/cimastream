@@ -35,7 +35,7 @@ Cima Stream is an extension-based multimedia player with tracking support. There
 + And more... 
 
 
-**Please don't create illegal extensions or use any that host any copyrighted media.** For more details about our stance on the DMCA and EUCD, you can read about it on our organization: [Mehdigm](https://github.com/mehdigm)
+**Please don't create illegal extensions or use any that host any copyrighted media.** For more details about our stance on the DMCA and EUCD, you can read about it on our organization: [Mehdigm](https://github.com/mehdigm4life)
 
 #### Important Copyright Note: 
 
@@ -69,17 +69,17 @@ We **happily** accept any contributions to our project. To find out where you ca
 <a id="issues"></a> 
  
 ### Issues: 
-While we **actively** accept issues and pull requests, we do require you fill out an [template](https://github.com/mehdigm/cimastream/issues/new/choose) for issues. These include the following:
+While we **actively** accept issues and pull requests, we do require you fill out an [template](https://github.com/mehdigm4life4life/cloudstream-mehdigm/issues/new/choose) for issues. These include the following:
 
 <a id="bug_report"></a>
 
-- [Bug Report Template: ](https://github.com/mehdigm/cimastream/issues/new?assignees=&labels=bug&projects=&template=application-bug.yml)
+- [Bug Report Template: ](https://github.com/mehdigm4life4life/cloudstream-mehdigm/issues/new?assignees=&labels=bug&projects=&template=application-bug.yml)
   - For bug reports, we want as much info as possible, including your downloaded version of CloudeStream, device and updated version (if possible, current API),
     expected behavior of the program, and the actual behavior that the program did, most importantly we require clear, reproducible steps of the bug. If your bug can't be       reproduced, it is unlikely we'll work on your issue.
     
 <a id="enhancment"></a>
   
-- [Feature Request Template: ](https://github.com/mehdigm/cimastream/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.yml)
+- [Feature Request Template: ](https://github.com/mehdigm4life4life/cloudstream-mehdigm/issues/new?assignees=&labels=enhancement&projects=&template=feature-request.yml)
   - Before adding a feature request, please check to see if a feature request already has been requested.  
 
 

@@ -23,7 +23,7 @@ jobs:
         with:
           app_id: ${{ secrets.GH_APP_ID }}
           private_key: ${{ secrets.GH_APP_KEY }}
-          repository: "mehdigm/dokka"
+          repository: "mehdigm4life/dokka"
 
       - name: Checkout
         uses: actions/checkout@v6
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout dokka
         uses: actions/checkout@v6
         with:
-          repository: "mehdigm/dokka"
+          repository: "mehdigm4life/dokka"
           path: "dokka"
           token: ${{ steps.generate_token.outputs.token }}
 
@@ -70,5 +70,5 @@ jobs:
           git config --local user.email "111277985+mehdigm[bot]@users.noreply.github.com"
           git config --local user.name "mehdigm[bot]"
           git add .
-          git commit --amend -m "Generate dokka for mehdigm/cimastream@${GITHUB_SHA}" || exit 0   # do not error if nothing to commit
+          git commit --amend -m "Generate dokka for mehdigm4life/cloudstream-mehdigm@${GITHUB_SHA}" || exit 0   # do not error if nothing to commit
           git push --force

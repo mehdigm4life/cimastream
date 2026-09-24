@@ -3,6 +3,6 @@ app:
   authors: mehdigm
   category: entertainment
   description: Android app for streaming and downloading media.
-  icon: https://raw.githubusercontent.com/mehdigm/cimastream/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+  icon: https://raw.githubusercontent.com/mehdigm4life/cloudstream-mehdigm/refs/heads/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
   releases:
-    url: https://github.com/mehdigm/cimastream/releases
+    url: https://github.com/mehdigm4life4life/cloudstream-mehdigm/releases
