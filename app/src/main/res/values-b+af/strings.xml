@@ -149,7 +149,7 @@
         <string name="recommendations_tooltip">Wys aanbevelings</string>
         <string name="subs_edge">Rand</string>
         <string name="action_open_watching">Meer inligting</string>
-        <string name="action_open_play">@string/tuisspeel </string>
+        <string name="action_open_play">@string/home_play </string>
         <string name="vpn_might_be_needed">\'n Skynprivaatnetwerk kan nodig wees vir hierdie verskaffer om korrek te werk</string>
         <string name="vpn_torrent">Hierdie verskaffer is \'n torrent, \'n VPN word aanbeveel</string>
         <string name="provider_info_meta">Metadata word nie deur die werf verskaf nie, video-laai sal misluk as dit nie op die werf bestaan nie.</string>

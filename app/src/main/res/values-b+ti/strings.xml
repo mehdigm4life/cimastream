@@ -136,7 +136,7 @@
         <string name="continue_watching">ምክትታል ቀጽሉ።</string>
         <string name="action_remove_watching">ኣውጽእዎ።</string>
         <string name="action_open_watching">ተወሳኺ ሓበሬታ</string>
-        <string name="action_open_play">@string/ናይ ገዛ_ጸወታ</string>
+        <string name="action_open_play">@string/home_play </string>
         <string name="vpn_might_be_needed">እዚ ኣቕራቢ ብትኽክል ንኽሰርሕ ቪፒኤን ከድሊ ይኽእል እዩ።</string>
         <string name="vpn_torrent">እዚ ኣቕራቢ ቶረንት እዩ፣ ቪፒኤን ይምከር</string>
         <string name="provider_info_meta">ሜታዳታ ብሳይት ኣይወሃብን እዩ፣ ቪድዮ ምጽዓን ኣብ ሳይት እንተዘይሃልዩ ክፈሽል እዩ።</string>
