@@ -143,7 +143,7 @@ dokka {
 
             sourceLink {
                 localDirectory = file("..")
-                remoteUrl("https://github.com/mehdigm4life4life/cloudstream-mehdigm/tree/master")
+                remoteUrl("https://github.com/mehdigm4life/cimastream/tree/master")
                 remoteLineSuffix = "#L"
             }
         }

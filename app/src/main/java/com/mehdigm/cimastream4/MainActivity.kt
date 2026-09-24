@@ -326,7 +326,7 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
                             }
                         }
                         // This specific intent is used for the gradle deployWithAdb
-                        // https://github.com/mehdigm4life/gradle/blob/master/src/main/kotlin/com/mehdigm4life/cloudstream-mehdigm4/gradle/tasks/DeployWithAdbTask.kt#L46
+                        // https://github.com/recloudstream/gradle/blob/master/src/main/kotlin/com/lagradost/cloudstream3/gradle/tasks/DeployWithAdbTask.kt#L46
                         if (str == "$APP_STRING:") {
                             ioSafe {
                                 PluginManager.___DO_NOT_CALL_FROM_A_PLUGIN_hotReloadAllLocalPlugins(

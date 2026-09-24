@@ -245,18 +245,18 @@ object SettingsGeneralScreen : SearchableSettings {
                 preferenceItems = persistentListOf(
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.github),
-                        subtitle = "https://github.com/mehdigm4life4life/cloudstream-mehdigm",
+                        subtitle = "https://github.com/mehdigm4life/cimastream",
                         icon = painterResource(R.drawable.ic_github_logo),
                         onClick = {
-                            CimaStreamApp.openBrowser("https://github.com/mehdigm4life4life/cloudstream-mehdigm")
+                            CimaStreamApp.openBrowser("https://github.com/mehdigm4life/cimastream")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.lightnovel),
-                        subtitle = "https://github.com/mehdigm4life4life/QuickNovel",
+                        subtitle = "https://github.com/LagradOst/QuickNovel",
                         icon = painterResource(R.drawable.quick_novel_icon),
                         onClick = {
-                            CimaStreamApp.openBrowser("https://github.com/mehdigm4life4life/QuickNovel")
+                            CimaStreamApp.openBrowser("https://github.com/LagradOst/QuickNovel")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(

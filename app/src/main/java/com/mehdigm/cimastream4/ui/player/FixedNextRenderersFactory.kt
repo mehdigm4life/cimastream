@@ -14,7 +14,7 @@ class FixedNextRenderersFactory(context: Context) : NextRenderersFactory(context
      * "ERROR_CODE_FAILED_RUNTIME_CHECK".
      *
      * Core issue: https://github.com/anilbeesetti/nextlib/pull/158
-     * Comment: https://github.com/mehdigm4life4life/cloudstream-mehdigm/pull/2342#issuecomment-3917751718
+     * Comment: https://github.com/mehdigm4life/cimastream/pull/2342#issuecomment-3917751718
      * */
     override fun buildTextRenderers(
         context: Context,

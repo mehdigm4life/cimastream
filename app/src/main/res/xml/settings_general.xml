@@ -83,19 +83,19 @@
         <Preference
             android:icon="@drawable/ic_github_logo"
             android:title="@string/github"
-            app:summary="https://github.com/mehdigm4life4life/cloudstream-mehdigm">
+            app:summary="https://github.com/mehdigm4life/cimastream">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/mehdigm4life4life/cloudstream-mehdigm" />
+                android:data="https://github.com/mehdigm4life/cimastream" />
         </Preference>
 
         <Preference
             android:icon="@drawable/quick_novel_icon"
             android:title="@string/lightnovel"
-            app:summary="https://github.com/mehdigm4life4life/QuickNovel">
+            app:summary="https://github.com/LagradOst/QuickNovel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/mehdigm4life4life/QuickNovel" />
+                android:data="https://github.com/LagradOst/QuickNovel" />
         </Preference>
         <Preference
             android:icon="@drawable/ic_baseline_discord_24"

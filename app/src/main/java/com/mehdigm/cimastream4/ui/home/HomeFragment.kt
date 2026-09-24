@@ -888,7 +888,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(
                         homeLoadingError.isVisible = true
                         homeMasterRecycler.isInvisible = true
 
-                        // Based on https://github.com/mehdigm4life4life/cloudstream-mehdigm/pull/1438
+                        // Based on https://github.com/mehdigm4life/cimastream/pull/1438
                         val hasNoNetworkConnection = context?.isNetworkAvailable() == false
                         val isNetworkError = data.isNetworkError
 
