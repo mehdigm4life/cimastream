@@ -565,7 +565,7 @@
         <string name="dismiss">Derxistin</string>
         <string name="open_downloaded_repo">Depoyê vekin</string>
         <string name="battery_dialog_title">Optimîzasyona Pîlê neçalak bike</string>
-        <string name="battery_dialog_message">Ji bo dakêşandin û agahdarkirina bênavber ji bo pêşandanên televizyonê yên ku\n hatine abonekirin, CimaStream ji bo xebitandina li paşperdeyê destûr hewce dike. Bi tikandina &quot;OK&quot;ê, hûn ê diyalogek daxwaznameyê nîşan bidin.\n Ji kerema xwe \'Destûr\' bikirtînin.\n\nJi kerema xwe bala xwe bidin, ev destûr nayê wê wateyê ku CIMA4 dê battera we bikişîne. Ew ê tenê dema ku hewce bike di paşperdeyê de bixebite, wek\n dema ku agahdarî werdigire an vîdyoyên ji pêvekên fermî dakêşin.</string>
+        <string name="battery_dialog_message">Ji bo dakêşandin û agahdarkirina bênavber ji bo pêşandanên televizyonê yên ku\n hatine abonekirin, CimaStream ji bo xebitandina li paşperdeyê destûr hewce dike. Bi tikandina "OK"ê, hûn ê diyalogek daxwaznameyê nîşan bidin.\n Ji kerema xwe \'Destûr\' bikirtînin.\n\nJi kerema xwe bala xwe bidin, ev destûr nayê wê wateyê ku CIMA4 dê battera we bikişîne. Ew ê tenê dema ku hewce bike di paşperdeyê de bixebite, wek\n dema ku agahdarî werdigire an vîdyoyên ji pêvekên fermî dakêşin.</string>
         <string name="app_unrestricted_toast">Bikaranîna bateriya sepanê jixwe wekî bêsînor hatiye danîn</string>
         <string name="app_info_intent_error">Nabe ku agahdariya Appê ya CimaStream veke.</string>
         <string name="update_notification_downloading">Daxistina nûvekirina sepanê…</string>

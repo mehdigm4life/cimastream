@@ -565,7 +565,7 @@
         <string name="dismiss">ካብ ስራሕ ምብራር</string>
         <string name="open_downloaded_repo">መኽዘን ክፈት</string>
         <string name="battery_dialog_title">ባትሪ ምምሕያሽ ኣሰናኽል</string>
-        <string name="battery_dialog_message">ንዝተመዝገቡ\n መደባት ቲቪ ብዘይ ምቁራጽ ምውራድን መፍለጢታትን ንምርግጋጽ፡ ሲማስትሪም ብድሕሪት ንኽሰርሕ ፍቓድ የድልዮ። &quot;OK&quot; ብምጽቃጥ፡ ናይ ሕቶ ዝርርብ ክረአየካ እዩ።\n በጃኻ \'Allow\' ጽቐጥ።\n\nበጃኻ ኣስተውዕል፡ እዚ ፍቓድ እዚ CIMA4 ባትሪኻ ከውጽእ እዩ ማለት ኣይኮነን። ኣድላዪ ኣብ ዝኾነሉ እዋን ጥራይ እዩ ኣብ ድሕሪት ክሰርሕ፣ ከም\n መፍለጢታት ኣብ ዝቕበልሉ ወይ ካብ ወግዓዊ መቐጸልታታት ቪድዮታት ኣብ ምውራድ።</string>
+        <string name="battery_dialog_message">ንዝተመዝገቡ\n መደባት ቲቪ ብዘይ ምቁራጽ ምውራድን መፍለጢታትን ንምርግጋጽ፡ ሲማስትሪም ብድሕሪት ንኽሰርሕ ፍቓድ የድልዮ። "OK" ብምጽቃጥ፡ ናይ ሕቶ ዝርርብ ክረአየካ እዩ።\n በጃኻ \'Allow\' ጽቐጥ።\n\nበጃኻ ኣስተውዕል፡ እዚ ፍቓድ እዚ CIMA4 ባትሪኻ ከውጽእ እዩ ማለት ኣይኮነን። ኣድላዪ ኣብ ዝኾነሉ እዋን ጥራይ እዩ ኣብ ድሕሪት ክሰርሕ፣ ከም\n መፍለጢታት ኣብ ዝቕበልሉ ወይ ካብ ወግዓዊ መቐጸልታታት ቪድዮታት ኣብ ምውራድ።</string>
         <string name="app_unrestricted_toast">ድሮ ኣጠቓቕማ ባትሪ ኣፕ ናብ ዘይተገደበ ተቐሚጡ ኣሎ።</string>
         <string name="app_info_intent_error">CimaStream\'s App info ክኸፍት ኣይከኣለን።</string>
         <string name="update_notification_downloading">ኣብ ምውራድ app update...</string>

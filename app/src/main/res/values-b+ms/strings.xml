@@ -631,7 +631,7 @@
         <string name="player_settings_always_ask">Sentiasa bertanya</string>
         <string name="player_settings_select_cast_device">Pilih peranti hantar</string>
         <string name="skip_type_preview">Pratonton</string>
-        <string name="battery_dialog_message">Untuk memastikan muat turun tanpa gangguan dan pemberitahuan untuk rancangan TV yang dilanggan\n, CimaStream memerlukan kebenaran untuk dijalankan di latar belakang. Dengan menekan &quot;OK&quot;, anda akan ditunjukkan dialog permintaan.\n Sila tekan \'Benarkan\'.\n\nSila ambil perhatian, kebenaran ini tidak bermakna CIMA4 akan menghabiskan bateri anda. Ia hanya akan beroperasi di latar belakang apabila perlu, seperti\n apabila menerima pemberitahuan atau memuat turun video daripada sambungan rasmi.</string>
+        <string name="battery_dialog_message">Untuk memastikan muat turun tanpa gangguan dan pemberitahuan untuk rancangan TV yang dilanggan\n, CimaStream memerlukan kebenaran untuk dijalankan di latar belakang. Dengan menekan "OK", anda akan ditunjukkan dialog permintaan.\n Sila tekan \'Benarkan\'.\n\nSila ambil perhatian, kebenaran ini tidak bermakna CIMA4 akan menghabiskan bateri anda. Ia hanya akan beroperasi di latar belakang apabila perlu, seperti\n apabila menerima pemberitahuan atau memuat turun video daripada sambungan rasmi.</string>
         <string name="app_unrestricted_toast">Penggunaan bateri apl sudah ditetapkan kepada tidak terhad</string>
         <string name="apk_installer_package_installer">Pemasang Pakej</string>
         <string name="sort_rating_desc">Penilaian (Tinggi ke Rendah)</string>

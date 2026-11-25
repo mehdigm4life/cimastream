@@ -565,7 +565,7 @@
         <string name="dismiss">Tkeċċi</string>
         <string name="open_downloaded_repo">Repożitorju miftuħ</string>
         <string name="battery_dialog_title">Itfi l-ottimizzazzjoni tal-batterija</string>
-        <string name="battery_dialog_message">Biex tiżgura downloads u notifiki mingħajr interruzzjoni għal\n programmi tat-TV abbonati, CimaStream jeħtieġ permess biex jaħdem fl-isfond. Billi tagħfas &quot;OK&quot;, tintwera djalogu ta\' rikjesta.\n Jekk jogħġbok agħfas \'Ħalli\'.\n\nJekk jogħġbok innota, dan il-permess ma jfissirx li CIMA4 se jbattal il-batterija tiegħek. Se jopera biss fl-isfond meta jkun meħtieġ, bħal\n meta tirċievi notifiki jew tniżżel vidjows minn estensjonijiet uffiċjali.</string>
+        <string name="battery_dialog_message">Biex tiżgura downloads u notifiki mingħajr interruzzjoni għal\n programmi tat-TV abbonati, CimaStream jeħtieġ permess biex jaħdem fl-isfond. Billi tagħfas "OK", tintwera djalogu ta\' rikjesta.\n Jekk jogħġbok agħfas \'Ħalli\'.\n\nJekk jogħġbok innota, dan il-permess ma jfissirx li CIMA4 se jbattal il-batterija tiegħek. Se jopera biss fl-isfond meta jkun meħtieġ, bħal\n meta tirċievi notifiki jew tniżżel vidjows minn estensjonijiet uffiċjali.</string>
         <string name="app_unrestricted_toast">L-użu tal-batterija tal-app huwa diġà ssettjat għal mhux ristrett</string>
         <string name="app_info_intent_error">Ma tistax tiftaħ l-informazzjoni tal-App ta\' CimaStream.</string>
         <string name="update_notification_downloading">Niżżel l-aġġornament tal-app...</string>

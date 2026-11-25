@@ -565,7 +565,7 @@
         <string name="dismiss">Avvis</string>
         <string name="open_downloaded_repo">Åpne depot</string>
         <string name="battery_dialog_title">Deaktiver batterioptimalisering</string>
-        <string name="battery_dialog_message">For å sikre uavbrutt nedlasting og varsler for abonnerte\n TV-programmer, trenger CimaStream tillatelse til å kjøre i bakgrunnen. Ved å trykke &quot;OK&quot;, vil du få vist en forespørselsdialog.\n Vennligst trykk \'Tillat\'.\n\nVær oppmerksom på at denne tillatelsen ikke betyr at CIMA4 vil tømme batteriet. Den vil bare fungere i bakgrunnen når det er nødvendig, for eksempel\n når du mottar varsler eller laster ned videoer fra offisielle utvidelser.</string>
+        <string name="battery_dialog_message">For å sikre uavbrutt nedlasting og varsler for abonnerte\n TV-programmer, trenger CimaStream tillatelse til å kjøre i bakgrunnen. Ved å trykke "OK", vil du få vist en forespørselsdialog.\n Vennligst trykk \'Tillat\'.\n\nVær oppmerksom på at denne tillatelsen ikke betyr at CIMA4 vil tømme batteriet. Den vil bare fungere i bakgrunnen når det er nødvendig, for eksempel\n når du mottar varsler eller laster ned videoer fra offisielle utvidelser.</string>
         <string name="app_unrestricted_toast">Appens batteribruk er allerede satt til ubegrenset</string>
         <string name="app_info_intent_error">Kan ikke åpne CimaStreams appinformasjon.</string>
         <string name="update_notification_downloading">Laster ned appoppdatering …</string>

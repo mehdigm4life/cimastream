@@ -571,7 +571,7 @@
         <string name="dismiss">Eryi</string>
         <string name="open_downloaded_repo">Furo kaydka</string>
         <string name="battery_dialog_title">Dami tayaynta baytariyada</string>
-        <string name="battery_dialog_message">Si loo hubiyo soo dejinta aan kala go\'a lahayn iyo ogaysiisyada la is-qoray \n showyada TV, CimaStream waxay u baahan tahay ogolaansho si ay gadaal uga socoto. Markaad riixdo &quot;OK&quot;, waxaa lagu tusi doonaa wada hadal codsi. \n Fadlan taabo \'Allow\n\nFadlan ogow, oggolaanshahani macnaheedu maaha CIMA4 waxay daadinaysaa baytarigaaga. Waxa kaliya oo ay ku shaqayn doontaa gadaasha marka loo baahdo, sida\n marka la helayo ogeysiisyada ama soo dejinta fiidiyowyada kordhinta rasmiga ah.</string>
+        <string name="battery_dialog_message">Si loo hubiyo soo dejinta aan kala go\'a lahayn iyo ogaysiisyada la is-qoray \n showyada TV, CimaStream waxay u baahan tahay ogolaansho si ay gadaal uga socoto. Markaad riixdo "OK", waxaa lagu tusi doonaa wada hadal codsi. \n Fadlan taabo \'Allow\n\nFadlan ogow, oggolaanshahani macnaheedu maaha CIMA4 waxay daadinaysaa baytarigaaga. Waxa kaliya oo ay ku shaqayn doontaa gadaasha marka loo baahdo, sida\n marka la helayo ogeysiisyada ama soo dejinta fiidiyowyada kordhinta rasmiga ah.</string>
         <string name="app_unrestricted_toast">Isticmaalka batteriga abka waxa mar hore loo dejiyay mid aan xaddidnayn</string>
         <string name="app_info_intent_error">Lama furi karo macluumaadka App-ka CimaStream</string>
         <string name="sort_by">Ku kala sooc</string>

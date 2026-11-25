@@ -565,7 +565,7 @@
         <string name="dismiss">አሰናብት</string>
         <string name="open_downloaded_repo">ማከማቻ ክፈት</string>
         <string name="battery_dialog_title">የባትሪ ማትባትን አሰናክል</string>
-        <string name="battery_dialog_message">ለደንበኝነት የተመዘገቡ\n የቲቪ ትዕይንቶች ያልተቋረጡ ውርዶች እና ማሳወቂያዎች ለማረጋገጥ CimaStream ከበስተጀርባ ለማስኬድ ፍቃድ ያስፈልገዋል። &quot;እሺ&quot;ን በመጫን የጥያቄ ንግግር ታያለህ።\nእባክህ \'ፍቀድ\nን ተጫን።\n\nእባክህ አስተውል፣ይህ ፍቃድ CIMA4 ባትሪህን ያጠፋል ማለት አይደለም። አስፈላጊ ሆኖ ሲገኝ ከበስተጀርባ ብቻ ነው የሚሰራው፣ ለምሳሌ\n ማሳወቂያዎችን ሲቀበሉ ወይም ቪዲዮዎችን ከኦፊሴላዊ ቅጥያዎች ሲያወርዱ።</string>
+        <string name="battery_dialog_message">ለደንበኝነት የተመዘገቡ\n የቲቪ ትዕይንቶች ያልተቋረጡ ውርዶች እና ማሳወቂያዎች ለማረጋገጥ CimaStream ከበስተጀርባ ለማስኬድ ፍቃድ ያስፈልገዋል። "እሺ"ን በመጫን የጥያቄ ንግግር ታያለህ።\nእባክህ \'ፍቀድ\nን ተጫን።\n\nእባክህ አስተውል፣ይህ ፍቃድ CIMA4 ባትሪህን ያጠፋል ማለት አይደለም። አስፈላጊ ሆኖ ሲገኝ ከበስተጀርባ ብቻ ነው የሚሰራው፣ ለምሳሌ\n ማሳወቂያዎችን ሲቀበሉ ወይም ቪዲዮዎችን ከኦፊሴላዊ ቅጥያዎች ሲያወርዱ።</string>
         <string name="app_unrestricted_toast">የመተግበሪያ ባትሪ አጠቃቀም አስቀድሞ ያልተገደበ ተቀናብሯል።</string>
         <string name="app_info_intent_error">የCimaStream መተግበሪያ መረጃን መክፈት አልተቻለም።</string>
         <string name="update_notification_downloading">የመተግበሪያ ዝመናን በማውረድ ላይ…</string>
@@ -663,7 +663,7 @@
         <string name="reset_btn">ዳግም አስጀምር</string>
         <string name="cima4wiki">CimaStream Wiki</string>
         <string name="device_pin_url_message">በእርስዎ ዘመናዊ ስልክ ወይም ኮምፒውተር ላይ &lt;b&gt;%s&lt;/b&gt;ን ይጎብኙ እና ከላይ ያለውን ኮድ ያስገቡ</string>
-        <string name="device_pin_error_message">&quot;የመሣሪያውን ፒን ኮድ ማግኘት አልቻልኩም፣ አካባቢያዊ ማረጋገጥን ይሞክሩ</string>
+        <string name="device_pin_error_message">"የመሣሪያውን ፒን ኮድ ማግኘት አልቻልኩም፣ አካባቢያዊ ማረጋገጥን ይሞክሩ</string>
         <string name="device_pin_expired_message">የፒን ኮድ አሁን ጊዜው አልፎበታል!</string>
         <string name="device_pin_counter_text">ኮድ በ%1$dm %2$ds ውስጥ ጊዜው ያልፍበታል።</string>
         <string name="sort_release_date_new">የተለቀቀበት ቀን (ከአሮጌው አዲስ)</string>

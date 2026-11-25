@@ -565,7 +565,7 @@
         <string name="dismiss">Forĵeti</string>
         <string name="open_downloaded_repo">Malfermu deponejon</string>
         <string name="battery_dialog_title">Malebligu Bateria optimumigo</string>
-        <string name="battery_dialog_message">Por certigi seninterrompajn elŝutojn kaj sciigojn por abonitaj\n televidaj programoj, CimaStream bezonas permeson funkcii fone. Premante &quot;Bone&quot;, oni montros al vi petan dialogon.\n Bonvolu premi \'Permesi\'.\n\nBonvolu noti, ke ĉi tiu permeso ne signifas, ke CIMA4 elĉerpas vian baterion. Ĝi nur funkcios fone kiam necese, kiel\n kiam oni ricevas sciigojn aŭ elŝutas filmetojn de oficialaj etendaĵoj.</string>
+        <string name="battery_dialog_message">Por certigi seninterrompajn elŝutojn kaj sciigojn por abonitaj\n televidaj programoj, CimaStream bezonas permeson funkcii fone. Premante "Bone", oni montros al vi petan dialogon.\n Bonvolu premi \'Permesi\'.\n\nBonvolu noti, ke ĉi tiu permeso ne signifas, ke CIMA4 elĉerpas vian baterion. Ĝi nur funkcios fone kiam necese, kiel\n kiam oni ricevas sciigojn aŭ elŝutas filmetojn de oficialaj etendaĵoj.</string>
         <string name="app_unrestricted_toast">Baterio-uzo de la aplikaĵo jam estas senrestrikta</string>
         <string name="app_info_intent_error">Ne eblas malfermi la informojn pri Apliko de CimaStream.</string>
         <string name="update_notification_downloading">Elŝutante ĝisdatigon de la aplikaĵo...</string>

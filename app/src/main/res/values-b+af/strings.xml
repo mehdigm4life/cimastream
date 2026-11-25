@@ -570,7 +570,7 @@
         <string name="dismiss">Verwerp</string>
         <string name="open_downloaded_repo">Maak bewaarplek oop</string>
         <string name="battery_dialog_title">Deaktiveer batteryoptimalisering</string>
-        <string name="battery_dialog_message">Om ononderbroke aflaaie en kennisgewings vir ingetekende\n TV-programme te verseker, het CimaStream toestemming nodig om in die agtergrond te loop. Deur &quot;OK&quot; te druk, sal \'n versoekdialoog aan jou gewys word.\n Druk asseblief \'Laat toe\'.\n\nNeem asseblief kennis, hierdie toestemming beteken nie dat CIMA4 jou battery sal leegmaak nie. Dit sal slegs in die agtergrond werk wanneer nodig, soos\n wanneer kennisgewings ontvang word of video\'s van amptelike uitbreidings aflaai.</string>
+        <string name="battery_dialog_message">Om ononderbroke aflaaie en kennisgewings vir ingetekende\n TV-programme te verseker, het CimaStream toestemming nodig om in die agtergrond te loop. Deur "OK" te druk, sal \'n versoekdialoog aan jou gewys word.\n Druk asseblief \'Laat toe\'.\n\nNeem asseblief kennis, hierdie toestemming beteken nie dat CIMA4 jou battery sal leegmaak nie. Dit sal slegs in die agtergrond werk wanneer nodig, soos\n wanneer kennisgewings ontvang word of video\'s van amptelike uitbreidings aflaai.</string>
         <string name="app_unrestricted_toast">Programbatterygebruik is reeds op onbeperk gestel</string>
         <string name="app_info_intent_error">Kan nie CimaStream se App-inligting oopmaak nie.</string>
         <string name="update_notification_downloading">Laai tans programopdatering af …</string>
